@@ -1,0 +1,277 @@
+<!DOCTYPE html><html class="dark" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>StudioDev | High-Performance Web Solutions</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#c0c1ff",
+                        "tertiary-fixed-dim": "#b9c8de",
+                        "outline-variant": "#464554",
+                        "on-primary-container": "#0d0096",
+                        "on-tertiary-container": "#1c2b3c",
+                        "on-primary-fixed": "#07006c",
+                        "surface-container-lowest": "#060e20",
+                        "surface-container": "#171f33",
+                        "surface-container-high": "#222a3d",
+                        "on-primary-fixed-variant": "#2f2ebe",
+                        "surface-container-low": "#131b2e",
+                        "on-background": "#dae2fd",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#0d1c2d",
+                        "on-secondary-container": "#b6b9bb",
+                        "background": "#0b1326",
+                        "on-secondary": "#2d3133",
+                        "inverse-on-surface": "#283044",
+                        "error-container": "#93000a",
+                        "inverse-surface": "#dae2fd",
+                        "surface-tint": "#c0c1ff",
+                        "surface-dim": "#0b1326",
+                        "on-error": "#690005",
+                        "on-primary": "#1000a9",
+                        "on-surface-variant": "#c7c4d7",
+                        "surface": "#0b1326",
+                        "tertiary-container": "#8392a6",
+                        "secondary-container": "#464a4b",
+                        "primary-container": "#8083ff",
+                        "surface-bright": "#31394d",
+                        "tertiary-fixed": "#d4e4fa",
+                        "surface-container-highest": "#2d3449",
+                        "on-tertiary": "#233143",
+                        "on-surface": "#dae2fd",
+                        "on-secondary-fixed": "#191c1e",
+                        "surface-variant": "#2d3449",
+                        "tertiary": "#b9c8de",
+                        "secondary-fixed-dim": "#c4c7c9",
+                        "on-tertiary-fixed-variant": "#39485a",
+                        "error": "#ffb4ab",
+                        "inverse-primary": "#494bd6",
+                        "secondary": "#c4c7c9",
+                        "outline": "#908fa0",
+                        "primary": "#c0c1ff",
+                        "on-secondary-fixed-variant": "#444749",
+                        "primary-fixed": "#e1e0ff",
+                        "secondary-fixed": "#e0e3e5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "16px",
+                        "margin-mobile": "20px",
+                        "section-gap": "120px",
+                        "gutter": "24px",
+                        "unit": "4px",
+                        "stack-lg": "32px",
+                        "stack-sm": "8px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Geist", "Inter", "sans-serif"],
+                        "headline-lg": ["Geist", "Inter", "sans-serif"],
+                        "label-sm": ["JetBrains Mono", "monospace"],
+                        "headline-md": ["Geist", "Inter", "sans-serif"],
+                        "display": ["Geist", "Inter", "sans-serif"],
+                        "body-md": ["Geist", "Inter", "sans-serif"],
+                        "body-lg": ["Geist", "Inter", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.03em", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.08em", "fontWeight": "500"}],
+                        "headline-md": ["30px", {"lineHeight": "1.3", "letterSpacing": "-0.02em", "fontWeight": "500"}],
+                        "display": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        @font-face {
+            font-family: 'Geist';
+            src: url('https://cdn.jsdelivr.net/npm/geist@1.0.3/dist/fonts/geist-sans/Geist-Variable.woff2') format('woff2');
+        }
+        
+        body {
+            font-family: 'Geist', sans-serif;
+            background-color: #0b1326;
+            color: #dae2fd;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        /* Glassmorphism Effect */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .hover-lift {
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .floating-animation {
+            animation: floating 4s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-gutter py-4 flex justify-between items-center h-16">
+<!-- Brand Identity -->
+<div class="flex items-center gap-2">
+<img alt="StudioDev Logo" class="w-8 h-8 rounded-lg object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEzEg32LPxkiqs2ZlEJ5ko11MYNkADZcD9vGlQmYmYnn1fytkFPDje-bs9o74ClbLyJK_AiK09Vf-mVKcgcl0ObBwL_dUV3PeL7bL5gNwgL9HJquUiGsrd57u_o26biVg4Ta5msml4jbo-kU9pGxRYeUor-PQ6oCL-FRGGsfk6M7Ne8hCSk1Gu3_1DQ4kIbLxrsohs6qsyyrw2Q7WtRPkYvBXUZ3o4u43pHYq4KgXDAiljasme6jKJ9A">
+<span class="text-body-lg font-headline-lg font-bold text-on-background tracking-tight">StudioDev</span>
+</div>
+<!-- Desktop Navigation -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#about">About</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#services">Services</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#process">Process</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#projects">Projects</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#contact">Contact</a>
+</nav>
+<!-- Action Area -->
+<div class="flex items-center gap-stack-md">
+<button class="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150">
+                    Book a Free Consultation
+                </button>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden p-2 text-on-background">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<main class="relative pb-section-gap overflow-hidden pt-48">
+<!-- Background Ambient Glow -->
+<div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] -z-10 translate-x-1/2 -translate-y-1/2"></div>
+<div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-tertiary/5 rounded-full blur-[100px] -z-10 -translate-x-1/2 translate-y-1/2"></div>
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<!-- Left Column: Content -->
+<div class="lg:col-span-6 flex flex-col items-start gap-16">
+<!-- Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full border border-outline-variant/20">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-label-sm font-label-sm text-primary tracking-widest uppercase">Helping Businesses Build Better Web Experiences</span>
+</div>
+<!-- Headline -->
+<h1 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background leading-tight">Helping Small Businesses Build a Strong Online Presence</h1>
+<!-- Subheadline -->
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-xl">I build modern web applications that help businesses attract customers, establish credibility, and streamline operations. Confident, clear, and focused on delivering tangible business value through high-quality engineering and user-centric design.</p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 mt-stack-md w-full sm:w-auto">
+<button class="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95">
+                            Book a Free Consultation
+                        </button>
+<button class="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+                            View My Work
+                        </button>
+</div>
+<!-- Trust Row -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 w-full pt-12 border-t border-outline-variant/10"><div class="flex flex-col gap-3"><span class="material-symbols-outlined text-primary text-2xl">speed</span><h3 class="text-body-md font-bold text-on-surface">Performance Optimized</h3><p class="text-label-sm text-on-surface-variant">Fast, responsive websites built for a smooth user experience.</p></div><div class="flex flex-col gap-3"><span class="material-symbols-outlined text-primary text-2xl">devices</span><h3 class="text-body-md font-bold text-on-surface">Mobile-First Design</h3><p class="text-label-sm text-on-surface-variant">Designed to work beautifully across all devices.</p></div><div class="flex flex-col gap-3"><span class="material-symbols-outlined text-primary text-2xl">code</span><h3 class="text-body-md font-bold text-on-surface">Clean &amp; Scalable Code</h3><p class="text-label-sm text-on-surface-variant">Built with maintainability and future growth in mind.</p></div></div>
+</div>
+<!-- Right Column: Visuals -->
+<div class="lg:col-span-6 relative perspective-1000 flex justify-center items-center">
+<!-- Main Mockup Container -->
+<div class="relative w-full max-w-[560px] p-2 glass-card rounded-xl shadow-2xl rotate-1 hover:rotate-0 transition-transform duration-700">
+<img alt="StudioDev Dashboard Mockup" class="w-full h-auto rounded-lg shadow-inner object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC12Ycey1r0bx82pb9lYjxFtG5wifa7RmFjuz6mTLJHw1aQnDIZAETH-8Zm_YLRqIwoBwJPE3LQH3hgkFonIqFNQ75CnpUD_uDiwsRLlWidgiyLTo9aIfpUzmJb9dh-pQ-FsxldaFO0y6Zws0zncUu6JXx5qYYSMcNBILx-oEyhdL1MSNr9SKhopUD27i-RL1GlQC4U0TTFG2EhQBcbXhOvNVF-wqat2A5LD0jYOm1zBBigO3ieZuZ8mA">
+<!-- Decorative Frame Details -->
+<div class="absolute top-4 left-4 flex gap-1.5">
+<div class="w-2.5 h-2.5 rounded-full bg-red-500/50"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-500/50"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-500/50"></div>
+</div>
+</div>
+<!-- Floating Cards -->
+<!-- Card 1: Success Rate -->
+<div class="absolute -top-6 right-0 md:-right-4 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 0s;"><div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center"><span class="material-symbols-outlined text-primary">smartphone</span></div><div><p class="text-label-sm font-bold text-on-surface">Mobile-First Development</p></div></div>
+<!-- Card 2: Uptime -->
+<div class="absolute top-1/2 -left-4 md:-left-12 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 1.5s;"><div class="w-10 h-10 rounded-full bg-tertiary/20 flex items-center justify-center"><span class="material-symbols-outlined text-tertiary">bolt</span></div><div><p class="text-label-sm font-bold text-on-surface">Performance Optimized</p></div></div>
+<!-- Card 3: Mobile -->
+<div class="absolute -bottom-8 right-12 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 0.8s;"><div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center"><span class="material-symbols-outlined text-on-surface">search</span></div><div><p class="text-label-sm font-bold text-on-surface">SEO Ready</p></div></div>
+<div class="absolute bottom-1/2 -right-8 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 2s;"><div class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center"><span class="material-symbols-outlined text-primary">architecture</span></div><div><p class="text-label-sm font-bold text-on-surface">Clean Architecture</p></div></div></div>
+</div>
+</div>
+</main>
+<!-- Footer Segment -->
+<footer class="w-full py-stack-lg px-gutter border-t border-outline-variant/10">
+<div class="max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-stack-md">
+<div class="flex items-center gap-2">
+<span class="text-body-lg font-headline-lg font-bold text-on-background tracking-tight">StudioDev</span>
+<span class="text-label-sm font-label-sm text-on-surface-variant opacity-60 ml-4">© 2024 StudioDev. All rights reserved.</span>
+</div>
+<div class="flex items-center gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">Terms of Service</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">LinkedIn</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors text-label-sm font-label-sm" href="#">GitHub</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple Micro-interactions
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mousedown', () => {
+                button.style.transform = 'scale(0.95)';
+            });
+            button.addEventListener('mouseup', () => {
+                button.style.transform = '';
+            });
+            button.addEventListener('mouseleave', () => {
+                button.style.transform = '';
+            });
+        });
+
+        // Sticky header behavior
+        let lastScroll = 0;
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= 0) {
+                header.classList.remove('shadow-lg');
+                return;
+            }
+            if (currentScroll > lastScroll) {
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                header.style.transform = 'translateY(0)';
+                header.classList.add('shadow-lg');
+            }
+            lastScroll = currentScroll;
+        });
+    </script>
+
+
+</body></html>

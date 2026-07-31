@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>StudioDev | High-Performance Web Solutions</title>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#c0c1ff",
+                        "tertiary-fixed-dim": "#b9c8de",
+                        "outline-variant": "#464554",
+                        "on-primary-container": "#0d0096",
+                        "on-tertiary-container": "#1c2b3c",
+                        "on-primary-fixed": "#07006c",
+                        "surface-container-lowest": "#060e20",
+                        "surface-container": "#171f33",
+                        "surface-container-high": "#222a3d",
+                        "on-primary-fixed-variant": "#2f2ebe",
+                        "surface-container-low": "#131b2e",
+                        "on-background": "#dae2fd",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#0d1c2d",
+                        "on-secondary-container": "#b6b9bb",
+                        "background": "#0b1326",
+                        "on-secondary": "#2d3133",
+                        "inverse-on-surface": "#283044",
+                        "error-container": "#93000a",
+                        "inverse-surface": "#dae2fd",
+                        "surface-tint": "#c0c1ff",
+                        "surface-dim": "#0b1326",
+                        "on-error": "#690005",
+                        "on-primary": "#1000a9",
+                        "on-surface-variant": "#c7c4d7",
+                        "surface": "#0b1326",
+                        "tertiary-container": "#8392a6",
+                        "secondary-container": "#464a4b",
+                        "primary-container": "#8083ff",
+                        "surface-bright": "#31394d",
+                        "tertiary-fixed": "#d4e4fa",
+                        "surface-container-highest": "#2d3449",
+                        "on-tertiary": "#233143",
+                        "on-surface": "#dae2fd",
+                        "on-secondary-fixed": "#191c1e",
+                        "surface-variant": "#2d3449",
+                        "tertiary": "#b9c8de",
+                        "secondary-fixed-dim": "#c4c7c9",
+                        "on-tertiary-fixed-variant": "#39485a",
+                        "error": "#ffb4ab",
+                        "inverse-primary": "#494bd6",
+                        "secondary": "#c4c7c9",
+                        "outline": "#908fa0",
+                        "primary": "#c0c1ff",
+                        "on-secondary-fixed-variant": "#444749",
+                        "primary-fixed": "#e1e0ff",
+                        "secondary-fixed": "#e0e3e5"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-md": "16px",
+                        "margin-mobile": "20px",
+                        "section-gap": "120px",
+                        "gutter": "24px",
+                        "unit": "4px",
+                        "stack-lg": "32px",
+                        "stack-sm": "8px",
+                        "container-max": "1200px"
+                    },
+                    "fontFamily": {
+                        "headline-lg-mobile": ["Geist", "Inter", "sans-serif"],
+                        "headline-lg": ["Geist", "Inter", "sans-serif"],
+                        "label-sm": ["JetBrains Mono", "monospace"],
+                        "headline-md": ["Geist", "Inter", "sans-serif"],
+                        "display": ["Geist", "Inter", "sans-serif"],
+                        "body-md": ["Geist", "Inter", "sans-serif"],
+                        "body-lg": ["Geist", "Inter", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.03em", "fontWeight": "600"}],
+                        "label-sm": ["12px", {"lineHeight": "1.4", "letterSpacing": "0.08em", "fontWeight": "500"}],
+                        "headline-md": ["30px", {"lineHeight": "1.3", "letterSpacing": "-0.02em", "fontWeight": "500"}],
+                        "display": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        @font-face {
+            font-family: 'Geist';
+            src: url('https://cdn.jsdelivr.net/npm/geist@1.0.3/dist/fonts/geist-sans/Geist-Variable.woff2') format('woff2');
+        }
+        
+        body {
+            font-family: 'Geist', sans-serif;
+            background-color: #0b1326;
+            color: #dae2fd;
+        }
+
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+
+        /* Glassmorphism Effect */
+        .glass-card {
+            background: rgba(30, 41, 59, 0.4);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .hover-lift {
+            transition: transform 0.2s ease, border-color 0.2s ease;
+        }
+
+        .hover-lift:hover {
+            transform: translateY(-4px);
+            border-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .floating-animation {
+            animation: floating 4s ease-in-out infinite;
+        }
+
+        @keyframes floating {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
+<div class="max-w-container-max mx-auto px-gutter py-4 flex justify-between items-center h-16">
+<!-- Brand Identity -->
+<div class="flex items-center gap-2">
+<img alt="StudioDev Logo" class="w-8 h-8 rounded-lg object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEzEg32LPxkiqs2ZlEJ5ko11MYNkADZcD9vGlQmYmYnn1fytkFPDje-bs9o74ClbLyJK_AiK09Vf-mVKcgcl0ObBwL_dUV3PeL7bL5gNwgL9HJquUiGsrd57u_o26biVg4Ta5msml4jbo-kU9pGxRYeUor-PQ6oCL-FRGGsfk6M7Ne8hCSk1Gu3_1DQ4kIbLxrsohs6qsyyrw2Q7WtRPkYvBXUZ3o4u43pHYq4KgXDAiljasme6jKJ9A"/>
+<span class="text-body-lg font-headline-lg font-bold text-on-background tracking-tight">StudioDev</span>
+</div>
+<!-- Desktop Navigation -->
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#about">About</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#services">Services</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#process">Process</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#projects">Projects</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm" href="#contact">Contact</a>
+</nav>
+<!-- Action Area -->
+<div class="flex items-center gap-stack-md">
+<button class="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150">
+                    Book a Free Consultation
+                </button>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden p-2 text-on-background">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<main class="relative pb-section-gap overflow-hidden pt-48">
+<!-- Background Ambient Glow -->
+<div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] -z-10 translate-x-1/2 -translate-y-1/2"></div>
+<div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-tertiary/5 rounded-full blur-[100px] -z-10 -translate-x-1/2 translate-y-1/2"></div>
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16 items-center">
+<!-- Left Column: Content -->
+<div class="lg:col-span-6 flex flex-col items-start gap-16">
+<!-- Badge -->
+<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full border border-outline-variant/20">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-label-sm font-label-sm text-primary tracking-widest uppercase">Supporting Businesses in Building Better Web Experiences</span>
+</div>
+<!-- Headline -->
+<h1 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background leading-tight">Supporting Small Businesses in Building a Strong Online Presence</h1>
+<!-- Subheadline -->
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-xl">I build modern web applications focused on helping businesses establish credibility and streamline operations. Professional, clear, and focused on delivering tangible business value through high-quality engineering and user-centric design.</p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 mt-stack-md w-full sm:w-auto">
+<button class="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95">
+                            Book a Free Consultation
+                        </button>
+<button class="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+                            View My Work
+                        </button>
+</div>
+<!-- Trust Row -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 w-full pt-12 border-t border-outline-variant/10">
+<div class="flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">speed</span>
+<h3 class="text-body-md font-bold text-on-surface">Performance Focused</h3>
+<p class="text-label-sm text-on-surface-variant">Fast, responsive websites built for a smooth user experience.</p>
+</div>
+<div class="flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">devices</span>
+<h3 class="text-body-md font-bold text-on-surface">Mobile-First Design</h3>
+<p class="text-label-sm text-on-surface-variant">Designed to support a beautiful experience across all devices.</p>
+</div>
+<div class="flex flex-col gap-3">
+<span class="material-symbols-outlined text-primary text-2xl">code</span>
+<h3 class="text-body-md font-bold text-on-surface">Clean &amp; Scalable Code</h3>
+<p class="text-label-sm text-on-surface-variant">Built with maintainability and future growth in mind.</p>
+</div>
+</div>
+</div>
+<!-- Right Column: Visuals -->
+<div class="lg:col-span-6 relative perspective-1000 flex justify-center items-center">
+<!-- Main Mockup Container -->
+<div class="relative w-full max-w-[560px] p-2 glass-card rounded-xl shadow-2xl rotate-1 hover:rotate-0 transition-transform duration-700">
+<img alt="StudioDev Dashboard Mockup" class="w-full h-auto rounded-lg shadow-inner object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC12Ycey1r0bx82pb9lYjxFtG5wifa7RmFjuz6mTLJHw1aQnDIZAETH-8Zm_YLRqIwoBwJPE3LQH3hgkFonIqFNQ75CnpUD_uDiwsRLlWidgiyLTo9aIfpUzmJb9dh-pQ-FsxldaFO0y6Zws0zncUu6JXx5qYYSMcNBILx-oEyhdL1MSNr9SKhopUD27i-RL1GlQC4U0TTFG2EhQBcbXhOvNVF-wqat2A5LD0jYOm1zBBigO3ieZuZ8mA"/>
+<!-- Decorative Frame Details -->
+<div class="absolute top-4 left-4 flex gap-1.5">
+<div class="w-2.5 h-2.5 rounded-full bg-red-500/50"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-yellow-500/50"></div>
+<div class="w-2.5 h-2.5 rounded-full bg-green-500/50"></div>
+</div>
+</div>
+<!-- Floating Cards -->
+<div class="absolute -top-6 right-0 md:-right-4 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 0s;">
+<div class="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center"><span class="material-symbols-outlined text-primary">smartphone</span></div>
+<div><p class="text-label-sm font-bold text-on-surface">Mobile-First Development</p></div>
+</div>
+<div class="absolute top-1/2 -left-4 md:-left-12 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 1.5s;">
+<div class="w-10 h-10 rounded-full bg-tertiary/20 flex items-center justify-center"><span class="material-symbols-outlined text-tertiary">bolt</span></div>
+<div><p class="text-label-sm font-bold text-on-surface">Performance Optimized</p></div>
+</div>
+<div class="absolute -bottom-8 right-12 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 0.8s;">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center"><span class="material-symbols-outlined text-on-surface">search</span></div>
+<div><p class="text-label-sm font-bold text-on-surface">SEO Ready</p></div>
+</div>
+<div class="absolute bottom-1/2 -right-8 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style="animation-delay: 2s;">
+<div class="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center"><span class="material-symbols-outlined text-primary">architecture</span></div>
+<div><p class="text-label-sm font-bold text-on-surface">Clean Architecture</p></div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- How I Can Help Your Business Section (Moved Immediately After Hero) -->
+<section class="py-section-gap bg-background relative overflow-hidden border-t border-outline-variant/10" id="services">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">How I Can Support Your Business</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">I build modern digital solutions designed to support credibility, improve operational efficiency, and aim to support sustainable business growth through expert engineering and design.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+<!-- Card 1 -->
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">language</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Business Website Development</h3>
+<p class="text-body-md text-on-surface-variant">Create professional, responsive websites designed to support conversion and help establish a professional presence.</p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">apps</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Custom Web Applications</h3>
+<p class="text-body-md text-on-surface-variant">Develop tailored web applications designed to support your business workflows and help improve efficiency.</p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">smart_toy</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">AI-Powered Features &amp; Automation</h3>
+<p class="text-body-md text-on-surface-variant">Integrate AI-powered capabilities designed to support intelligent assistants and workflow automation.</p>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">auto_fix_high</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Website Modernization &amp; Performance</h3>
+<p class="text-body-md text-on-surface-variant">Improve existing websites with a focus on speed, accessibility, responsive design, and SEO.</p>
+</div>
+</div>
+</div>
+<!-- Subtle CTA -->
+<div class="flex justify-center">
+<button class="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+                    Let's Discuss Your Project
+                </button>
+</div>
+</div>
+</section>
+<!-- Built with Modern Technologies Section (Moved Below Services) -->
+<section class="py-section-gap bg-background relative overflow-hidden">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">Built with Modern Technologies</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">We leverage a technology stack selected for high performance, modern security best practices, and scalability to support your business growth.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+<!-- Frontend -->
+<div class="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary">web</span>
+<h3 class="text-body-md font-bold text-on-surface">Frontend</h3>
+<p class="text-label-sm text-on-surface-variant">Next.js, React, TypeScript, Tailwind CSS</p>
+</div>
+</div>
+<!-- Backend -->
+<div class="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary">dns</span>
+<h3 class="text-body-md font-bold text-on-surface">Backend</h3>
+<p class="text-label-sm text-on-surface-variant">Node.js, Express.js</p>
+</div>
+</div>
+<!-- Database -->
+<div class="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary">database</span>
+<h3 class="text-body-md font-bold text-on-surface">Database</h3>
+<p class="text-label-sm text-on-surface-variant">MongoDB</p>
+</div>
+</div>
+<!-- AI -->
+<div class="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary">psychology</span>
+<h3 class="text-body-md font-bold text-on-surface">AI</h3>
+<p class="text-label-sm text-on-surface-variant">OpenAI, Google Gemini, Claude API</p>
+</div>
+</div>
+<!-- Deployment -->
+<div class="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
+<div class="flex flex-col gap-4">
+<span class="material-symbols-outlined text-primary">rocket_launch</span>
+<h3 class="text-body-md font-bold text-on-surface">Deployment</h3>
+<p class="text-label-sm text-on-surface-variant">Vercel, Cloudflare, Git, GitHub</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- How We Work Section (Simplified Process) -->
+<section class="py-section-gap bg-surface-container-lowest relative overflow-hidden border-t border-outline-variant/10" id="process">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">How We Work</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">A structured approach aims to support every project being delivered with precision and clarity.</p>
+</div>
+<!-- Simplified Process Container -->
+<div class="relative max-w-5xl mx-auto flex flex-col gap-4">
+<!-- Step 1 -->
+<div class="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">01</div>
+<div class="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div>
+<h3 class="text-headline-md font-bold text-on-surface mb-1">Discover</h3>
+<p class="text-body-md text-on-surface-variant max-w-2xl">We start with a deep dive into your business goals, target audience, and technical requirements through a free consultation.</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">chat</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">02</div>
+<div class="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div>
+<h3 class="text-headline-md font-bold text-on-surface mb-1">Plan</h3>
+<p class="text-body-md text-on-surface-variant max-w-2xl">I create a detailed roadmap, defining priorities and the technical architecture needed to scale your vision.</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">map</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">03</div>
+<div class="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div>
+<h3 class="text-headline-md font-bold text-on-surface mb-1">Build</h3>
+<p class="text-body-md text-on-surface-variant max-w-2xl">Iterative development with regular updates. I handle the design, engineering, and testing focused on a successful launch.</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">terminal</span>
+</div>
+</div>
+<!-- Step 4 -->
+<div class="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">04</div>
+<div class="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
+<div>
+<h3 class="text-headline-md font-bold text-on-surface mb-1">Launch &amp; Support</h3>
+<p class="text-body-md text-on-surface-variant max-w-2xl">Seamless deployment followed by ongoing maintenance and optimization focused on your site performing at its peak.</p>
+</div>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">verified</span>
+</div>
+</div>
+</div>
+<div class="mt-16 text-center">
+<p class="text-label-sm font-label-sm text-on-surface-variant opacity-60">A structured approach supports delivery with precision and clarity.</p>
+</div>
+</div>
+</section>
+<!-- Featured Projects Section -->
+<section class="py-section-gap bg-background relative overflow-hidden border-t border-outline-variant/10" id="projects">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">Featured Projects</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">These projects demonstrate my focus on designing and developing modern, scalable web applications aimed at solving real business problems.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Project Card 1: Movie Ticket Booking Platform -->
+<div class="group flex flex-col bg-surface-container-low rounded-xl border border-outline-variant/10 overflow-hidden hover-lift hover:bg-surface-container transition-all duration-300">
+<div class="relative aspect-video overflow-hidden border-b border-outline-variant/10">
+<img alt="Movie Ticket Booking Platform" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD64d2e1h4Ck2GLrWsPTBD3Q8T4N5_4bA2WQBtGJQdFEtjju8lZKJPk2PMThNyvnMcGU5OIRd2PHsEvDEWATMOG3t-b_b9tVOMJQdv2XCCjVaweR35CXOR2O8MEHaFErV0TyTV2Ikrx5O45n81ICIF88vUjzF1XBEVIw14uK5SogUffXXoIDwuA5dCnSToTzv38OR7I_vjS7ZJabyDSTF9Fzv6NO0v6wYw9jUjy3eXIv6UcF0CTjEC9lg"/>
+</div>
+<div class="p-8 flex flex-col flex-1">
+<div class="mb-4">
+<span class="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest rounded-full border border-primary/20">Full-Stack Web Application</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface mb-3">Movie Ticket Booking Platform</h3>
+<p class="text-body-md text-on-surface-variant mb-6 flex-1">A modern movie ticket booking platform designed to help users browse movies and select seats through an intuitive experience.</p>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">Next.js</span>
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">Node.js</span>
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">MongoDB</span>
+</div>
+<div class="flex gap-4">
+<button class="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95">View Project</button>
+<button class="flex-1 px-4 py-2 bg-transparent border border-outline text-on-background rounded-lg font-medium text-label-sm font-label-sm hover:bg-surface-container-highest transition-all active:scale-95">View Code</button>
+</div>
+</div>
+</div>
+<!-- Project Card 2: Business Dashboard -->
+<div class="group flex flex-col bg-surface-container-low rounded-xl border border-outline-variant/10 overflow-hidden hover-lift hover:bg-surface-container transition-all duration-300">
+<div class="relative aspect-video overflow-hidden border-b border-outline-variant/10">
+<img alt="Business Dashboard" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUbHFcavkiuN9VOd-hgEI8y3l_HqkJbhVf7rk5UsKruy8mznY1ANLANsu5mjcWqIylDzylIC8jq4JDkPWcEEGuMEFSPJgRoUEzMgCdt51JjjbqW2HGN0NIt7tTsAZPpKSA_xuj3jeVnrcFQMKIWmdgkJCW_9xbKkWnZEz5mmFnc5VLuREH0e_aHrC8NJqXqBXoDcoMbAiE6_Xi2En5klr3eF-RZ-r2vsuDf4aUlxVUtZNqiQZHTWis-A"/>
+</div>
+<div class="p-8 flex flex-col flex-1">
+<div class="mb-4">
+<span class="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest rounded-full border border-primary/20">Business Management</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface mb-3">Business Dashboard</h3>
+<p class="text-body-md text-on-surface-variant mb-6 flex-1">A responsive dashboard focused on simplifying data management, reporting, and daily business operations.</p>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">React</span>
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">TypeScript</span>
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">Tailwind CSS</span>
+</div>
+<div class="flex gap-4">
+<button class="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95">View Project</button>
+<button class="flex-1 px-4 py-2 bg-transparent border border-outline text-on-background rounded-lg font-medium text-label-sm font-label-sm hover:bg-surface-container-highest transition-all active:scale-95">View Code</button>
+</div>
+</div>
+</div>
+<!-- Project Card 3: AI Productivity Assistant -->
+<div class="group flex flex-col bg-surface-container-low rounded-xl border border-outline-variant/10 overflow-hidden hover-lift hover:bg-surface-container transition-all duration-300">
+<div class="relative aspect-video overflow-hidden border-b border-outline-variant/10">
+<img alt="AI Productivity Assistant" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUbURh-spcGPOJyISVraF4s9dxmZ2PrdKLVcfhh_Mfw2Uf9UQPbJR1epKmi6jCEa-RC4bgIFVAZRQVMnzQ-caTi7JZd4vqSQVbokRhgQ7pRLErf9GFnNxmP4GGjROxCbEQ_zE1dDq3d_VJBeNnVJ_pQkcEHxbXQicVzauLmwSyDCj7fX2Qqzwo_mnYa1nvRt0medUAgkTNTbUgqg8GoB8WZIk_F9YDjyBnFTmhnVIkiSipw4U4vGMpmQ"/>
+</div>
+<div class="p-8 flex flex-col flex-1">
+<div class="mb-4">
+<span class="inline-block px-3 py-1 bg-primary/10 text-primary text-[10px] font-bold uppercase tracking-widest rounded-full border border-primary/20">AI Web Application</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface mb-3">AI Productivity Assistant</h3>
+<p class="text-body-md text-on-surface-variant mb-6 flex-1">An intelligent web application designed to help automate repetitive tasks using AI-powered features.</p>
+<div class="flex flex-wrap gap-2 mb-8">
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">Next.js</span>
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">OpenAI</span>
+<span class="px-2.5 py-0.5 bg-surface-container-highest text-on-surface-variant text-[11px] font-medium rounded border border-outline-variant/20">Node.js</span>
+</div>
+<div class="flex gap-4">
+<button class="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95">View Project</button>
+<button class="flex-1 px-4 py-2 bg-transparent border border-outline text-on-background rounded-lg font-medium text-label-sm font-label-sm hover:bg-surface-container-highest transition-all active:scale-95">View Code</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Section End CTA -->
+<div class="mt-16 text-center">
+<button class="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+                    View All Projects
+                </button>
+</div>
+</div>
+</section>
+<!-- Why Work With Me Section -->
+<section class="py-section-gap bg-background relative overflow-hidden border-t border-outline-variant/10" id="why-work-with-me">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">Why Work With Me</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">Successful projects are built on clear communication, meticulous planning, and a focus on delivering real business value.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">work</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Business-First Approach</h3>
+<p class="text-body-md text-on-surface-variant">Every project starts by focusing on your business goals before development begins.</p>
+</div>
+</div>
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">forum</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Clear Communication</h3>
+<p class="text-body-md text-on-surface-variant">Stay informed with regular updates, transparent discussions, and timely responses throughout the project.</p>
+</div>
+</div>
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">terminal</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Modern Development</h3>
+<p class="text-body-md text-on-surface-variant">Build with reliable technologies and industry best practices for long-term performance and scalability.</p>
+</div>
+</div>
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">devices</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Responsive by Default</h3>
+<p class="text-body-md text-on-surface-variant">Focus on delivering seamless experiences across desktop, tablet, and mobile devices.</p>
+</div>
+</div>
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">rocket_launch</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Performance &amp; SEO</h3>
+<p class="text-body-md text-on-surface-variant">Optimize every website for speed, accessibility, and search engine visibility.</p>
+</div>
+</div>
+<div class="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+<div class="flex flex-col gap-6">
+<div class="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+</div>
+<h3 class="text-headline-md font-bold text-on-surface">Long-Term Support</h3>
+<p class="text-body-md text-on-surface-variant">Receive post-launch assistance and guidance focused on your growth as your business grows.</p>
+</div>
+</div>
+</div>
+<div class="text-center max-w-2xl mx-auto">
+<p class="text-body-lg font-medium text-on-surface-variant opacity-80">My goal is to be a reliable long-term technology partner, aiming to support your digital presence as it evolves with your business.</p>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="py-section-gap bg-surface-container-lowest relative overflow-hidden border-t border-outline-variant/10" id="faq">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="text-center max-w-3xl mx-auto mb-16">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">Frequently Asked Questions</h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant">Have questions before we start? Here are answers to some common inquiries focused on helping you build or improve your digital presence.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+<div class="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-body-md font-bold text-on-surface">How long does a typical project take?</h3>
+<span class="material-symbols-outlined text-primary/60">expand_more</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">Project timelines vary based on scope. Every collaboration begins with a clear roadmap and a schedule tailored to your business needs.</p>
+</div>
+</div>
+<div class="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-body-md font-bold text-on-surface">Can you redesign my existing website?</h3>
+<span class="material-symbols-outlined text-primary/60">expand_more</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">Yes. I specialize in modernizing platforms to improve design, performance, and accessibility, aligned with your strategic goals.</p>
+</div>
+</div>
+<div class="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-body-md font-bold text-on-surface">Will my website work on mobile devices?</h3>
+<span class="material-symbols-outlined text-primary/60">expand_more</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">Yes. Every project follows a mobile-first philosophy, aiming to support a high-performing experience across all screen sizes.</p>
+</div>
+</div>
+<div class="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-body-md font-bold text-on-surface">Can AI features be integrated into my website?</h3>
+<span class="material-symbols-outlined text-primary/60">expand_more</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">Yes. I can integrate AI-powered features designed to support efficiency, whether it's chat assistants or workflow automation.</p>
+</div>
+</div>
+<div class="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-body-md font-bold text-on-surface">Do you provide support after launch?</h3>
+<span class="material-symbols-outlined text-primary/60">expand_more</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">Yes. I offer support and future enhancements focused on your digital solution continuing to perform as your business grows.</p>
+</div>
+</div>
+<div class="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all">
+<div class="flex flex-col gap-4">
+<div class="flex items-center justify-between gap-4">
+<h3 class="text-body-md font-bold text-on-surface">How do we get started?</h3>
+<span class="material-symbols-outlined text-primary/60">expand_more</span>
+</div>
+<p class="text-label-sm text-on-surface-variant">The best way is to book a free consultation. We will discuss your goals and requirements to help determine if we are a good fit for your project.</p>
+</div>
+</div>
+</div>
+<div class="text-center max-w-2xl mx-auto">
+<p class="text-body-md font-medium text-on-surface-variant opacity-80">Don't see your question here? Feel free to reach out—I'm happy to discuss your specific needs.</p>
+</div>
+</div>
+</section>
+<!-- Final Call to Action Section -->
+<section class="py-section-gap bg-background relative overflow-hidden border-t border-outline-variant/10" id="final-cta">
+<div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] -z-10 translate-x-1/4 translate-y-1/4"></div>
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="relative glass-card bg-surface-container/30 border border-outline-variant/20 rounded-xl md:rounded-3xl p-8 md:p-16 lg:p-24 overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-primary/5 to-transparent -z-10"></div>
+<div class="max-w-3xl mx-auto text-center flex flex-col items-center gap-8 md:gap-12">
+<div class="flex flex-col gap-6">
+<h2 class="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background leading-tight">
+                            Let's Build Something Great Together
+                        </h2>
+<p class="text-body-lg font-body-lg text-on-surface-variant max-w-2xl">
+                            Whether you need a business website, a custom application, or AI features, the first step is a conversation about your unique goals. I provide professional engineering and design focused on your long-term success.
+                        </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+<button class="w-full sm:w-auto px-10 py-5 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20">
+                            Book a Free Consultation
+                        </button>
+<button class="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+                            View My Projects
+                        </button>
+</div>
+<div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 pt-8 border-t border-outline-variant/10 w-full max-w-2xl">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">verified</span>
+<span class="text-label-sm font-medium text-on-surface-variant">Free Initial Consultation</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">chat</span>
+<span class="text-label-sm font-medium text-on-surface-variant">Transparent Communication</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">task_alt</span>
+<span class="text-label-sm font-medium text-on-surface-variant">No Obligation Discussion</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-surface-container-lowest border-t border-outline-variant/10 pt-16 pb-8">
+<div class="max-w-container-max mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Column 1: Brand -->
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-2">
+<img alt="StudioDev Logo" class="w-8 h-8 rounded-lg object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLuRE0VIMse-ABymIEMI19O6YKf6gyO25y0_LqALIKQw90zB2p0Uali52oKrxmea5hSxLrV62XcEBwKMn1TXBpJsHglWUc1qeMkVPut3RJ47powfR6ugZGeZ_19gELN-43_H1A5yBUkZkoQrHxKD6vFPwkg8SLiPuF7QaEdaBz7uqn8PWP6QSiJglWnxLx5X5APq7AsGQiPXHkIYiUzUtwakeLT7VcBshlvrVBqG_f2rSUNDEf_o9Gqax9c"/>
+<span class="text-body-lg font-headline-lg font-bold text-on-background tracking-tight">StudioDev</span>
+</div>
+<p class="text-label-sm font-label-sm text-primary tracking-widest uppercase">Supporting Businesses in Building Better Web Experiences</p>
+<p class="text-body-md text-on-surface-variant">
+                        Supporting businesses in building modern websites and web applications focused on long-term growth.
+                    </p>
+</div>
+<!-- Column 2: Quick Links -->
+<div class="flex flex-col gap-6">
+<h4 class="text-body-md font-bold text-on-surface">Quick Links</h4>
+<nav class="flex flex-col gap-3">
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#about">About</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#services">Services</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#projects">Projects</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#process">Process</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#faq">FAQ</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact</a>
+</nav>
+</div>
+<!-- Column 3: Services -->
+<div class="flex flex-col gap-6">
+<h4 class="text-body-md font-bold text-on-surface">Services</h4>
+<nav class="flex flex-col gap-3">
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Business Websites</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Custom Web Applications</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">AI Integration</a>
+<a class="text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">Website Optimization</a>
+</nav>
+</div>
+<!-- Column 4: Get In Touch -->
+<div class="flex flex-col gap-6">
+<h4 class="text-body-md font-bold text-on-surface">Get In Touch</h4>
+<div class="flex flex-col gap-4">
+<a class="flex items-center gap-3 text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="mailto:hello@studiodev.com">
+<span class="material-symbols-outlined text-xl">mail</span>
+                            Email
+                        </a>
+<a class="flex items-center gap-3 text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">link</span>
+                            LinkedIn
+                        </a>
+<a class="flex items-center gap-3 text-label-sm text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-xl">terminal</span>
+                            GitHub
+                        </a>
+<div class="flex items-center gap-3 text-label-sm text-on-surface-variant pt-2">
+<span class="material-symbols-outlined text-xl">location_on</span>
+                            Location: India
+                        </div>
+</div>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="pt-8 border-t border-outline-variant/10 text-center">
+<p class="text-label-sm text-on-surface-variant opacity-60">
+                    © 2026 Ehthisham Ul Haq | Built with Next.js • TypeScript • Tailwind CSS
+                </p>
+</div>
+</div>
+</footer>
+<script>
+        // Simple Micro-interactions
+        document.querySelectorAll('button').forEach(button => {
+            button.addEventListener('mousedown', () => {
+                button.style.transform = 'scale(0.95)';
+            });
+            button.addEventListener('mouseup', () => {
+                button.style.transform = '';
+            });
+            button.addEventListener('mouseleave', () => {
+                button.style.transform = '';
+            });
+        });
+
+        // Sticky header behavior
+        let lastScroll = 0;
+        const header = document.querySelector('header');
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            if (currentScroll <= 0) {
+                header.classList.remove('shadow-lg');
+                return;
+            }
+            if (currentScroll > lastScroll) {
+                header.style.transform = 'translateY(-100%)';
+            } else {
+                header.style.transform = 'translateY(0)';
+                header.classList.add('shadow-lg');
+            }
+            lastScroll = currentScroll;
+        });
+    </script>
+</body></html>
