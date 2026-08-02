@@ -48,7 +48,7 @@ export function Footer() {
               <a href="mailto:hello@studiodev.com" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 hello@studiodev.com
               </a>
-              <Link href="#" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <Link href="#contact" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 Schedule a Call
               </Link>
             </nav>

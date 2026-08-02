@@ -1,6 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 
+const navigationItems = [
+  { label: "About", href: "#why-work-with-me" },
+  { label: "Services", href: "#services" },
+  { label: "Process", href: "#process" },
+  { label: "Projects", href: "#projects" },
+  { label: "Contact", href: "#contact" },
+];
+
 export function Header() {
   return (
     <header className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
@@ -21,13 +29,13 @@ export function Header() {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-8">
-          {["About", "Services", "Process", "Projects", "Contact"].map((item) => (
+          {navigationItems.map((item) => (
             <Link
-              key={item}
-              href={`#${item.toLowerCase()}`}
+              key={item.label}
+              href={item.href}
               className="text-on-surface-variant font-medium hover:text-primary transition-colors text-label-sm font-label-sm"
             >
-              {item}
+              {item.label}
             </Link>
           ))}
         </nav>
