@@ -23,10 +23,9 @@ export function Projects() {
               <Image 
                 alt="Movie Ticket Booking Platform" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD64d2e1h4Ck2GLrWsPTBD3Q8T4N5_4bA2WQBtGJQdFEtjju8lZKJPk2PMThNyvnMcGU5OIRd2PHsEvDEWATMOG3t-b_b9tVOMJQdv2XCCjVaweR35CXOR2O8MEHaFErV0TyTV2Ikrx5O45n81ICIF88vUjzF1XBEVIw14uK5SogUffXXoIDwuA5dCnSToTzv38OR7I_vjS7ZJabyDSTF9Fzv6NO0v6wYw9jUjy3eXIv6UcF0CTjEC9lg"
+                src="/images/projects/movie-ticket-booking.jpg"
                 width={600}
                 height={400}
-                unoptimized
               />
             </div>
             <div className="p-8 flex flex-col flex-1">
@@ -53,10 +52,9 @@ export function Projects() {
               <Image 
                 alt="Business Dashboard" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUbHFcavkiuN9VOd-hgEI8y3l_HqkJbhVf7rk5UsKruy8mznY1ANLANsu5mjcWqIylDzylIC8jq4JDkPWcEEGuMEFSPJgRoUEzMgCdt51JjjbqW2HGN0NIt7tTsAZPpKSA_xuj3jeVnrcFQMKIWmdgkJCW_9xbKkWnZEz5mmFnc5VLuREH0e_aHrC8NJqXqBXoDcoMbAiE6_Xi2En5klr3eF-RZ-r2vsuDf4aUlxVUtZNqiQZHTWis-A"
+                src="/images/projects/business-dashboard.jpg"
                 width={600}
                 height={400}
-                unoptimized
               />
             </div>
             <div className="p-8 flex flex-col flex-1">
@@ -83,10 +81,9 @@ export function Projects() {
               <Image 
                 alt="AI Productivity Assistant" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUbURh-spcGPOJyISVraF4s9dxmZ2PrdKLVcfhh_Mfw2Uf9UQPbJR1epKmi6jCEa-RC4bgIFVAZRQVMnzQ-caTi7JZd4vqSQVbokRhgQ7pRLErf9GFnNxmP4GGjROxCbEQ_zE1dDq3d_VJBeNnVJ_pQkcEHxbXQicVzauLmwSyDCj7fX2Qqzwo_mnYa1nvRt0medUAgkTNTbUgqg8GoB8WZIk_F9YDjyBnFTmhnVIkiSipw4U4vGMpmQ"
+                src="/images/projects/ai-productivity-assistant.jpg"
                 width={600}
                 height={400}
-                unoptimized
               />
             </div>
             <div className="p-8 flex flex-col flex-1">

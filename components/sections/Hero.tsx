@@ -68,10 +68,10 @@ export function Hero() {
               <Image 
                 alt="StudioDev Dashboard Mockup" 
                 className="w-full h-auto rounded-lg shadow-inner object-cover" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC12Ycey1r0bx82pb9lYjxFtG5wifa7RmFjuz6mTLJHw1aQnDIZAETH-8Zm_YLRqIwoBwJPE3LQH3hgkFonIqFNQ75CnpUD_uDiwsRLlWidgiyLTo9aIfpUzmJb9dh-pQ-FsxldaFO0y6Zws0zncUu6JXx5qYYSMcNBILx-oEyhdL1MSNr9SKhopUD27i-RL1GlQC4U0TTFG2EhQBcbXhOvNVF-wqat2A5LD0jYOm1zBBigO3ieZuZ8mA"
+                src="/images/hero/dashboard-mockup.jpg"
                 width={560}
                 height={400}
-                unoptimized
+                priority
               />
               {/* Decorative Frame Details */}
               <div className="absolute top-4 left-4 flex gap-1.5">
