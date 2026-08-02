@@ -4,7 +4,7 @@ import { Container } from '../layout/Container';
 
 export function Hero() {
   return (
-    <main className="relative pb-section-gap overflow-hidden pt-48">
+    <div className="relative pb-section-gap overflow-hidden pt-48">
       {/* Background Ambient Glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] -z-10 translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-tertiary/5 rounded-full blur-[100px] -z-10 -translate-x-1/2 translate-y-1/2"></div>
@@ -112,6 +112,6 @@ export function Hero() {
           </div>
         </div>
       </Container>
-    </main>
+    </div>
   );
 }
