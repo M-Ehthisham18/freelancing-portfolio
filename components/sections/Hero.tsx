@@ -4,7 +4,7 @@ import { Container } from '../layout/Container';
 
 export function Hero() {
   return (
-    <main className="relative pb-section-gap overflow-hidden pt-48">
+    <div className="relative pb-section-gap overflow-hidden pt-48">
       {/* Background Ambient Glow */}
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/5 rounded-full blur-[120px] -z-10 translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-tertiary/5 rounded-full blur-[100px] -z-10 -translate-x-1/2 translate-y-1/2"></div>
@@ -68,10 +68,10 @@ export function Hero() {
               <Image 
                 alt="StudioDev Dashboard Mockup" 
                 className="w-full h-auto rounded-lg shadow-inner object-cover" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC12Ycey1r0bx82pb9lYjxFtG5wifa7RmFjuz6mTLJHw1aQnDIZAETH-8Zm_YLRqIwoBwJPE3LQH3hgkFonIqFNQ75CnpUD_uDiwsRLlWidgiyLTo9aIfpUzmJb9dh-pQ-FsxldaFO0y6Zws0zncUu6JXx5qYYSMcNBILx-oEyhdL1MSNr9SKhopUD27i-RL1GlQC4U0TTFG2EhQBcbXhOvNVF-wqat2A5LD0jYOm1zBBigO3ieZuZ8mA"
+                src="/images/hero/dashboard-mockup.jpg"
                 width={560}
                 height={400}
-                unoptimized
+                priority
               />
               {/* Decorative Frame Details */}
               <div className="absolute top-4 left-4 flex gap-1.5">
@@ -112,6 +112,6 @@ export function Hero() {
           </div>
         </div>
       </Container>
-    </main>
+    </div>
   );
 }

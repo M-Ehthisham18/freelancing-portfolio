@@ -12,10 +12,9 @@ export function Footer() {
               <Image
                 alt="StudioDev Logo"
                 className="w-8 h-8 rounded-lg object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDEzEg32LPxkiqs2ZlEJ5ko11MYNkADZcD9vGlQmYmYnn1fytkFPDje-bs9o74ClbLyJK_AiK09Vf-mVKcgcl0ObBwL_dUV3PeL7bL5gNwgL9HJquUiGsrd57u_o26biVg4Ta5msml4jbo-kU9pGxRYeUor-PQ6oCL-FRGGsfk6M7Ne8hCSk1Gu3_1DQ4kIbLxrsohs6qsyyrw2Q7WtRPkYvBXUZ3o4u43pHYq4KgXDAiljasme6jKJ9A"
+                src="/images/logo/studiodev-logo.jpg"
                 width={32}
                 height={32}
-                unoptimized
               />
               <span className="text-body-lg font-headline-lg font-bold text-on-background tracking-tight">
                 StudioDev
@@ -49,7 +48,7 @@ export function Footer() {
               <a href="mailto:hello@studiodev.com" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 hello@studiodev.com
               </a>
-              <Link href="#" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <Link href="#contact" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 Schedule a Call
               </Link>
             </nav>

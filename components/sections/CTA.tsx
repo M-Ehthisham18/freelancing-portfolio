@@ -4,7 +4,7 @@ import { Container } from '../layout/Container';
 
 export function CTA() {
   return (
-    <Section id="final-cta" className="bg-background border-t border-outline-variant/10">
+    <Section id="contact" className="bg-background border-t border-outline-variant/10">
       <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] -z-10 translate-x-1/4 translate-y-1/4"></div>
       <Container>
         <div className="relative glass-card bg-surface-container/30 border border-outline-variant/20 rounded-xl md:rounded-3xl p-8 md:p-16 lg:p-24 overflow-hidden">
