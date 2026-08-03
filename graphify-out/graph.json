@@ -9,7 +9,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 9,
+      "community": 10,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L5",
       "id": "freelancing_portfolio_eslint_config_eslintconfig",
-      "community": 9,
+      "community": 10,
       "norm_label": "eslintconfig"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "next-env.d.ts",
       "source_location": "L1",
       "id": "next_env_d_ts",
-      "community": 13,
+      "community": 14,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "next.config.ts",
       "source_location": "L1",
       "id": "next_config_ts",
-      "community": 10,
+      "community": 11,
       "norm_label": "next.config.ts"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "next.config.ts",
       "source_location": "L3",
       "id": "freelancing_portfolio_next_config_nextconfig",
-      "community": 10,
+      "community": 11,
       "norm_label": "nextconfig"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "id": "postcss_config_mjs",
-      "community": 11,
+      "community": 12,
       "norm_label": "postcss.config.mjs"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "id": "freelancing_portfolio_postcss_config_config",
-      "community": 11,
+      "community": 12,
       "norm_label": "config"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L1",
       "id": "app_layout_tsx",
-      "community": 4,
+      "community": 6,
       "norm_label": "layout.tsx"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L5",
       "id": "app_layout_geistsans",
-      "community": 4,
+      "community": 6,
       "norm_label": "geistsans"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L10",
       "id": "app_layout_jetbrainsmono",
-      "community": 4,
+      "community": 6,
       "norm_label": "jetbrainsmono"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L15",
       "id": "app_layout_metadata",
-      "community": 4,
+      "community": 6,
       "norm_label": "metadata"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L20",
       "id": "app_layout_rootlayout",
-      "community": 4,
+      "community": 6,
       "norm_label": "rootlayout()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L1",
       "id": "app_marketing_page_tsx",
-      "community": 0,
+      "community": 1,
       "norm_label": "page.tsx"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L12",
       "id": "marketing_page_home",
-      "community": 0,
+      "community": 1,
       "norm_label": "home()"
     },
     {
@@ -135,7 +135,7 @@
       "source_file": "components/cards/ProjectCard.tsx",
       "source_location": "L1",
       "id": "components_cards_projectcard_tsx",
-      "community": 5,
+      "community": 7,
       "norm_label": "projectcard.tsx"
     },
     {
@@ -144,7 +144,7 @@
       "source_file": "components/cards/ProjectCard.tsx",
       "source_location": "L3",
       "id": "cards_projectcard_projectcardprops",
-      "community": 5,
+      "community": 7,
       "norm_label": "projectcardprops"
     },
     {
@@ -153,7 +153,7 @@
       "source_file": "components/cards/ProjectCard.tsx",
       "source_location": "L12",
       "id": "cards_projectcard_projectcard",
-      "community": 5,
+      "community": 7,
       "norm_label": "projectcard()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L1",
       "id": "components_cards_servicecard_tsx",
-      "community": 6,
+      "community": 8,
       "norm_label": "servicecard.tsx"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L1",
       "id": "cards_servicecard_servicecardprops",
-      "community": 6,
+      "community": 8,
       "norm_label": "servicecardprops"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L7",
       "id": "cards_servicecard_servicecard",
-      "community": 6,
+      "community": 8,
       "norm_label": "servicecard()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "components/layout/Footer.tsx",
       "source_location": "L1",
       "id": "components_layout_footer_tsx",
-      "community": 0,
+      "community": 1,
       "norm_label": "footer.tsx"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "components/layout/Footer.tsx",
       "source_location": "L4",
       "id": "layout_footer_footer",
-      "community": 0,
+      "community": 1,
       "norm_label": "footer()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L1",
       "id": "components_layout_header_tsx",
-      "community": 8,
+      "community": 1,
       "norm_label": "header.tsx"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L4",
       "id": "layout_header_navigationitems",
-      "community": 8,
+      "community": 1,
       "norm_label": "navigationitems"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L12",
       "id": "layout_header_header",
-      "community": 8,
+      "community": 1,
       "norm_label": "header()"
     },
     {
@@ -252,7 +252,7 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L1",
       "id": "components_layout_section_tsx",
-      "community": 2,
+      "community": 0,
       "norm_label": "section.tsx"
     },
     {
@@ -261,7 +261,7 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L4",
       "id": "layout_section_sectionprops",
-      "community": 2,
+      "community": 0,
       "norm_label": "sectionprops"
     },
     {
@@ -270,7 +270,7 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L10",
       "id": "layout_section_section",
-      "community": 2,
+      "community": 0,
       "norm_label": "section()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L5",
       "id": "sections_cta_cta",
-      "community": 0,
+      "community": 1,
       "norm_label": "cta()"
     },
     {
@@ -297,7 +297,7 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L1",
       "id": "components_sections_faq_tsx",
-      "community": 2,
+      "community": 0,
       "norm_label": "faq.tsx"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L5",
       "id": "sections_faq_faq",
-      "community": 2,
+      "community": 1,
       "norm_label": "faq()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L1",
       "id": "components_sections_hero_tsx",
-      "community": 0,
+      "community": 1,
       "norm_label": "hero.tsx"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L5",
       "id": "sections_hero_hero",
-      "community": 0,
+      "community": 1,
       "norm_label": "hero()"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L5",
       "id": "sections_process_process",
-      "community": 0,
+      "community": 1,
       "norm_label": "process()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L1",
       "id": "components_sections_projects_tsx",
-      "community": 5,
+      "community": 7,
       "norm_label": "projects.tsx"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L6",
       "id": "sections_projects_projects",
-      "community": 5,
+      "community": 7,
       "norm_label": "projects"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L1",
       "id": "components_sections_services_tsx",
-      "community": 6,
+      "community": 8,
       "norm_label": "services.tsx"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L6",
       "id": "sections_services_services",
-      "community": 6,
+      "community": 8,
       "norm_label": "services"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L5",
       "id": "sections_technologies_technologies",
-      "community": 0,
+      "community": 1,
       "norm_label": "technologies()"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L5",
       "id": "sections_whychooseme_whychooseme",
-      "community": 0,
+      "community": 1,
       "norm_label": "whychooseme()"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L1",
       "id": "components_ui_button_tsx",
-      "community": 2,
+      "community": 0,
       "norm_label": "button.tsx"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L6",
       "id": "ui_button_buttonvariants",
-      "community": 2,
+      "community": 0,
       "norm_label": "buttonvariants"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L43",
       "id": "ui_button_button",
-      "community": 2,
+      "community": 0,
       "norm_label": "button()"
     },
     {
@@ -450,7 +450,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L1",
       "id": "lib_utils_ts",
-      "community": 2,
+      "community": 0,
       "norm_label": "utils.ts"
     },
     {
@@ -459,7 +459,7 @@
       "source_file": "lib/utils.ts",
       "source_location": "L4",
       "id": "lib_utils_cn",
-      "community": 2,
+      "community": 0,
       "norm_label": "cn()"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "id": "agents_md",
-      "community": 12,
+      "community": 13,
       "norm_label": "agents.md"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "AGENTS.md",
       "source_location": "L2",
       "id": "freelancing_portfolio_agents_this_is_not_the_next_js_you_know",
-      "community": 12,
+      "community": 13,
       "norm_label": "this is not the next.js you know"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 14,
+      "community": 15,
       "norm_label": "claude.md"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 7,
+      "community": 9,
       "norm_label": "readme.md"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "freelancing_portfolio_readme_studiodev_portfolio",
-      "community": 7,
+      "community": 9,
       "norm_label": "studiodev portfolio"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "README.md",
       "source_location": "L5",
       "id": "freelancing_portfolio_readme_getting_started",
-      "community": 7,
+      "community": 9,
       "norm_label": "getting started"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "README.md",
       "source_location": "L9",
       "id": "freelancing_portfolio_readme_codeblock_1",
-      "community": 7,
+      "community": 9,
       "norm_label": "code:bash (npm install)"
     },
     {
@@ -531,8 +531,188 @@
       "source_file": "README.md",
       "source_location": "L15",
       "id": "freelancing_portfolio_readme_codeblock_2",
-      "community": 7,
+      "community": 9,
       "norm_label": "code:bash (npm run dev)"
+    },
+    {
+      "label": "graphify.md",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L1",
+      "id": "docs_graphify_md",
+      "community": 2,
+      "norm_label": "graphify.md"
+    },
+    {
+      "label": "Graphify Workflow Integration Guide",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L1",
+      "id": "docs_graphify_graphify_workflow_integration_guide",
+      "community": 2,
+      "norm_label": "graphify workflow integration guide"
+    },
+    {
+      "label": "1. Installation & Integration",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L7",
+      "id": "docs_graphify_1_installation_integration",
+      "community": 2,
+      "norm_label": "1. installation & integration"
+    },
+    {
+      "label": "Prerequisites",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L9",
+      "id": "docs_graphify_prerequisites",
+      "community": 2,
+      "norm_label": "prerequisites"
+    },
+    {
+      "label": "Step-by-Step Setup",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L13",
+      "id": "docs_graphify_step_by_step_setup",
+      "community": 2,
+      "norm_label": "step-by-step setup"
+    },
+    {
+      "label": "code:bash (python -m pip install graphifyy)",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L15",
+      "id": "docs_graphify_codeblock_1",
+      "community": 2,
+      "norm_label": "code:bash (python -m pip install graphifyy)"
+    },
+    {
+      "label": "code:bash (python -m graphify antigravity install)",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L20",
+      "id": "docs_graphify_codeblock_2",
+      "community": 2,
+      "norm_label": "code:bash (python -m graphify antigravity install)"
+    },
+    {
+      "label": "2. Updating & Regenerating the Graph",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L29",
+      "id": "docs_graphify_2_updating_regenerating_the_graph",
+      "community": 2,
+      "norm_label": "2. updating & regenerating the graph"
+    },
+    {
+      "label": "Incremental Rebuild (Fast/Standard)",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L33",
+      "id": "docs_graphify_incremental_rebuild_fast_standard",
+      "community": 2,
+      "norm_label": "incremental rebuild (fast/standard)"
+    },
+    {
+      "label": "code:bash (python -m graphify update .)",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L35",
+      "id": "docs_graphify_codeblock_3",
+      "community": 2,
+      "norm_label": "code:bash (python -m graphify update .)"
+    },
+    {
+      "label": "Full Rebuild",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L39",
+      "id": "docs_graphify_full_rebuild",
+      "community": 2,
+      "norm_label": "full rebuild"
+    },
+    {
+      "label": "code:bash (python -m graphify update . --force)",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L41",
+      "id": "docs_graphify_codeblock_4",
+      "community": 2,
+      "norm_label": "code:bash (python -m graphify update . --force)"
+    },
+    {
+      "label": "3. Querying the Graph",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L47",
+      "id": "docs_graphify_3_querying_the_graph",
+      "community": 5,
+      "norm_label": "3. querying the graph"
+    },
+    {
+      "label": "Search / Traversal",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L51",
+      "id": "docs_graphify_search_traversal",
+      "community": 5,
+      "norm_label": "search / traversal"
+    },
+    {
+      "label": "code:bash (python -m graphify query \"What are the core components?\")",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L53",
+      "id": "docs_graphify_codeblock_5",
+      "community": 5,
+      "norm_label": "code:bash (python -m graphify query \"what are the core components?\")"
+    },
+    {
+      "label": "Path Trace",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L57",
+      "id": "docs_graphify_path_trace",
+      "community": 5,
+      "norm_label": "path trace"
+    },
+    {
+      "label": "code:bash (python -m graphify path \"Button\" \"Hero\")",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L59",
+      "id": "docs_graphify_codeblock_6",
+      "community": 5,
+      "norm_label": "code:bash (python -m graphify path \"button\" \"hero\")"
+    },
+    {
+      "label": "Symbol Explanation",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L63",
+      "id": "docs_graphify_symbol_explanation",
+      "community": 5,
+      "norm_label": "symbol explanation"
+    },
+    {
+      "label": "code:bash (python -m graphify explain \"Services\")",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L65",
+      "id": "docs_graphify_codeblock_7",
+      "community": 5,
+      "norm_label": "code:bash (python -m graphify explain \"services\")"
+    },
+    {
+      "label": "4. Troubleshooting",
+      "file_type": "document",
+      "source_file": "docs/graphify.md",
+      "source_location": "L71",
+      "id": "docs_graphify_4_troubleshooting",
+      "community": 2,
+      "norm_label": "4. troubleshooting"
     },
     {
       "label": "studiodev_portfolio_showcase_md.md",
@@ -540,7 +720,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L1",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_md",
-      "community": 1,
+      "community": 3,
       "norm_label": "studiodev_portfolio_showcase_md.md"
     },
     {
@@ -549,7 +729,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L1",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
-      "community": 1,
+      "community": 3,
       "norm_label": "studiodev - portfolio design showcase"
     },
     {
@@ -558,7 +738,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L5",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
-      "community": 1,
+      "community": 3,
       "norm_label": "1. brand identity & visual language"
     },
     {
@@ -567,7 +747,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L7",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_core_logo",
-      "community": 1,
+      "community": 3,
       "norm_label": "core logo"
     },
     {
@@ -576,7 +756,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L12",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_design_system_executive_minimalist",
-      "community": 1,
+      "community": 3,
       "norm_label": "design system: executive minimalist"
     },
     {
@@ -585,7 +765,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L19",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
-      "community": 1,
+      "community": 3,
       "norm_label": "2. web portfolio (desktop)"
     },
     {
@@ -594,7 +774,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L21",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_header_hero_section",
-      "community": 1,
+      "community": 3,
       "norm_label": "header & hero section"
     },
     {
@@ -603,7 +783,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L26",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_full_portfolio_flow",
-      "community": 1,
+      "community": 3,
       "norm_label": "full portfolio flow"
     },
     {
@@ -612,7 +792,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L42",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
-      "community": 1,
+      "community": 3,
       "norm_label": "3. featured project visuals"
     },
     {
@@ -621,7 +801,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L46",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_business_management_dashboard",
-      "community": 1,
+      "community": 3,
       "norm_label": "business management dashboard"
     },
     {
@@ -630,7 +810,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L50",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_ai_productivity_assistant",
-      "community": 1,
+      "community": 3,
       "norm_label": "ai productivity assistant"
     },
     {
@@ -639,7 +819,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L54",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_movie_ticket_booking_platform",
-      "community": 1,
+      "community": 3,
       "norm_label": "movie ticket booking platform"
     },
     {
@@ -648,7 +828,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L60",
       "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_4_device_presentation",
-      "community": 1,
+      "community": 3,
       "norm_label": "4. device presentation"
     },
     {
@@ -657,7 +837,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L1",
       "id": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "community": 3,
+      "community": 4,
       "norm_label": "design.md"
     },
     {
@@ -666,7 +846,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L112",
       "id": "executive_minimalist_design_brand_style",
-      "community": 3,
+      "community": 4,
       "norm_label": "brand & style"
     },
     {
@@ -675,7 +855,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L117",
       "id": "executive_minimalist_design_colors",
-      "community": 3,
+      "community": 4,
       "norm_label": "colors"
     },
     {
@@ -684,7 +864,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L125",
       "id": "executive_minimalist_design_typography",
-      "community": 3,
+      "community": 4,
       "norm_label": "typography"
     },
     {
@@ -693,7 +873,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L133",
       "id": "executive_minimalist_design_layout_spacing",
-      "community": 3,
+      "community": 4,
       "norm_label": "layout & spacing"
     },
     {
@@ -702,7 +882,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L140",
       "id": "executive_minimalist_design_elevation_depth",
-      "community": 3,
+      "community": 4,
       "norm_label": "elevation & depth"
     },
     {
@@ -711,7 +891,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L148",
       "id": "executive_minimalist_design_shapes",
-      "community": 3,
+      "community": 4,
       "norm_label": "shapes"
     },
     {
@@ -720,7 +900,7 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L155",
       "id": "executive_minimalist_design_components",
-      "community": 3,
+      "community": 4,
       "norm_label": "components"
     }
   ],
@@ -731,9 +911,9 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "eslint_config_mjs",
-      "target": "freelancing_portfolio_eslint_config_eslintconfig",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_eslint_config_eslintconfig"
     },
     {
       "relation": "contains",
@@ -741,9 +921,9 @@
       "source_file": "next.config.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "next_config_ts",
-      "target": "freelancing_portfolio_next_config_nextconfig",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_next_config_nextconfig"
     },
     {
       "relation": "contains",
@@ -751,9 +931,9 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "postcss_config_mjs",
-      "target": "freelancing_portfolio_postcss_config_config",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_postcss_config_config"
     },
     {
       "relation": "contains",
@@ -761,9 +941,9 @@
       "source_file": "app/layout.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout_tsx",
-      "target": "app_layout_geistsans",
-      "confidence_score": 1.0
+      "target": "app_layout_geistsans"
     },
     {
       "relation": "contains",
@@ -771,9 +951,9 @@
       "source_file": "app/layout.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout_tsx",
-      "target": "app_layout_jetbrainsmono",
-      "confidence_score": 1.0
+      "target": "app_layout_jetbrainsmono"
     },
     {
       "relation": "contains",
@@ -781,9 +961,9 @@
       "source_file": "app/layout.tsx",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout_tsx",
-      "target": "app_layout_metadata",
-      "confidence_score": 1.0
+      "target": "app_layout_metadata"
     },
     {
       "relation": "contains",
@@ -791,9 +971,9 @@
       "source_file": "app/layout.tsx",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_layout_tsx",
-      "target": "app_layout_rootlayout",
-      "confidence_score": 1.0
+      "target": "app_layout_rootlayout"
     },
     {
       "relation": "imports_from",
@@ -802,9 +982,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_layout_header_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_header_tsx"
     },
     {
       "relation": "imports",
@@ -813,9 +993,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "layout_header_header",
-      "confidence_score": 1.0
+      "target": "layout_header_header"
     },
     {
       "relation": "imports_from",
@@ -824,9 +1004,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_layout_footer_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_footer_tsx"
     },
     {
       "relation": "imports",
@@ -835,9 +1015,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "layout_footer_footer",
-      "confidence_score": 1.0
+      "target": "layout_footer_footer"
     },
     {
       "relation": "imports_from",
@@ -846,9 +1026,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_hero_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_hero_tsx"
     },
     {
       "relation": "imports",
@@ -857,9 +1037,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_hero_hero",
-      "confidence_score": 1.0
+      "target": "sections_hero_hero"
     },
     {
       "relation": "imports_from",
@@ -868,9 +1048,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_services_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_services_tsx"
     },
     {
       "relation": "imports",
@@ -879,9 +1059,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_services_services",
-      "confidence_score": 1.0
+      "target": "sections_services_services"
     },
     {
       "relation": "imports_from",
@@ -890,9 +1070,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_technologies_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_technologies_tsx"
     },
     {
       "relation": "imports",
@@ -901,9 +1081,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_technologies_technologies",
-      "confidence_score": 1.0
+      "target": "sections_technologies_technologies"
     },
     {
       "relation": "imports_from",
@@ -912,9 +1092,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_process_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_process_tsx"
     },
     {
       "relation": "imports",
@@ -923,9 +1103,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_process_process",
-      "confidence_score": 1.0
+      "target": "sections_process_process"
     },
     {
       "relation": "imports_from",
@@ -934,9 +1114,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_projects_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_projects_tsx"
     },
     {
       "relation": "imports",
@@ -945,9 +1125,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_projects_projects",
-      "confidence_score": 1.0
+      "target": "sections_projects_projects"
     },
     {
       "relation": "imports_from",
@@ -956,9 +1136,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_whychooseme_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_whychooseme_tsx"
     },
     {
       "relation": "imports",
@@ -967,9 +1147,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_whychooseme_whychooseme",
-      "confidence_score": 1.0
+      "target": "sections_whychooseme_whychooseme"
     },
     {
       "relation": "imports_from",
@@ -978,9 +1158,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_faq_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_faq_tsx"
     },
     {
       "relation": "imports",
@@ -989,9 +1169,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_faq_faq",
-      "confidence_score": 1.0
+      "target": "sections_faq_faq"
     },
     {
       "relation": "imports_from",
@@ -1000,9 +1180,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "components_sections_cta_tsx",
-      "confidence_score": 1.0
+      "target": "components_sections_cta_tsx"
     },
     {
       "relation": "imports",
@@ -1011,9 +1191,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "sections_cta_cta",
-      "confidence_score": 1.0
+      "target": "sections_cta_cta"
     },
     {
       "relation": "contains",
@@ -1021,9 +1201,9 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "app_marketing_page_tsx",
-      "target": "marketing_page_home",
-      "confidence_score": 1.0
+      "target": "marketing_page_home"
     },
     {
       "relation": "contains",
@@ -1031,9 +1211,9 @@
       "source_file": "components/cards/ProjectCard.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_cards_projectcard_tsx",
-      "target": "cards_projectcard_projectcardprops",
-      "confidence_score": 1.0
+      "target": "cards_projectcard_projectcardprops"
     },
     {
       "relation": "contains",
@@ -1041,9 +1221,9 @@
       "source_file": "components/cards/ProjectCard.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_cards_projectcard_tsx",
-      "target": "cards_projectcard_projectcard",
-      "confidence_score": 1.0
+      "target": "cards_projectcard_projectcard"
     },
     {
       "relation": "imports_from",
@@ -1052,9 +1232,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "components_cards_projectcard_tsx",
-      "confidence_score": 1.0
+      "target": "components_cards_projectcard_tsx"
     },
     {
       "relation": "imports",
@@ -1063,9 +1243,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "cards_projectcard_projectcard",
-      "confidence_score": 1.0
+      "target": "cards_projectcard_projectcard"
     },
     {
       "relation": "contains",
@@ -1073,9 +1253,9 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_cards_servicecard_tsx",
-      "target": "cards_servicecard_servicecardprops",
-      "confidence_score": 1.0
+      "target": "cards_servicecard_servicecardprops"
     },
     {
       "relation": "contains",
@@ -1083,9 +1263,9 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_cards_servicecard_tsx",
-      "target": "cards_servicecard_servicecard",
-      "confidence_score": 1.0
+      "target": "cards_servicecard_servicecard"
     },
     {
       "relation": "imports_from",
@@ -1094,9 +1274,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "components_cards_servicecard_tsx",
-      "confidence_score": 1.0
+      "target": "components_cards_servicecard_tsx"
     },
     {
       "relation": "imports",
@@ -1105,9 +1285,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "cards_servicecard_servicecard",
-      "confidence_score": 1.0
+      "target": "cards_servicecard_servicecard"
     },
     {
       "relation": "imports_from",
@@ -1116,9 +1296,9 @@
       "source_file": "components/layout/Container.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_container_tsx",
-      "target": "lib_utils_ts",
-      "confidence_score": 1.0
+      "target": "lib_utils_ts"
     },
     {
       "relation": "imports",
@@ -1127,9 +1307,9 @@
       "source_file": "components/layout/Container.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_container_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -1137,9 +1317,9 @@
       "source_file": "components/layout/Container.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_container_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports_from",
@@ -1148,9 +1328,9 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_cta_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1159,9 +1339,9 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_faq_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1170,9 +1350,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_hero_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1181,9 +1361,9 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_process_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1192,9 +1372,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1203,9 +1383,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1214,9 +1394,9 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_technologies_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports_from",
@@ -1225,9 +1405,9 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_whychooseme_tsx",
-      "target": "components_layout_container_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_container_tsx"
     },
     {
       "relation": "imports",
@@ -1236,9 +1416,9 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_cta_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1247,9 +1427,9 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_faq_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1258,9 +1438,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_hero_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1269,9 +1449,9 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_process_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1280,9 +1460,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1291,9 +1471,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1302,9 +1482,9 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_technologies_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "imports",
@@ -1313,9 +1493,9 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_whychooseme_tsx",
-      "target": "layout_container_container",
-      "confidence_score": 1.0
+      "target": "layout_container_container"
     },
     {
       "relation": "calls",
@@ -1334,9 +1514,9 @@
       "source_file": "components/layout/Footer.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_footer_tsx",
-      "target": "layout_footer_footer",
-      "confidence_score": 1.0
+      "target": "layout_footer_footer"
     },
     {
       "relation": "contains",
@@ -1344,9 +1524,9 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_header_tsx",
-      "target": "layout_header_navigationitems",
-      "confidence_score": 1.0
+      "target": "layout_header_navigationitems"
     },
     {
       "relation": "contains",
@@ -1354,9 +1534,9 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_header_tsx",
-      "target": "layout_header_header",
-      "confidence_score": 1.0
+      "target": "layout_header_header"
     },
     {
       "relation": "imports_from",
@@ -1365,9 +1545,9 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_section_tsx",
-      "target": "lib_utils_ts",
-      "confidence_score": 1.0
+      "target": "lib_utils_ts"
     },
     {
       "relation": "imports",
@@ -1376,9 +1556,9 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_section_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -1386,9 +1566,9 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_section_tsx",
-      "target": "layout_section_sectionprops",
-      "confidence_score": 1.0
+      "target": "layout_section_sectionprops"
     },
     {
       "relation": "contains",
@@ -1396,9 +1576,9 @@
       "source_file": "components/layout/Section.tsx",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_layout_section_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports_from",
@@ -1407,9 +1587,9 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_cta_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports_from",
@@ -1418,9 +1598,9 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_faq_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports_from",
@@ -1429,9 +1609,9 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_process_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports_from",
@@ -1440,9 +1620,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports_from",
@@ -1451,9 +1631,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports_from",
@@ -1462,9 +1642,9 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_technologies_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports_from",
@@ -1473,9 +1653,9 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_whychooseme_tsx",
-      "target": "components_layout_section_tsx",
-      "confidence_score": 1.0
+      "target": "components_layout_section_tsx"
     },
     {
       "relation": "imports",
@@ -1484,9 +1664,9 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_cta_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports",
@@ -1495,9 +1675,9 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_faq_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports",
@@ -1506,9 +1686,9 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_process_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports",
@@ -1517,9 +1697,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports",
@@ -1528,9 +1708,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports",
@@ -1539,9 +1719,9 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_technologies_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "imports",
@@ -1550,9 +1730,9 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_whychooseme_tsx",
-      "target": "layout_section_section",
-      "confidence_score": 1.0
+      "target": "layout_section_section"
     },
     {
       "relation": "calls",
@@ -1571,9 +1751,9 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_cta_tsx",
-      "target": "sections_cta_cta",
-      "confidence_score": 1.0
+      "target": "sections_cta_cta"
     },
     {
       "relation": "contains",
@@ -1581,9 +1761,9 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_faq_tsx",
-      "target": "sections_faq_faq",
-      "confidence_score": 1.0
+      "target": "sections_faq_faq"
     },
     {
       "relation": "contains",
@@ -1591,9 +1771,9 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_hero_tsx",
-      "target": "sections_hero_hero",
-      "confidence_score": 1.0
+      "target": "sections_hero_hero"
     },
     {
       "relation": "contains",
@@ -1601,9 +1781,9 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_process_tsx",
-      "target": "sections_process_process",
-      "confidence_score": 1.0
+      "target": "sections_process_process"
     },
     {
       "relation": "contains",
@@ -1611,9 +1791,9 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_projects_tsx",
-      "target": "sections_projects_projects",
-      "confidence_score": 1.0
+      "target": "sections_projects_projects"
     },
     {
       "relation": "contains",
@@ -1621,9 +1801,9 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_services_tsx",
-      "target": "sections_services_services",
-      "confidence_score": 1.0
+      "target": "sections_services_services"
     },
     {
       "relation": "contains",
@@ -1631,9 +1811,9 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_technologies_tsx",
-      "target": "sections_technologies_technologies",
-      "confidence_score": 1.0
+      "target": "sections_technologies_technologies"
     },
     {
       "relation": "contains",
@@ -1641,9 +1821,9 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_sections_whychooseme_tsx",
-      "target": "sections_whychooseme_whychooseme",
-      "confidence_score": 1.0
+      "target": "sections_whychooseme_whychooseme"
     },
     {
       "relation": "imports_from",
@@ -1652,9 +1832,9 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_button_tsx",
-      "target": "lib_utils_ts",
-      "confidence_score": 1.0
+      "target": "lib_utils_ts"
     },
     {
       "relation": "imports",
@@ -1663,9 +1843,9 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_button_tsx",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -1673,9 +1853,9 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_button_tsx",
-      "target": "ui_button_buttonvariants",
-      "confidence_score": 1.0
+      "target": "ui_button_buttonvariants"
     },
     {
       "relation": "contains",
@@ -1683,9 +1863,9 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L43",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_ui_button_tsx",
-      "target": "ui_button_button",
-      "confidence_score": 1.0
+      "target": "ui_button_button"
     },
     {
       "relation": "calls",
@@ -1694,9 +1874,9 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L52",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "ui_button_button",
-      "target": "ui_button_buttonvariants",
-      "confidence_score": 1.0
+      "target": "ui_button_buttonvariants"
     },
     {
       "relation": "calls",
@@ -1715,9 +1895,9 @@
       "source_file": "lib/utils.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_utils_ts",
-      "target": "lib_utils_cn",
-      "confidence_score": 1.0
+      "target": "lib_utils_cn"
     },
     {
       "relation": "contains",
@@ -1725,9 +1905,9 @@
       "source_file": "AGENTS.md",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "agents_md",
-      "target": "freelancing_portfolio_agents_this_is_not_the_next_js_you_know",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_agents_this_is_not_the_next_js_you_know"
     },
     {
       "relation": "contains",
@@ -1735,9 +1915,9 @@
       "source_file": "README.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "readme_md",
-      "target": "freelancing_portfolio_readme_studiodev_portfolio",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_readme_studiodev_portfolio"
     },
     {
       "relation": "contains",
@@ -1745,9 +1925,9 @@
       "source_file": "README.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "freelancing_portfolio_readme_studiodev_portfolio",
-      "target": "freelancing_portfolio_readme_getting_started",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_readme_getting_started"
     },
     {
       "relation": "contains",
@@ -1755,9 +1935,9 @@
       "source_file": "README.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "freelancing_portfolio_readme_getting_started",
-      "target": "freelancing_portfolio_readme_codeblock_1",
-      "confidence_score": 1.0
+      "target": "freelancing_portfolio_readme_codeblock_1"
     },
     {
       "relation": "contains",
@@ -1765,8 +1945,198 @@
       "source_file": "README.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "freelancing_portfolio_readme_getting_started",
-      "target": "freelancing_portfolio_readme_codeblock_2",
+      "target": "freelancing_portfolio_readme_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_graphify_md",
+      "target": "docs_graphify_graphify_workflow_integration_guide",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_graphify_graphify_workflow_integration_guide",
+      "target": "docs_graphify_1_installation_integration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "docs_graphify_graphify_workflow_integration_guide",
+      "target": "docs_graphify_2_updating_regenerating_the_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "docs_graphify_graphify_workflow_integration_guide",
+      "target": "docs_graphify_3_querying_the_graph",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_graphify_graphify_workflow_integration_guide",
+      "target": "docs_graphify_4_troubleshooting",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_graphify_1_installation_integration",
+      "target": "docs_graphify_prerequisites",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_graphify_1_installation_integration",
+      "target": "docs_graphify_step_by_step_setup",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "docs_graphify_step_by_step_setup",
+      "target": "docs_graphify_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "docs_graphify_step_by_step_setup",
+      "target": "docs_graphify_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "docs_graphify_2_updating_regenerating_the_graph",
+      "target": "docs_graphify_incremental_rebuild_fast_standard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "docs_graphify_2_updating_regenerating_the_graph",
+      "target": "docs_graphify_full_rebuild",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L35",
+      "weight": 1.0,
+      "source": "docs_graphify_incremental_rebuild_fast_standard",
+      "target": "docs_graphify_codeblock_3",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "docs_graphify_full_rebuild",
+      "target": "docs_graphify_codeblock_4",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_graphify_3_querying_the_graph",
+      "target": "docs_graphify_search_traversal",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_graphify_3_querying_the_graph",
+      "target": "docs_graphify_path_trace",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "docs_graphify_3_querying_the_graph",
+      "target": "docs_graphify_symbol_explanation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "docs_graphify_search_traversal",
+      "target": "docs_graphify_codeblock_5",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "docs_graphify_path_trace",
+      "target": "docs_graphify_codeblock_6",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/graphify.md",
+      "source_location": "L65",
+      "weight": 1.0,
+      "source": "docs_graphify_symbol_explanation",
+      "target": "docs_graphify_codeblock_7",
       "confidence_score": 1.0
     },
     {
@@ -1775,9 +2145,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_md",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase"
     },
     {
       "relation": "contains",
@@ -1785,9 +2155,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language"
     },
     {
       "relation": "contains",
@@ -1795,9 +2165,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop"
     },
     {
       "relation": "contains",
@@ -1805,9 +2175,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals"
     },
     {
       "relation": "contains",
@@ -1815,9 +2185,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L60",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_4_device_presentation",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_4_device_presentation"
     },
     {
       "relation": "contains",
@@ -1825,9 +2195,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_core_logo",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_core_logo"
     },
     {
       "relation": "contains",
@@ -1835,9 +2205,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_design_system_executive_minimalist",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_design_system_executive_minimalist"
     },
     {
       "relation": "contains",
@@ -1845,9 +2215,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_header_hero_section",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_header_hero_section"
     },
     {
       "relation": "contains",
@@ -1855,9 +2225,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_full_portfolio_flow",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_full_portfolio_flow"
     },
     {
       "relation": "contains",
@@ -1865,9 +2235,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L46",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_business_management_dashboard",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_business_management_dashboard"
     },
     {
       "relation": "contains",
@@ -1875,9 +2245,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_ai_productivity_assistant",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_ai_productivity_assistant"
     },
     {
       "relation": "contains",
@@ -1885,9 +2255,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
-      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_movie_ticket_booking_platform",
-      "confidence_score": 1.0
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_movie_ticket_booking_platform"
     },
     {
       "relation": "contains",
@@ -1895,9 +2265,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L112",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_brand_style",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_brand_style"
     },
     {
       "relation": "contains",
@@ -1905,9 +2275,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_colors",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_colors"
     },
     {
       "relation": "contains",
@@ -1915,9 +2285,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L125",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_typography",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_typography"
     },
     {
       "relation": "contains",
@@ -1925,9 +2295,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_layout_spacing",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_layout_spacing"
     },
     {
       "relation": "contains",
@@ -1935,9 +2305,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_elevation_depth",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_elevation_depth"
     },
     {
       "relation": "contains",
@@ -1945,9 +2315,9 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_shapes",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_shapes"
     },
     {
       "relation": "contains",
@@ -1955,11 +2325,11 @@
       "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
-      "target": "executive_minimalist_design_components",
-      "confidence_score": 1.0
+      "target": "executive_minimalist_design_components"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "6dd3417fef51af797ecc6382c92973411a1355ea"
+  "built_at_commit": "990d8d735aaa92ce0ba1ad5c0865ee91ab0d6104"
 }
