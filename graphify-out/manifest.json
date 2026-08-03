@@ -1,0 +1,158 @@
+{
+  "D:\\sham\\Projects\\freelancing-portfolio\\eslint.config.mjs": {
+    "mtime": 1785496681.09343,
+    "hash": "dfa1f5f6a7037bf39dc510f30b180002"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\next-env.d.ts": {
+    "mtime": 1785668229.90615,
+    "hash": "d0f8375ae1199dc7acd3977fc33b78b8"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\next.config.ts": {
+    "mtime": 1785496681.270954,
+    "hash": "9b77af189a21a7a64e4bd7a426f64176"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\postcss.config.mjs": {
+    "mtime": 1785496681.1337397,
+    "hash": "239f3ebf717465dc636818a1a619398d"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\layout.tsx": {
+    "mtime": 1785497624.5722802,
+    "hash": "c1d04e59f8cc943d9ed2725c247fbf2b"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\(marketing)\\page.tsx": {
+    "mtime": 1785668915.267301,
+    "hash": "8c1cdba5737865d428f41a4bd151a3c4"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\cards\\ProjectCard.tsx": {
+    "mtime": 1785668915.26835,
+    "hash": "0b8e64aedbc36c47f8382d23d5752fb5"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\cards\\ServiceCard.tsx": {
+    "mtime": 1785668915.2689002,
+    "hash": "94e6c902a620992522cf65572e28fd38"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Container.tsx": {
+    "mtime": 1785497686.4566255,
+    "hash": "a71e1539e6987b369a7ff7c55ff66335"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Footer.tsx": {
+    "mtime": 1785668915.2694788,
+    "hash": "df642b6f92edbb1bdfd32535e71a4de1"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Header.tsx": {
+    "mtime": 1785668915.2705607,
+    "hash": "21e406de719b0663983d815a1b5c2bd8"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Section.tsx": {
+    "mtime": 1785497688.4842114,
+    "hash": "1dd958b09155fabf410fb8aa4740456a"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\CTA.tsx": {
+    "mtime": 1785668915.271733,
+    "hash": "da3fc6eb43eaa605ca6f316060186b7e"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\FAQ.tsx": {
+    "mtime": 1785664321.649847,
+    "hash": "6354fe99166437c90240a5c83638c922"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Hero.tsx": {
+    "mtime": 1785797491.1621983,
+    "hash": "14e4c295096d987af1cae1f54a99c73c"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Process.tsx": {
+    "mtime": 1785497748.6319,
+    "hash": "436e189302bf9b5e726b3458e9e280e5"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Projects.tsx": {
+    "mtime": 1785668915.271733,
+    "hash": "4819faedb2097fbd26665a2f7db0eb14"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Services.tsx": {
+    "mtime": 1785797486.6651309,
+    "hash": "0eedefc63b9ea206f538698ad6cfac70"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Technologies.tsx": {
+    "mtime": 1785497746.4599955,
+    "hash": "f9e14e0bc9e088bc7f660d95bb787a7a"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\WhyChooseMe.tsx": {
+    "mtime": 1785667277.4474506,
+    "hash": "ad07b5ad097da32ebcb9445073bbc93e"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\ui\\button.tsx": {
+    "mtime": 1785497542.1011412,
+    "hash": "e04ce5251d6b0dd04020988126c905e9"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\lib\\utils.ts": {
+    "mtime": 1785497542.2261772,
+    "hash": "5a6fd53fdcf2be529e9cc0b718fde352"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\AGENTS.md": {
+    "mtime": 1785496807.1548655,
+    "hash": "9e09241799026ac05be315a2f0b50055"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\CLAUDE.md": {
+    "mtime": 1785496807.1554987,
+    "hash": "5c27369b226fcf2be8a6cfe52224e767"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\README.md": {
+    "mtime": 1785668915.2662437,
+    "hash": "568569d48b527e266197236312d5a33e"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\studiodev_portfolio_showcase_md.md": {
+    "mtime": 1785496238.7711835,
+    "hash": "4c1a52bbf54ea56b7695ab51997e254c"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\executive_minimalist\\DESIGN.md": {
+    "mtime": 1785496239.1248295,
+    "hash": "f2de0fc0273e893c50e4714ede7f4851"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\studiodev_header_hero_desktop\\code.html": {
+    "mtime": 1785496238.8229425,
+    "hash": "916ee583f59dd304709cc8d8a8f5afda"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\studiodev_refined_portfolio_process_flow\\code.html": {
+    "mtime": 1785496238.9028816,
+    "hash": "11a1c3079d39ecee2d989119d5fe59f3"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\hero\\dashboard-mockup.jpg": {
+    "mtime": 1785668915.275375,
+    "hash": "c07ba6cb108cd2c296281dd906e85423"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\logo\\studiodev-logo.jpg": {
+    "mtime": 1785668915.275375,
+    "hash": "cac3c4396e3a5843e651273d1df80606"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\projects\\ai-productivity-assistant.jpg": {
+    "mtime": 1785668915.2805667,
+    "hash": "5924eed5f9dba064a447a05c9f75b452"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\projects\\business-dashboard.jpg": {
+    "mtime": 1785668915.2805667,
+    "hash": "d718f5c5311bed706d0b3274ccba800a"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\projects\\movie-ticket-booking.jpg": {
+    "mtime": 1785668915.2805667,
+    "hash": "01959efa8688c180704e9a5e8d6716ba"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\an_ai_powered_productivity_assistant_web_interface._clean_layout_with_a_chat\\screen.png": {
+    "mtime": 1785496239.0809045,
+    "hash": "1f9953c56ae286e967d87768ff1da08a"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\a_premium_dark_themed_web_application_dashboard_for_a_movie_ticket_booking\\screen.png": {
+    "mtime": 1785496239.0397184,
+    "hash": "b7eec4f4d4ef86c997b3377243e51e8e"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\a_sleek_professional_business_management_dashboard_with_data_visualizations\\screen.png": {
+    "mtime": 1785496238.9920547,
+    "hash": "54e7acc491453edb177c36343b16821e"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\studiodev_header_hero_desktop\\screen.png": {
+    "mtime": 1785496238.8612807,
+    "hash": "21bddf681cbed99d8cdf2f2ff791fce7"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\studiodev_refined_portfolio_process_flow\\screen.png": {
+    "mtime": 1785496238.9377215,
+    "hash": "1fc5ab3060ba261ae6e2a3089b3e19b8"
+  }
+}

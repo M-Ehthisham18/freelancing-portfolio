@@ -1,0 +1,1965 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "eslint.config.mjs",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L1",
+      "id": "eslint_config_mjs",
+      "community": 9,
+      "norm_label": "eslint.config.mjs"
+    },
+    {
+      "label": "eslintConfig",
+      "file_type": "code",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "id": "freelancing_portfolio_eslint_config_eslintconfig",
+      "community": 9,
+      "norm_label": "eslintconfig"
+    },
+    {
+      "label": "next-env.d.ts",
+      "file_type": "code",
+      "source_file": "next-env.d.ts",
+      "source_location": "L1",
+      "id": "next_env_d_ts",
+      "community": 13,
+      "norm_label": "next-env.d.ts"
+    },
+    {
+      "label": "next.config.ts",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L1",
+      "id": "next_config_ts",
+      "community": 10,
+      "norm_label": "next.config.ts"
+    },
+    {
+      "label": "nextConfig",
+      "file_type": "code",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "id": "freelancing_portfolio_next_config_nextconfig",
+      "community": 10,
+      "norm_label": "nextconfig"
+    },
+    {
+      "label": "postcss.config.mjs",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "postcss_config_mjs",
+      "community": 11,
+      "norm_label": "postcss.config.mjs"
+    },
+    {
+      "label": "config",
+      "file_type": "code",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "id": "freelancing_portfolio_postcss_config_config",
+      "community": 11,
+      "norm_label": "config"
+    },
+    {
+      "label": "layout.tsx",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L1",
+      "id": "app_layout_tsx",
+      "community": 4,
+      "norm_label": "layout.tsx"
+    },
+    {
+      "label": "geistSans",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "id": "app_layout_geistsans",
+      "community": 4,
+      "norm_label": "geistsans"
+    },
+    {
+      "label": "jetbrainsMono",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L10",
+      "id": "app_layout_jetbrainsmono",
+      "community": 4,
+      "norm_label": "jetbrainsmono"
+    },
+    {
+      "label": "metadata",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L15",
+      "id": "app_layout_metadata",
+      "community": 4,
+      "norm_label": "metadata"
+    },
+    {
+      "label": "RootLayout()",
+      "file_type": "code",
+      "source_file": "app/layout.tsx",
+      "source_location": "L20",
+      "id": "app_layout_rootlayout",
+      "community": 4,
+      "norm_label": "rootlayout()"
+    },
+    {
+      "label": "page.tsx",
+      "file_type": "code",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L1",
+      "id": "app_marketing_page_tsx",
+      "community": 0,
+      "norm_label": "page.tsx"
+    },
+    {
+      "label": "Home()",
+      "file_type": "code",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L12",
+      "id": "marketing_page_home",
+      "community": 0,
+      "norm_label": "home()"
+    },
+    {
+      "label": "ProjectCard.tsx",
+      "file_type": "code",
+      "source_file": "components/cards/ProjectCard.tsx",
+      "source_location": "L1",
+      "id": "components_cards_projectcard_tsx",
+      "community": 5,
+      "norm_label": "projectcard.tsx"
+    },
+    {
+      "label": "ProjectCardProps",
+      "file_type": "code",
+      "source_file": "components/cards/ProjectCard.tsx",
+      "source_location": "L3",
+      "id": "cards_projectcard_projectcardprops",
+      "community": 5,
+      "norm_label": "projectcardprops"
+    },
+    {
+      "label": "ProjectCard()",
+      "file_type": "code",
+      "source_file": "components/cards/ProjectCard.tsx",
+      "source_location": "L12",
+      "id": "cards_projectcard_projectcard",
+      "community": 5,
+      "norm_label": "projectcard()"
+    },
+    {
+      "label": "ServiceCard.tsx",
+      "file_type": "code",
+      "source_file": "components/cards/ServiceCard.tsx",
+      "source_location": "L1",
+      "id": "components_cards_servicecard_tsx",
+      "community": 6,
+      "norm_label": "servicecard.tsx"
+    },
+    {
+      "label": "ServiceCardProps",
+      "file_type": "code",
+      "source_file": "components/cards/ServiceCard.tsx",
+      "source_location": "L1",
+      "id": "cards_servicecard_servicecardprops",
+      "community": 6,
+      "norm_label": "servicecardprops"
+    },
+    {
+      "label": "ServiceCard()",
+      "file_type": "code",
+      "source_file": "components/cards/ServiceCard.tsx",
+      "source_location": "L7",
+      "id": "cards_servicecard_servicecard",
+      "community": 6,
+      "norm_label": "servicecard()"
+    },
+    {
+      "label": "Container.tsx",
+      "file_type": "code",
+      "source_file": "components/layout/Container.tsx",
+      "source_location": "L1",
+      "id": "components_layout_container_tsx",
+      "community": 0,
+      "norm_label": "container.tsx"
+    },
+    {
+      "label": "Container()",
+      "file_type": "code",
+      "source_file": "components/layout/Container.tsx",
+      "source_location": "L4",
+      "id": "layout_container_container",
+      "community": 0,
+      "norm_label": "container()"
+    },
+    {
+      "label": "Footer.tsx",
+      "file_type": "code",
+      "source_file": "components/layout/Footer.tsx",
+      "source_location": "L1",
+      "id": "components_layout_footer_tsx",
+      "community": 0,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "Footer()",
+      "file_type": "code",
+      "source_file": "components/layout/Footer.tsx",
+      "source_location": "L4",
+      "id": "layout_footer_footer",
+      "community": 0,
+      "norm_label": "footer()"
+    },
+    {
+      "label": "Header.tsx",
+      "file_type": "code",
+      "source_file": "components/layout/Header.tsx",
+      "source_location": "L1",
+      "id": "components_layout_header_tsx",
+      "community": 8,
+      "norm_label": "header.tsx"
+    },
+    {
+      "label": "navigationItems",
+      "file_type": "code",
+      "source_file": "components/layout/Header.tsx",
+      "source_location": "L4",
+      "id": "layout_header_navigationitems",
+      "community": 8,
+      "norm_label": "navigationitems"
+    },
+    {
+      "label": "Header()",
+      "file_type": "code",
+      "source_file": "components/layout/Header.tsx",
+      "source_location": "L12",
+      "id": "layout_header_header",
+      "community": 8,
+      "norm_label": "header()"
+    },
+    {
+      "label": "Section.tsx",
+      "file_type": "code",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L1",
+      "id": "components_layout_section_tsx",
+      "community": 2,
+      "norm_label": "section.tsx"
+    },
+    {
+      "label": "SectionProps",
+      "file_type": "code",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L4",
+      "id": "layout_section_sectionprops",
+      "community": 2,
+      "norm_label": "sectionprops"
+    },
+    {
+      "label": "Section()",
+      "file_type": "code",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L10",
+      "id": "layout_section_section",
+      "community": 2,
+      "norm_label": "section()"
+    },
+    {
+      "label": "CTA.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L1",
+      "id": "components_sections_cta_tsx",
+      "community": 0,
+      "norm_label": "cta.tsx"
+    },
+    {
+      "label": "CTA()",
+      "file_type": "code",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L5",
+      "id": "sections_cta_cta",
+      "community": 0,
+      "norm_label": "cta()"
+    },
+    {
+      "label": "FAQ.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L1",
+      "id": "components_sections_faq_tsx",
+      "community": 2,
+      "norm_label": "faq.tsx"
+    },
+    {
+      "label": "FAQ()",
+      "file_type": "code",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L5",
+      "id": "sections_faq_faq",
+      "community": 2,
+      "norm_label": "faq()"
+    },
+    {
+      "label": "Hero.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L1",
+      "id": "components_sections_hero_tsx",
+      "community": 0,
+      "norm_label": "hero.tsx"
+    },
+    {
+      "label": "Hero()",
+      "file_type": "code",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L5",
+      "id": "sections_hero_hero",
+      "community": 0,
+      "norm_label": "hero()"
+    },
+    {
+      "label": "Process.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L1",
+      "id": "components_sections_process_tsx",
+      "community": 0,
+      "norm_label": "process.tsx"
+    },
+    {
+      "label": "Process()",
+      "file_type": "code",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L5",
+      "id": "sections_process_process",
+      "community": 0,
+      "norm_label": "process()"
+    },
+    {
+      "label": "Projects.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L1",
+      "id": "components_sections_projects_tsx",
+      "community": 5,
+      "norm_label": "projects.tsx"
+    },
+    {
+      "label": "projects",
+      "file_type": "code",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L6",
+      "id": "sections_projects_projects",
+      "community": 5,
+      "norm_label": "projects"
+    },
+    {
+      "label": "Services.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L1",
+      "id": "components_sections_services_tsx",
+      "community": 6,
+      "norm_label": "services.tsx"
+    },
+    {
+      "label": "services",
+      "file_type": "code",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L6",
+      "id": "sections_services_services",
+      "community": 6,
+      "norm_label": "services"
+    },
+    {
+      "label": "Technologies.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L1",
+      "id": "components_sections_technologies_tsx",
+      "community": 0,
+      "norm_label": "technologies.tsx"
+    },
+    {
+      "label": "Technologies()",
+      "file_type": "code",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L5",
+      "id": "sections_technologies_technologies",
+      "community": 0,
+      "norm_label": "technologies()"
+    },
+    {
+      "label": "WhyChooseMe.tsx",
+      "file_type": "code",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L1",
+      "id": "components_sections_whychooseme_tsx",
+      "community": 0,
+      "norm_label": "whychooseme.tsx"
+    },
+    {
+      "label": "WhyChooseMe()",
+      "file_type": "code",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L5",
+      "id": "sections_whychooseme_whychooseme",
+      "community": 0,
+      "norm_label": "whychooseme()"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L1",
+      "id": "components_ui_button_tsx",
+      "community": 2,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "buttonVariants",
+      "file_type": "code",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L6",
+      "id": "ui_button_buttonvariants",
+      "community": 2,
+      "norm_label": "buttonvariants"
+    },
+    {
+      "label": "Button()",
+      "file_type": "code",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L43",
+      "id": "ui_button_button",
+      "community": 2,
+      "norm_label": "button()"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "lib/utils.ts",
+      "source_location": "L1",
+      "id": "lib_utils_ts",
+      "community": 2,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "lib/utils.ts",
+      "source_location": "L4",
+      "id": "lib_utils_cn",
+      "community": 2,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 12,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "This is NOT the Next.js you know",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L2",
+      "id": "freelancing_portfolio_agents_this_is_not_the_next_js_you_know",
+      "community": 12,
+      "norm_label": "this is not the next.js you know"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 14,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 7,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "StudioDev Portfolio",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "freelancing_portfolio_readme_studiodev_portfolio",
+      "community": 7,
+      "norm_label": "studiodev portfolio"
+    },
+    {
+      "label": "Getting Started",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "id": "freelancing_portfolio_readme_getting_started",
+      "community": 7,
+      "norm_label": "getting started"
+    },
+    {
+      "label": "code:bash (npm install)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "freelancing_portfolio_readme_codeblock_1",
+      "community": 7,
+      "norm_label": "code:bash (npm install)"
+    },
+    {
+      "label": "code:bash (npm run dev)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "id": "freelancing_portfolio_readme_codeblock_2",
+      "community": 7,
+      "norm_label": "code:bash (npm run dev)"
+    },
+    {
+      "label": "studiodev_portfolio_showcase_md.md",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L1",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_md",
+      "community": 1,
+      "norm_label": "studiodev_portfolio_showcase_md.md"
+    },
+    {
+      "label": "StudioDev - Portfolio Design Showcase",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L1",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
+      "community": 1,
+      "norm_label": "studiodev - portfolio design showcase"
+    },
+    {
+      "label": "1. Brand Identity & Visual Language",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L5",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
+      "community": 1,
+      "norm_label": "1. brand identity & visual language"
+    },
+    {
+      "label": "Core Logo",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L7",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_core_logo",
+      "community": 1,
+      "norm_label": "core logo"
+    },
+    {
+      "label": "Design System: Executive Minimalist",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L12",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_design_system_executive_minimalist",
+      "community": 1,
+      "norm_label": "design system: executive minimalist"
+    },
+    {
+      "label": "2. Web Portfolio (Desktop)",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L19",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
+      "community": 1,
+      "norm_label": "2. web portfolio (desktop)"
+    },
+    {
+      "label": "Header & Hero Section",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L21",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_header_hero_section",
+      "community": 1,
+      "norm_label": "header & hero section"
+    },
+    {
+      "label": "Full Portfolio Flow",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L26",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_full_portfolio_flow",
+      "community": 1,
+      "norm_label": "full portfolio flow"
+    },
+    {
+      "label": "3. Featured Project Visuals",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L42",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
+      "community": 1,
+      "norm_label": "3. featured project visuals"
+    },
+    {
+      "label": "Business Management Dashboard",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L46",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_business_management_dashboard",
+      "community": 1,
+      "norm_label": "business management dashboard"
+    },
+    {
+      "label": "AI Productivity Assistant",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L50",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_ai_productivity_assistant",
+      "community": 1,
+      "norm_label": "ai productivity assistant"
+    },
+    {
+      "label": "Movie Ticket Booking Platform",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L54",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_movie_ticket_booking_platform",
+      "community": 1,
+      "norm_label": "movie ticket booking platform"
+    },
+    {
+      "label": "4. Device Presentation",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L60",
+      "id": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_4_device_presentation",
+      "community": 1,
+      "norm_label": "4. device presentation"
+    },
+    {
+      "label": "DESIGN.md",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L1",
+      "id": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "community": 3,
+      "norm_label": "design.md"
+    },
+    {
+      "label": "Brand & Style",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L112",
+      "id": "executive_minimalist_design_brand_style",
+      "community": 3,
+      "norm_label": "brand & style"
+    },
+    {
+      "label": "Colors",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L117",
+      "id": "executive_minimalist_design_colors",
+      "community": 3,
+      "norm_label": "colors"
+    },
+    {
+      "label": "Typography",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L125",
+      "id": "executive_minimalist_design_typography",
+      "community": 3,
+      "norm_label": "typography"
+    },
+    {
+      "label": "Layout & Spacing",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L133",
+      "id": "executive_minimalist_design_layout_spacing",
+      "community": 3,
+      "norm_label": "layout & spacing"
+    },
+    {
+      "label": "Elevation & Depth",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L140",
+      "id": "executive_minimalist_design_elevation_depth",
+      "community": 3,
+      "norm_label": "elevation & depth"
+    },
+    {
+      "label": "Shapes",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L148",
+      "id": "executive_minimalist_design_shapes",
+      "community": 3,
+      "norm_label": "shapes"
+    },
+    {
+      "label": "Components",
+      "file_type": "document",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L155",
+      "id": "executive_minimalist_design_components",
+      "community": 3,
+      "norm_label": "components"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "eslint.config.mjs",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "eslint_config_mjs",
+      "target": "freelancing_portfolio_eslint_config_eslintconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "next.config.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "next_config_ts",
+      "target": "freelancing_portfolio_next_config_nextconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "postcss.config.mjs",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "postcss_config_mjs",
+      "target": "freelancing_portfolio_postcss_config_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_geistsans",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_jetbrainsmono",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/layout.tsx",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "app_layout_tsx",
+      "target": "app_layout_rootlayout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_layout_header_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "layout_header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_layout_footer_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "layout_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_hero_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_services_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_services_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_technologies_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_technologies_technologies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_process_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_process_process",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_projects_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_projects_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_whychooseme_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_whychooseme_whychooseme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_faq_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_faq_faq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "components_sections_cta_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "sections_cta_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/(marketing)/page.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "app_marketing_page_tsx",
+      "target": "marketing_page_home",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/cards/ProjectCard.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_cards_projectcard_tsx",
+      "target": "cards_projectcard_projectcardprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/cards/ProjectCard.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_cards_projectcard_tsx",
+      "target": "cards_projectcard_projectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "components_cards_projectcard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "cards_projectcard_projectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/cards/ServiceCard.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "components_cards_servicecard_tsx",
+      "target": "cards_servicecard_servicecardprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/cards/ServiceCard.tsx",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "components_cards_servicecard_tsx",
+      "target": "cards_servicecard_servicecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "components_cards_servicecard_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "cards_servicecard_servicecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Container.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_layout_container_tsx",
+      "target": "lib_utils_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Container.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_layout_container_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Container.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_layout_container_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_cta_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_faq_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_hero_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_process_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_technologies_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_whychooseme_tsx",
+      "target": "components_layout_container_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_cta_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_faq_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_hero_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_process_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_technologies_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "components_sections_whychooseme_tsx",
+      "target": "layout_container_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/layout/Container.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "layout_container_container",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Footer.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_layout_footer_tsx",
+      "target": "layout_footer_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Header.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_layout_header_tsx",
+      "target": "layout_header_navigationitems",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Header.tsx",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "components_layout_header_tsx",
+      "target": "layout_header_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_layout_section_tsx",
+      "target": "lib_utils_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_layout_section_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_layout_section_tsx",
+      "target": "layout_section_sectionprops",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "components_layout_section_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_cta_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_faq_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_process_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_technologies_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_whychooseme_tsx",
+      "target": "components_layout_section_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_cta_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_faq_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_process_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_technologies_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "components_sections_whychooseme_tsx",
+      "target": "layout_section_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/layout/Section.tsx",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "layout_section_section",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/CTA.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_sections_cta_tsx",
+      "target": "sections_cta_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/FAQ.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_sections_faq_tsx",
+      "target": "sections_faq_faq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Hero.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_sections_hero_tsx",
+      "target": "sections_hero_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Process.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_sections_process_tsx",
+      "target": "sections_process_process",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Projects.tsx",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "components_sections_projects_tsx",
+      "target": "sections_projects_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Services.tsx",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "components_sections_services_tsx",
+      "target": "sections_services_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/Technologies.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_sections_technologies_tsx",
+      "target": "sections_technologies_technologies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/sections/WhyChooseMe.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "components_sections_whychooseme_tsx",
+      "target": "sections_whychooseme_whychooseme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_ui_button_tsx",
+      "target": "lib_utils_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "components_ui_button_tsx",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "components_ui_button_tsx",
+      "target": "ui_button_buttonvariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "components_ui_button_tsx",
+      "target": "ui_button_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "ui_button_button",
+      "target": "ui_button_buttonvariants",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "components/ui/button.tsx",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "ui_button_button",
+      "target": "lib_utils_cn"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_utils_ts",
+      "target": "lib_utils_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "agents_md",
+      "target": "freelancing_portfolio_agents_this_is_not_the_next_js_you_know",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme_md",
+      "target": "freelancing_portfolio_readme_studiodev_portfolio",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "freelancing_portfolio_readme_studiodev_portfolio",
+      "target": "freelancing_portfolio_readme_getting_started",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "freelancing_portfolio_readme_getting_started",
+      "target": "freelancing_portfolio_readme_codeblock_1",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "freelancing_portfolio_readme_getting_started",
+      "target": "freelancing_portfolio_readme_codeblock_2",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_md",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_studiodev_portfolio_design_showcase",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_4_device_presentation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_core_logo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_1_brand_identity_visual_language",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_design_system_executive_minimalist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_header_hero_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_2_web_portfolio_desktop",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_full_portfolio_flow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_business_management_dashboard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_ai_productivity_assistant",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/studiodev_portfolio_showcase_md.md",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_3_featured_project_visuals",
+      "target": "stitch_premium_freelance_portfolio_design_studiodev_portfolio_showcase_md_movie_ticket_booking_platform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_brand_style",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_colors",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L125",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_typography",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_layout_spacing",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_elevation_depth",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L148",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_shapes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "stitch_premium_freelance_portfolio_design/executive_minimalist/DESIGN.md",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "stitch_premium_freelance_portfolio_design_executive_minimalist_design_md",
+      "target": "executive_minimalist_design_components",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "6dd3417fef51af797ecc6382c92973411a1355ea"
+}
