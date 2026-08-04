@@ -9,7 +9,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 10,
+      "community": 14,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -18,7 +18,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L5",
       "id": "freelancing_portfolio_eslint_config_eslintconfig",
-      "community": 10,
+      "community": 14,
       "norm_label": "eslintconfig"
     },
     {
@@ -27,7 +27,7 @@
       "source_file": "next-env.d.ts",
       "source_location": "L1",
       "id": "next_env_d_ts",
-      "community": 14,
+      "community": 18,
       "norm_label": "next-env.d.ts"
     },
     {
@@ -36,7 +36,7 @@
       "source_file": "next.config.ts",
       "source_location": "L1",
       "id": "next_config_ts",
-      "community": 11,
+      "community": 15,
       "norm_label": "next.config.ts"
     },
     {
@@ -45,7 +45,7 @@
       "source_file": "next.config.ts",
       "source_location": "L3",
       "id": "freelancing_portfolio_next_config_nextconfig",
-      "community": 11,
+      "community": 15,
       "norm_label": "nextconfig"
     },
     {
@@ -54,7 +54,7 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "id": "postcss_config_mjs",
-      "community": 12,
+      "community": 16,
       "norm_label": "postcss.config.mjs"
     },
     {
@@ -63,7 +63,7 @@
       "source_file": "postcss.config.mjs",
       "source_location": "L1",
       "id": "freelancing_portfolio_postcss_config_config",
-      "community": 12,
+      "community": 16,
       "norm_label": "config"
     },
     {
@@ -72,7 +72,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L1",
       "id": "app_layout_tsx",
-      "community": 6,
+      "community": 9,
       "norm_label": "layout.tsx"
     },
     {
@@ -81,7 +81,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L5",
       "id": "app_layout_geistsans",
-      "community": 6,
+      "community": 9,
       "norm_label": "geistsans"
     },
     {
@@ -90,7 +90,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L10",
       "id": "app_layout_jetbrainsmono",
-      "community": 6,
+      "community": 9,
       "norm_label": "jetbrainsmono"
     },
     {
@@ -99,7 +99,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L15",
       "id": "app_layout_metadata",
-      "community": 6,
+      "community": 9,
       "norm_label": "metadata"
     },
     {
@@ -108,7 +108,7 @@
       "source_file": "app/layout.tsx",
       "source_location": "L20",
       "id": "app_layout_rootlayout",
-      "community": 6,
+      "community": 9,
       "norm_label": "rootlayout()"
     },
     {
@@ -117,7 +117,7 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L1",
       "id": "app_marketing_page_tsx",
-      "community": 1,
+      "community": 0,
       "norm_label": "page.tsx"
     },
     {
@@ -126,7 +126,7 @@
       "source_file": "app/(marketing)/page.tsx",
       "source_location": "L12",
       "id": "marketing_page_home",
-      "community": 1,
+      "community": 0,
       "norm_label": "home()"
     },
     {
@@ -162,7 +162,7 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L1",
       "id": "components_cards_servicecard_tsx",
-      "community": 8,
+      "community": 10,
       "norm_label": "servicecard.tsx"
     },
     {
@@ -171,7 +171,7 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L1",
       "id": "cards_servicecard_servicecardprops",
-      "community": 8,
+      "community": 10,
       "norm_label": "servicecardprops"
     },
     {
@@ -180,7 +180,7 @@
       "source_file": "components/cards/ServiceCard.tsx",
       "source_location": "L7",
       "id": "cards_servicecard_servicecard",
-      "community": 8,
+      "community": 10,
       "norm_label": "servicecard()"
     },
     {
@@ -207,7 +207,7 @@
       "source_file": "components/layout/Footer.tsx",
       "source_location": "L1",
       "id": "components_layout_footer_tsx",
-      "community": 1,
+      "community": 0,
       "norm_label": "footer.tsx"
     },
     {
@@ -216,7 +216,7 @@
       "source_file": "components/layout/Footer.tsx",
       "source_location": "L4",
       "id": "layout_footer_footer",
-      "community": 1,
+      "community": 0,
       "norm_label": "footer()"
     },
     {
@@ -225,7 +225,7 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L1",
       "id": "components_layout_header_tsx",
-      "community": 1,
+      "community": 0,
       "norm_label": "header.tsx"
     },
     {
@@ -234,7 +234,7 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L4",
       "id": "layout_header_navigationitems",
-      "community": 1,
+      "community": 0,
       "norm_label": "navigationitems"
     },
     {
@@ -243,7 +243,7 @@
       "source_file": "components/layout/Header.tsx",
       "source_location": "L12",
       "id": "layout_header_header",
-      "community": 1,
+      "community": 0,
       "norm_label": "header()"
     },
     {
@@ -288,7 +288,7 @@
       "source_file": "components/sections/CTA.tsx",
       "source_location": "L5",
       "id": "sections_cta_cta",
-      "community": 1,
+      "community": 0,
       "norm_label": "cta()"
     },
     {
@@ -306,7 +306,7 @@
       "source_file": "components/sections/FAQ.tsx",
       "source_location": "L5",
       "id": "sections_faq_faq",
-      "community": 1,
+      "community": 0,
       "norm_label": "faq()"
     },
     {
@@ -315,7 +315,7 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L1",
       "id": "components_sections_hero_tsx",
-      "community": 1,
+      "community": 0,
       "norm_label": "hero.tsx"
     },
     {
@@ -324,7 +324,7 @@
       "source_file": "components/sections/Hero.tsx",
       "source_location": "L5",
       "id": "sections_hero_hero",
-      "community": 1,
+      "community": 0,
       "norm_label": "hero()"
     },
     {
@@ -342,7 +342,7 @@
       "source_file": "components/sections/Process.tsx",
       "source_location": "L5",
       "id": "sections_process_process",
-      "community": 1,
+      "community": 0,
       "norm_label": "process()"
     },
     {
@@ -351,7 +351,7 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L1",
       "id": "components_sections_projects_tsx",
-      "community": 7,
+      "community": 0,
       "norm_label": "projects.tsx"
     },
     {
@@ -360,7 +360,7 @@
       "source_file": "components/sections/Projects.tsx",
       "source_location": "L6",
       "id": "sections_projects_projects",
-      "community": 7,
+      "community": 0,
       "norm_label": "projects"
     },
     {
@@ -369,7 +369,7 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L1",
       "id": "components_sections_services_tsx",
-      "community": 8,
+      "community": 10,
       "norm_label": "services.tsx"
     },
     {
@@ -378,7 +378,7 @@
       "source_file": "components/sections/Services.tsx",
       "source_location": "L6",
       "id": "sections_services_services",
-      "community": 8,
+      "community": 10,
       "norm_label": "services"
     },
     {
@@ -396,7 +396,7 @@
       "source_file": "components/sections/Technologies.tsx",
       "source_location": "L5",
       "id": "sections_technologies_technologies",
-      "community": 1,
+      "community": 0,
       "norm_label": "technologies()"
     },
     {
@@ -414,7 +414,7 @@
       "source_file": "components/sections/WhyChooseMe.tsx",
       "source_location": "L5",
       "id": "sections_whychooseme_whychooseme",
-      "community": 1,
+      "community": 0,
       "norm_label": "whychooseme()"
     },
     {
@@ -423,7 +423,7 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L1",
       "id": "components_ui_button_tsx",
-      "community": 0,
+      "community": 7,
       "norm_label": "button.tsx"
     },
     {
@@ -432,7 +432,7 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L6",
       "id": "ui_button_buttonvariants",
-      "community": 0,
+      "community": 7,
       "norm_label": "buttonvariants"
     },
     {
@@ -441,7 +441,7 @@
       "source_file": "components/ui/button.tsx",
       "source_location": "L43",
       "id": "ui_button_button",
-      "community": 0,
+      "community": 7,
       "norm_label": "button()"
     },
     {
@@ -468,7 +468,7 @@
       "source_file": "AGENTS.md",
       "source_location": "L1",
       "id": "agents_md",
-      "community": 13,
+      "community": 17,
       "norm_label": "agents.md"
     },
     {
@@ -477,7 +477,7 @@
       "source_file": "AGENTS.md",
       "source_location": "L2",
       "id": "freelancing_portfolio_agents_this_is_not_the_next_js_you_know",
-      "community": 13,
+      "community": 17,
       "norm_label": "this is not the next.js you know"
     },
     {
@@ -486,7 +486,7 @@
       "source_file": "CLAUDE.md",
       "source_location": "L1",
       "id": "claude_md",
-      "community": 15,
+      "community": 19,
       "norm_label": "claude.md"
     },
     {
@@ -495,7 +495,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "readme_md",
-      "community": 9,
+      "community": 11,
       "norm_label": "readme.md"
     },
     {
@@ -504,7 +504,7 @@
       "source_file": "README.md",
       "source_location": "L1",
       "id": "freelancing_portfolio_readme_studiodev_portfolio",
-      "community": 9,
+      "community": 11,
       "norm_label": "studiodev portfolio"
     },
     {
@@ -513,7 +513,7 @@
       "source_file": "README.md",
       "source_location": "L5",
       "id": "freelancing_portfolio_readme_getting_started",
-      "community": 9,
+      "community": 11,
       "norm_label": "getting started"
     },
     {
@@ -522,7 +522,7 @@
       "source_file": "README.md",
       "source_location": "L9",
       "id": "freelancing_portfolio_readme_codeblock_1",
-      "community": 9,
+      "community": 11,
       "norm_label": "code:bash (npm install)"
     },
     {
@@ -531,7 +531,7 @@
       "source_file": "README.md",
       "source_location": "L15",
       "id": "freelancing_portfolio_readme_codeblock_2",
-      "community": 9,
+      "community": 11,
       "norm_label": "code:bash (npm run dev)"
     },
     {
@@ -540,7 +540,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L1",
       "id": "docs_graphify_md",
-      "community": 2,
+      "community": 1,
       "norm_label": "graphify.md"
     },
     {
@@ -549,7 +549,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L1",
       "id": "docs_graphify_graphify_workflow_integration_guide",
-      "community": 2,
+      "community": 1,
       "norm_label": "graphify workflow integration guide"
     },
     {
@@ -558,7 +558,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L7",
       "id": "docs_graphify_1_installation_integration",
-      "community": 2,
+      "community": 1,
       "norm_label": "1. installation & integration"
     },
     {
@@ -567,7 +567,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L9",
       "id": "docs_graphify_prerequisites",
-      "community": 2,
+      "community": 1,
       "norm_label": "prerequisites"
     },
     {
@@ -576,7 +576,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L13",
       "id": "docs_graphify_step_by_step_setup",
-      "community": 2,
+      "community": 1,
       "norm_label": "step-by-step setup"
     },
     {
@@ -585,7 +585,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L15",
       "id": "docs_graphify_codeblock_1",
-      "community": 2,
+      "community": 1,
       "norm_label": "code:bash (python -m pip install graphifyy)"
     },
     {
@@ -594,7 +594,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L20",
       "id": "docs_graphify_codeblock_2",
-      "community": 2,
+      "community": 1,
       "norm_label": "code:bash (python -m graphify antigravity install)"
     },
     {
@@ -603,7 +603,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L29",
       "id": "docs_graphify_2_updating_regenerating_the_graph",
-      "community": 2,
+      "community": 1,
       "norm_label": "2. updating & regenerating the graph"
     },
     {
@@ -612,7 +612,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L33",
       "id": "docs_graphify_incremental_rebuild_fast_standard",
-      "community": 2,
+      "community": 1,
       "norm_label": "incremental rebuild (fast/standard)"
     },
     {
@@ -621,7 +621,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L35",
       "id": "docs_graphify_codeblock_3",
-      "community": 2,
+      "community": 1,
       "norm_label": "code:bash (python -m graphify update .)"
     },
     {
@@ -630,7 +630,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L39",
       "id": "docs_graphify_full_rebuild",
-      "community": 2,
+      "community": 1,
       "norm_label": "full rebuild"
     },
     {
@@ -639,7 +639,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L41",
       "id": "docs_graphify_codeblock_4",
-      "community": 2,
+      "community": 1,
       "norm_label": "code:bash (python -m graphify update . --force)"
     },
     {
@@ -648,7 +648,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L47",
       "id": "docs_graphify_3_querying_the_graph",
-      "community": 5,
+      "community": 1,
       "norm_label": "3. querying the graph"
     },
     {
@@ -657,7 +657,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L51",
       "id": "docs_graphify_search_traversal",
-      "community": 5,
+      "community": 1,
       "norm_label": "search / traversal"
     },
     {
@@ -666,7 +666,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L53",
       "id": "docs_graphify_codeblock_5",
-      "community": 5,
+      "community": 1,
       "norm_label": "code:bash (python -m graphify query \"what are the core components?\")"
     },
     {
@@ -675,7 +675,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L57",
       "id": "docs_graphify_path_trace",
-      "community": 5,
+      "community": 1,
       "norm_label": "path trace"
     },
     {
@@ -684,7 +684,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L59",
       "id": "docs_graphify_codeblock_6",
-      "community": 5,
+      "community": 1,
       "norm_label": "code:bash (python -m graphify path \"button\" \"hero\")"
     },
     {
@@ -693,7 +693,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L63",
       "id": "docs_graphify_symbol_explanation",
-      "community": 5,
+      "community": 1,
       "norm_label": "symbol explanation"
     },
     {
@@ -702,7 +702,7 @@
       "source_file": "docs/graphify.md",
       "source_location": "L65",
       "id": "docs_graphify_codeblock_7",
-      "community": 5,
+      "community": 1,
       "norm_label": "code:bash (python -m graphify explain \"services\")"
     },
     {
@@ -711,8 +711,449 @@
       "source_file": "docs/graphify.md",
       "source_location": "L71",
       "id": "docs_graphify_4_troubleshooting",
-      "community": 2,
+      "community": 1,
       "norm_label": "4. troubleshooting"
+    },
+    {
+      "label": "adr.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L1",
+      "id": "docs_architecture_adr_md",
+      "community": 12,
+      "norm_label": "adr.md"
+    },
+    {
+      "label": "Architecture Decision Records (ADR)",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L1",
+      "id": "architecture_adr_architecture_decision_records_adr",
+      "community": 12,
+      "norm_label": "architecture decision records (adr)"
+    },
+    {
+      "label": "ADR-001: Design System - Executive Minimalist",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L6",
+      "id": "architecture_adr_adr_001_design_system_executive_minimalist",
+      "community": 12,
+      "norm_label": "adr-001: design system - executive minimalist"
+    },
+    {
+      "label": "ADR-002: Technical Stack Selection",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L16",
+      "id": "architecture_adr_adr_002_technical_stack_selection",
+      "community": 12,
+      "norm_label": "adr-002: technical stack selection"
+    },
+    {
+      "label": "ADR-003: Layout Architecture",
+      "file_type": "document",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L25",
+      "id": "architecture_adr_adr_003_layout_architecture",
+      "community": 12,
+      "norm_label": "adr-003: layout architecture"
+    },
+    {
+      "label": "component-registry.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L1",
+      "id": "docs_architecture_component_registry_md",
+      "community": 2,
+      "norm_label": "component-registry.md"
+    },
+    {
+      "label": "Component Registry",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L1",
+      "id": "architecture_component_registry_component_registry",
+      "community": 2,
+      "norm_label": "component registry"
+    },
+    {
+      "label": "Layout Components",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L6",
+      "id": "architecture_component_registry_layout_components",
+      "community": 2,
+      "norm_label": "layout components"
+    },
+    {
+      "label": "Container",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L8",
+      "id": "architecture_component_registry_container",
+      "community": 2,
+      "norm_label": "container"
+    },
+    {
+      "label": "Section",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L17",
+      "id": "architecture_component_registry_section",
+      "community": 2,
+      "norm_label": "section"
+    },
+    {
+      "label": "Header",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L26",
+      "id": "architecture_component_registry_header",
+      "community": 2,
+      "norm_label": "header"
+    },
+    {
+      "label": "Footer",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L36",
+      "id": "architecture_component_registry_footer",
+      "community": 2,
+      "norm_label": "footer"
+    },
+    {
+      "label": "UI Components",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L46",
+      "id": "architecture_component_registry_ui_components",
+      "community": 2,
+      "norm_label": "ui components"
+    },
+    {
+      "label": "Button",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L48",
+      "id": "architecture_component_registry_button",
+      "community": 2,
+      "norm_label": "button"
+    },
+    {
+      "label": "Section Components",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L57",
+      "id": "architecture_component_registry_section_components",
+      "community": 2,
+      "norm_label": "section components"
+    },
+    {
+      "label": "Hero",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L59",
+      "id": "architecture_component_registry_hero",
+      "community": 2,
+      "norm_label": "hero"
+    },
+    {
+      "label": "Projects",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L70",
+      "id": "architecture_component_registry_projects",
+      "community": 2,
+      "norm_label": "projects"
+    },
+    {
+      "label": "Services",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L79",
+      "id": "architecture_component_registry_services",
+      "community": 2,
+      "norm_label": "services"
+    },
+    {
+      "label": "Process",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L88",
+      "id": "architecture_component_registry_process",
+      "community": 2,
+      "norm_label": "process"
+    },
+    {
+      "label": "FAQ",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L96",
+      "id": "architecture_component_registry_faq",
+      "community": 2,
+      "norm_label": "faq"
+    },
+    {
+      "label": "WhyChooseMe",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L104",
+      "id": "architecture_component_registry_whychooseme",
+      "community": 2,
+      "norm_label": "whychooseme"
+    },
+    {
+      "label": "CTA",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L112",
+      "id": "architecture_component_registry_cta",
+      "community": 2,
+      "norm_label": "cta"
+    },
+    {
+      "label": "Card Components",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L121",
+      "id": "architecture_component_registry_card_components",
+      "community": 2,
+      "norm_label": "card components"
+    },
+    {
+      "label": "ProjectCard",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L123",
+      "id": "architecture_component_registry_projectcard",
+      "community": 2,
+      "norm_label": "projectcard"
+    },
+    {
+      "label": "ServiceCard",
+      "file_type": "document",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L133",
+      "id": "architecture_component_registry_servicecard",
+      "community": 2,
+      "norm_label": "servicecard"
+    },
+    {
+      "label": "config-map.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L1",
+      "id": "docs_architecture_config_map_md",
+      "community": 8,
+      "norm_label": "config-map.md"
+    },
+    {
+      "label": "Configuration Map",
+      "file_type": "document",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L1",
+      "id": "architecture_config_map_configuration_map",
+      "community": 8,
+      "norm_label": "configuration map"
+    },
+    {
+      "label": "next.config.ts / .next",
+      "file_type": "document",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L6",
+      "id": "architecture_config_map_next_config_ts_next",
+      "community": 8,
+      "norm_label": "next.config.ts / .next"
+    },
+    {
+      "label": "tailwind.config.ts",
+      "file_type": "document",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L11",
+      "id": "architecture_config_map_tailwind_config_ts",
+      "community": 8,
+      "norm_label": "tailwind.config.ts"
+    },
+    {
+      "label": "tsconfig.json",
+      "file_type": "document",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L20",
+      "id": "architecture_config_map_tsconfig_json",
+      "community": 8,
+      "norm_label": "tsconfig.json"
+    },
+    {
+      "label": "package.json",
+      "file_type": "document",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L25",
+      "id": "architecture_config_map_package_json",
+      "community": 8,
+      "norm_label": "package.json"
+    },
+    {
+      "label": "features.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L1",
+      "id": "docs_architecture_features_md",
+      "community": 5,
+      "norm_label": "features.md"
+    },
+    {
+      "label": "Feature Map",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L1",
+      "id": "architecture_features_feature_map",
+      "community": 5,
+      "norm_label": "feature map"
+    },
+    {
+      "label": "Feature: Lead Generation",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L6",
+      "id": "architecture_features_feature_lead_generation",
+      "community": 5,
+      "norm_label": "feature: lead generation"
+    },
+    {
+      "label": "Feature: Portfolio Showcase",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L13",
+      "id": "architecture_features_feature_portfolio_showcase",
+      "community": 5,
+      "norm_label": "feature: portfolio showcase"
+    },
+    {
+      "label": "Feature: Service Catalog",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L19",
+      "id": "architecture_features_feature_service_catalog",
+      "community": 5,
+      "norm_label": "feature: service catalog"
+    },
+    {
+      "label": "Feature: Trust & Authority",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L25",
+      "id": "architecture_features_feature_trust_authority",
+      "community": 5,
+      "norm_label": "feature: trust & authority"
+    },
+    {
+      "label": "Feature: Core Infrastructure",
+      "file_type": "document",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L32",
+      "id": "architecture_features_feature_core_infrastructure",
+      "community": 5,
+      "norm_label": "feature: core infrastructure"
+    },
+    {
+      "label": "project-overview.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L1",
+      "id": "docs_architecture_project_overview_md",
+      "community": 6,
+      "norm_label": "project-overview.md"
+    },
+    {
+      "label": "Project Overview",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L1",
+      "id": "architecture_project_overview_project_overview",
+      "community": 6,
+      "norm_label": "project overview"
+    },
+    {
+      "label": "Project Goals",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L6",
+      "id": "architecture_project_overview_project_goals",
+      "community": 6,
+      "norm_label": "project goals"
+    },
+    {
+      "label": "Engineering Roadmap & History",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L12",
+      "id": "architecture_project_overview_engineering_roadmap_history",
+      "community": 6,
+      "norm_label": "engineering roadmap & history"
+    },
+    {
+      "label": "Sprint 1: Core Foundation",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L14",
+      "id": "architecture_project_overview_sprint_1_core_foundation",
+      "community": 6,
+      "norm_label": "sprint 1: core foundation"
+    },
+    {
+      "label": "Sprint 2: Primary Content & Conversion",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L24",
+      "id": "architecture_project_overview_sprint_2_primary_content_conversion",
+      "community": 6,
+      "norm_label": "sprint 2: primary content & conversion"
+    },
+    {
+      "label": "Sprint 3: Polish & Intelligence (Current)",
+      "file_type": "document",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L36",
+      "id": "architecture_project_overview_sprint_3_polish_intelligence_current",
+      "community": 6,
+      "norm_label": "sprint 3: polish & intelligence (current)"
+    },
+    {
+      "label": "user-flows.md",
+      "file_type": "document",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L1",
+      "id": "docs_architecture_user_flows_md",
+      "community": 13,
+      "norm_label": "user-flows.md"
+    },
+    {
+      "label": "User Flows",
+      "file_type": "document",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L1",
+      "id": "architecture_user_flows_user_flows",
+      "community": 13,
+      "norm_label": "user flows"
+    },
+    {
+      "label": "Flow: Lead Conversion Journey",
+      "file_type": "document",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L6",
+      "id": "architecture_user_flows_flow_lead_conversion_journey",
+      "community": 13,
+      "norm_label": "flow: lead conversion journey"
+    },
+    {
+      "label": "Flow: Navigation Path",
+      "file_type": "document",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L15",
+      "id": "architecture_user_flows_flow_navigation_path",
+      "community": 13,
+      "norm_label": "flow: navigation path"
     },
     {
       "label": "studiodev_portfolio_showcase_md.md",
@@ -1955,9 +2396,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_md",
-      "target": "docs_graphify_graphify_workflow_integration_guide",
-      "confidence_score": 1.0
+      "target": "docs_graphify_graphify_workflow_integration_guide"
     },
     {
       "relation": "contains",
@@ -1965,9 +2406,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_graphify_workflow_integration_guide",
-      "target": "docs_graphify_1_installation_integration",
-      "confidence_score": 1.0
+      "target": "docs_graphify_1_installation_integration"
     },
     {
       "relation": "contains",
@@ -1975,9 +2416,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L29",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_graphify_workflow_integration_guide",
-      "target": "docs_graphify_2_updating_regenerating_the_graph",
-      "confidence_score": 1.0
+      "target": "docs_graphify_2_updating_regenerating_the_graph"
     },
     {
       "relation": "contains",
@@ -1985,9 +2426,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_graphify_workflow_integration_guide",
-      "target": "docs_graphify_3_querying_the_graph",
-      "confidence_score": 1.0
+      "target": "docs_graphify_3_querying_the_graph"
     },
     {
       "relation": "contains",
@@ -1995,9 +2436,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_graphify_workflow_integration_guide",
-      "target": "docs_graphify_4_troubleshooting",
-      "confidence_score": 1.0
+      "target": "docs_graphify_4_troubleshooting"
     },
     {
       "relation": "contains",
@@ -2005,9 +2446,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_1_installation_integration",
-      "target": "docs_graphify_prerequisites",
-      "confidence_score": 1.0
+      "target": "docs_graphify_prerequisites"
     },
     {
       "relation": "contains",
@@ -2015,9 +2456,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_1_installation_integration",
-      "target": "docs_graphify_step_by_step_setup",
-      "confidence_score": 1.0
+      "target": "docs_graphify_step_by_step_setup"
     },
     {
       "relation": "contains",
@@ -2025,9 +2466,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_step_by_step_setup",
-      "target": "docs_graphify_codeblock_1",
-      "confidence_score": 1.0
+      "target": "docs_graphify_codeblock_1"
     },
     {
       "relation": "contains",
@@ -2035,9 +2476,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_step_by_step_setup",
-      "target": "docs_graphify_codeblock_2",
-      "confidence_score": 1.0
+      "target": "docs_graphify_codeblock_2"
     },
     {
       "relation": "contains",
@@ -2045,9 +2486,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_2_updating_regenerating_the_graph",
-      "target": "docs_graphify_incremental_rebuild_fast_standard",
-      "confidence_score": 1.0
+      "target": "docs_graphify_incremental_rebuild_fast_standard"
     },
     {
       "relation": "contains",
@@ -2055,9 +2496,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_2_updating_regenerating_the_graph",
-      "target": "docs_graphify_full_rebuild",
-      "confidence_score": 1.0
+      "target": "docs_graphify_full_rebuild"
     },
     {
       "relation": "contains",
@@ -2065,9 +2506,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L35",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_incremental_rebuild_fast_standard",
-      "target": "docs_graphify_codeblock_3",
-      "confidence_score": 1.0
+      "target": "docs_graphify_codeblock_3"
     },
     {
       "relation": "contains",
@@ -2075,9 +2516,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_full_rebuild",
-      "target": "docs_graphify_codeblock_4",
-      "confidence_score": 1.0
+      "target": "docs_graphify_codeblock_4"
     },
     {
       "relation": "contains",
@@ -2085,9 +2526,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_3_querying_the_graph",
-      "target": "docs_graphify_search_traversal",
-      "confidence_score": 1.0
+      "target": "docs_graphify_search_traversal"
     },
     {
       "relation": "contains",
@@ -2095,9 +2536,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L57",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_3_querying_the_graph",
-      "target": "docs_graphify_path_trace",
-      "confidence_score": 1.0
+      "target": "docs_graphify_path_trace"
     },
     {
       "relation": "contains",
@@ -2105,9 +2546,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_3_querying_the_graph",
-      "target": "docs_graphify_symbol_explanation",
-      "confidence_score": 1.0
+      "target": "docs_graphify_symbol_explanation"
     },
     {
       "relation": "contains",
@@ -2115,9 +2556,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L53",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_search_traversal",
-      "target": "docs_graphify_codeblock_5",
-      "confidence_score": 1.0
+      "target": "docs_graphify_codeblock_5"
     },
     {
       "relation": "contains",
@@ -2125,9 +2566,9 @@
       "source_file": "docs/graphify.md",
       "source_location": "L59",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_path_trace",
-      "target": "docs_graphify_codeblock_6",
-      "confidence_score": 1.0
+      "target": "docs_graphify_codeblock_6"
     },
     {
       "relation": "contains",
@@ -2135,8 +2576,438 @@
       "source_file": "docs/graphify.md",
       "source_location": "L65",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_graphify_symbol_explanation",
-      "target": "docs_graphify_codeblock_7",
+      "target": "docs_graphify_codeblock_7"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_adr_md",
+      "target": "architecture_adr_architecture_decision_records_adr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_adr_architecture_decision_records_adr",
+      "target": "architecture_adr_adr_001_design_system_executive_minimalist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "architecture_adr_architecture_decision_records_adr",
+      "target": "architecture_adr_adr_002_technical_stack_selection",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/adr.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "architecture_adr_architecture_decision_records_adr",
+      "target": "architecture_adr_adr_003_layout_architecture",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_component_registry_md",
+      "target": "architecture_component_registry_component_registry",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_component_registry_component_registry",
+      "target": "architecture_component_registry_layout_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L46",
+      "weight": 1.0,
+      "source": "architecture_component_registry_component_registry",
+      "target": "architecture_component_registry_ui_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "architecture_component_registry_component_registry",
+      "target": "architecture_component_registry_section_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L121",
+      "weight": 1.0,
+      "source": "architecture_component_registry_component_registry",
+      "target": "architecture_component_registry_card_components",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "architecture_component_registry_layout_components",
+      "target": "architecture_component_registry_container",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "architecture_component_registry_layout_components",
+      "target": "architecture_component_registry_section",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "architecture_component_registry_layout_components",
+      "target": "architecture_component_registry_header",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "architecture_component_registry_layout_components",
+      "target": "architecture_component_registry_footer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "architecture_component_registry_ui_components",
+      "target": "architecture_component_registry_button",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_hero",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L70",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_projects",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L79",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_services",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L88",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_process",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_faq",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L104",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_whychooseme",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "architecture_component_registry_section_components",
+      "target": "architecture_component_registry_cta",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L123",
+      "weight": 1.0,
+      "source": "architecture_component_registry_card_components",
+      "target": "architecture_component_registry_projectcard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/component-registry.md",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "architecture_component_registry_card_components",
+      "target": "architecture_component_registry_servicecard",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_config_map_md",
+      "target": "architecture_config_map_configuration_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_config_map_configuration_map",
+      "target": "architecture_config_map_next_config_ts_next",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "architecture_config_map_configuration_map",
+      "target": "architecture_config_map_tailwind_config_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "architecture_config_map_configuration_map",
+      "target": "architecture_config_map_tsconfig_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/config-map.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "architecture_config_map_configuration_map",
+      "target": "architecture_config_map_package_json",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_features_md",
+      "target": "architecture_features_feature_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_features_feature_map",
+      "target": "architecture_features_feature_lead_generation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "architecture_features_feature_map",
+      "target": "architecture_features_feature_portfolio_showcase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "architecture_features_feature_map",
+      "target": "architecture_features_feature_service_catalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "architecture_features_feature_map",
+      "target": "architecture_features_feature_trust_authority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/features.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "architecture_features_feature_map",
+      "target": "architecture_features_feature_core_infrastructure",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_project_overview_md",
+      "target": "architecture_project_overview_project_overview",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_project_overview_project_overview",
+      "target": "architecture_project_overview_project_goals",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "architecture_project_overview_project_overview",
+      "target": "architecture_project_overview_engineering_roadmap_history",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "architecture_project_overview_engineering_roadmap_history",
+      "target": "architecture_project_overview_sprint_1_core_foundation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "architecture_project_overview_engineering_roadmap_history",
+      "target": "architecture_project_overview_sprint_2_primary_content_conversion",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/project-overview.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "architecture_project_overview_engineering_roadmap_history",
+      "target": "architecture_project_overview_sprint_3_polish_intelligence_current",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_architecture_user_flows_md",
+      "target": "architecture_user_flows_user_flows",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "architecture_user_flows_user_flows",
+      "target": "architecture_user_flows_flow_lead_conversion_journey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/architecture/user-flows.md",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "architecture_user_flows_user_flows",
+      "target": "architecture_user_flows_flow_navigation_path",
       "confidence_score": 1.0
     },
     {
@@ -2331,5 +3202,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "990d8d735aaa92ce0ba1ad5c0865ee91ab0d6104"
+  "built_at_commit": "de778ca87081ca6e52a3b0a3cc875d381eac9513"
 }
