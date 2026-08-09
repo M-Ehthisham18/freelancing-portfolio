@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 import { ServiceCard } from '../cards/ServiceCard';
@@ -52,9 +53,9 @@ export function Services() {
 
         {/* Subtle CTA */}
         <div className="flex justify-center">
-          <button data-magnetic="Discuss" className="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+          <Link href="/contact" data-magnetic="Discuss" className="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center inline-block">
             Let&apos;s Discuss Your Project
-          </button>
+          </Link>
         </div>
       </Container>
     </Section>
