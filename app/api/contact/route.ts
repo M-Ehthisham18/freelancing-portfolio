@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { writeFile, readFile, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
 import path from 'path';
+import { sendInquiryEmail } from '@/lib/email';
 
 const DATA_DIR = path.join(process.cwd(), 'data', 'inquiries');
 const DATA_FILE = path.join(DATA_DIR, 'inquiries.json');
@@ -94,8 +95,44 @@ export async function POST(request: NextRequest) {
       receivedAt: new Date().toISOString(),
     };
 
-    existing.push(inquiry);
-    await writeInquiries(existing);
+    // 1. Send notification email (critical — StudioDev must receive the lead)
+    try {
+      await sendInquiryEmail({
+        name: inquiry.name,
+        email: inquiry.email,
+        company: inquiry.company,
+        projectType: inquiry.projectType,
+        projectDescription: inquiry.projectDescription,
+        projectStatus: inquiry.projectStatus,
+        budget: inquiry.budget,
+        timeline: inquiry.timeline,
+        preferredDate: inquiry.preferredDate,
+        preferredTime: inquiry.preferredTime,
+        additionalInfo: inquiry.additionalInfo,
+        submittedAt: inquiry.submittedAt,
+      });
+    } catch (emailError) {
+      // Do not expose internal details; log a safe diagnostic server-side
+      console.error('Contact inquiry email delivery failed:', emailError);
+      return NextResponse.json(
+        { error: 'We couldn\'t send your inquiry right now. Please try again.' },
+        { status: 500 }
+      );
+    }
+
+    // 2. Persist inquiry only after email delivery succeeded
+    try {
+      existing.push(inquiry);
+      await writeInquiries(existing);
+    } catch (persistError) {
+      console.error('Contact inquiry persistence failed:', persistError);
+      // Email was delivered — client was notified of success, but persistence failed.
+      // This is a degraded state. Return success to the client but flag for follow-up.
+      return NextResponse.json(
+        { success: true, id: inquiry.id, notice: 'Inquiry received. Follow-up processing may be delayed.' },
+        { status: 201 }
+      );
+    }
 
     return NextResponse.json({ success: true, id: inquiry.id }, { status: 201 });
   } catch (error) {
