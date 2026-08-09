@@ -11,7 +11,7 @@ const navigationItems = [
 
 export function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
+    <header className="fixed top-0 left-0 w-full z-[10000] bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
       <div className="max-w-container-max mx-auto px-gutter py-4 flex justify-between items-center h-16">
         {/* Brand Identity */}
         <div className="flex items-center gap-2">
@@ -42,7 +42,7 @@ export function Header() {
 
         {/* Action Area */}
         <div className="flex items-center gap-stack-md">
-          <button className="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150">
+          <button data-magnetic="Book" className="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150">
             Book a Free Consultation
           </button>
           

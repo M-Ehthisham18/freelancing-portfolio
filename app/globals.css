@@ -261,3 +261,19 @@
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-10px); }
 }
+
+/* Magnetic element transition */
+[data-magnetic] {
+    transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Card elements — cursor circle goes behind these */
+[data-cursor-card] {
+    position: relative;
+    z-index: 1;
+}
+
+/* On hover: card rises ABOVE the circle (9999 > 9998) */
+[data-cursor-card]:hover {
+    z-index: 9999;
+}

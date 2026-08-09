@@ -16,7 +16,7 @@ export function WhyChooseMe() {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-          <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+          <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary">work</span>
@@ -26,7 +26,7 @@ export function WhyChooseMe() {
             </div>
           </div>
           
-          <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+          <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary">forum</span>
@@ -36,7 +36,7 @@ export function WhyChooseMe() {
             </div>
           </div>
           
-          <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+          <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary">terminal</span>
@@ -46,7 +46,7 @@ export function WhyChooseMe() {
             </div>
           </div>
           
-          <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+          <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary">devices</span>
@@ -56,7 +56,7 @@ export function WhyChooseMe() {
             </div>
           </div>
           
-          <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+          <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary">rocket_launch</span>
@@ -66,7 +66,7 @@ export function WhyChooseMe() {
             </div>
           </div>
           
-          <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+          <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                 <span className="material-symbols-outlined text-primary">verified_user</span>

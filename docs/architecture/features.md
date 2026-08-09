@@ -37,3 +37,11 @@ Graphify uses this to create `FEATURE` and `OWNS` relationships.
 - **Owns**: `Header`
 - **Owns**: `Footer`
 - **Bridges to**: `Design System`
+
+## Feature: Resilience & Error Handling
+**Purpose**: Ensure a professional and graceful user experience during failures or missing content.
+- **Owns**: `ErrorState`
+- **Owns**: `ComingSoon`
+- **Owns**: `not-found.tsx`
+- **Owns**: `error.tsx`
+- **Bridges to**: `User Experience`

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Button } from './button';
 import { cn } from '@/lib/utils';
 
@@ -32,7 +33,7 @@ export function ErrorState({
   className,
 }: ErrorStateProps) {
   // Map state types to specific icons and styles based on the Executive Minimalist design system
-  const stateConfigs = {
+  const stateConfigs: Record<ErrorStateType, { icon: React.ReactNode; variant: 'destructive' | 'outline' | 'default' }> = {
     error: {
       icon: <span className="material-symbols-outlined text-primary text-4xl">error</span>,
       variant: 'destructive',
@@ -73,29 +74,37 @@ export function ErrorState({
 
       {/* Actions */}
       <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-        {primaryAction && (
+        {primaryAction && primaryAction.href ? (
+          <Link href={primaryAction.href} className="w-full sm:w-auto">
+            <Button variant={config.variant} className="w-full sm:w-auto">
+              {primaryAction.label}
+            </Button>
+          </Link>
+        ) : primaryAction ? (
           <Button
             variant={config.variant}
             className="w-full sm:w-auto"
             onClick={primaryAction.onClick}
-            as={primaryAction.href ? 'a' : 'button'}
-            href={primaryAction.href}
           >
             {primaryAction.label}
           </Button>
-        )}
+        ) : null}
 
-        {secondaryAction && (
+        {secondaryAction && secondaryAction.href ? (
+          <Link href={secondaryAction.href} className="w-full sm:w-auto">
+            <Button variant="ghost" className="w-full sm:w-auto">
+              {secondaryAction.label}
+            </Button>
+          </Link>
+        ) : secondaryAction ? (
           <Button
             variant="ghost"
             className="w-full sm:w-auto"
             onClick={secondaryAction.onClick}
-            as={secondaryAction.href ? 'a' : 'button'}
-            href={secondaryAction.href}
           >
             {secondaryAction.label}
           </Button>
-        )}
+        ) : null}
       </div>
     </div>
   );

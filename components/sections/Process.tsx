@@ -18,7 +18,7 @@ export function Process() {
         {/* Simplified Process Container */}
         <div className="relative max-w-5xl mx-auto flex flex-col gap-4">
           {/* Step 1 */}
-          <div className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+          <div data-cursor-card className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
             <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">01</div>
             <div className="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>
@@ -30,7 +30,7 @@ export function Process() {
           </div>
           
           {/* Step 2 */}
-          <div className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+          <div data-cursor-card className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
             <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">02</div>
             <div className="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>
@@ -42,7 +42,7 @@ export function Process() {
           </div>
           
           {/* Step 3 */}
-          <div className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+          <div data-cursor-card className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
             <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">03</div>
             <div className="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>
@@ -54,7 +54,7 @@ export function Process() {
           </div>
           
           {/* Step 4 */}
-          <div className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
+          <div data-cursor-card className="group p-6 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all flex flex-col md:flex-row items-start md:items-center gap-6">
             <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold text-lg border border-primary/20">04</div>
             <div className="flex-grow flex flex-col md:flex-row md:items-center justify-between gap-4">
               <div>

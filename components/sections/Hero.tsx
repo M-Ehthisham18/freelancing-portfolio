@@ -33,10 +33,10 @@ export function Hero() {
             
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-4 mt-stack-md w-full sm:w-auto">
-              <button className="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95">
+              <button data-magnetic="Book" className="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95">
                 Book a Free Consultation
               </button>
-              <button className="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+              <button data-magnetic="View" className="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
                 View My Work
               </button>
             </div>

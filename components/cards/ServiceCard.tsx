@@ -6,7 +6,7 @@ interface ServiceCardProps {
 
 export function ServiceCard({ icon, title, description }: ServiceCardProps) {
   return (
-    <div className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
+    <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
       <div className="flex flex-col gap-6">
         <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
           <span className="material-symbols-outlined text-primary">{icon}</span>

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, JetBrains_Mono } from "next/font/google";
+import { CustomCursor } from "@/components/ui/custom-cursor";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -34,6 +35,7 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-background text-on-background overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container min-h-screen flex flex-col">
+        <CustomCursor />
         {children}
       </body>
     </html>

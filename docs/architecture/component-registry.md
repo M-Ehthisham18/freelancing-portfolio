@@ -54,6 +54,23 @@ Graphify uses this file to enrich nodes with "Purpose", "Responsibilities", and 
 - **Complexity**: Low
 - **Layer**: Code Intelligence
 
+### ErrorState
+- **Path**: `components/ui/error-state.tsx`
+- **Purpose**: Unified primitive for all non-happy-path UI states.
+- **Responsibilities**:
+  - Standardize error, not-found, empty, and coming-soon visuals
+  - Provide consistent action patterns (Primary/Secondary)
+- **Complexity**: Low
+- **Layer**: Code Intelligence
+
+### ComingSoon
+- **Path**: `components/ui/coming-soon.tsx`
+- **Purpose**: Preset wrapper for `ErrorState` to indicate future features.
+- **Responsibilities**:
+  - Provide standardized "coming soon" copy and iconography
+- **Complexity**: Trivial
+- **Layer**: Code Intelligence
+
 ## Section Components
 
 ### Hero

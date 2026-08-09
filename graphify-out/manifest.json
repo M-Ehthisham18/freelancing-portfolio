@@ -15,17 +15,29 @@
     "mtime": 1785496681.1337397,
     "hash": "239f3ebf717465dc636818a1a619398d"
   },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\error.tsx": {
+    "mtime": 1785809671.6175995,
+    "hash": "c3ec8ff9aecd4df521d9de7dfd198948"
+  },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\layout.tsx": {
     "mtime": 1785497624.5722802,
     "hash": "c1d04e59f8cc943d9ed2725c247fbf2b"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\not-found.tsx": {
+    "mtime": 1785809537.402974,
+    "hash": "a139b1d4a4d0cc282a7bb500455dfd85"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\(marketing)\\page.tsx": {
     "mtime": 1785668915.267301,
     "hash": "8c1cdba5737865d428f41a4bd151a3c4"
   },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\projects\\[slug]\\page.tsx": {
+    "mtime": 1785835096.6242654,
+    "hash": "33c00fd8092f5993ec98626cf311e93e"
+  },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\cards\\ProjectCard.tsx": {
-    "mtime": 1785668915.26835,
-    "hash": "0b8e64aedbc36c47f8382d23d5752fb5"
+    "mtime": 1785834012.6604588,
+    "hash": "38a6d84e511481dabc70737cf0f4fb45"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\cards\\ServiceCard.tsx": {
     "mtime": 1785668915.2689002,
@@ -64,8 +76,8 @@
     "hash": "436e189302bf9b5e726b3458e9e280e5"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Projects.tsx": {
-    "mtime": 1785668915.271733,
-    "hash": "4819faedb2097fbd26665a2f7db0eb14"
+    "mtime": 1785810042.4859142,
+    "hash": "157aedcf1e2db9b2a22578e27fba7be6"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Services.tsx": {
     "mtime": 1785797486.6651309,
@@ -83,9 +95,21 @@
     "mtime": 1785497542.1011412,
     "hash": "e04ce5251d6b0dd04020988126c905e9"
   },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\ui\\coming-soon.tsx": {
+    "mtime": 1785836014.8701987,
+    "hash": "d57b6f4677f6566597ab058c5c451c74"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\ui\\error-state.tsx": {
+    "mtime": 1785809271.2531762,
+    "hash": "5cca3d6d9b5db80a13a720e5493ce02c"
+  },
   "D:\\sham\\Projects\\freelancing-portfolio\\lib\\utils.ts": {
     "mtime": 1785497542.2261772,
     "hash": "5a6fd53fdcf2be529e9cc0b718fde352"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\lib\\data\\projects.ts": {
+    "mtime": 1785809987.2538643,
+    "hash": "a8fd1ddc65501b70c5413a20efaf4460"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\AGENTS.md": {
     "mtime": 1785496807.1548655,

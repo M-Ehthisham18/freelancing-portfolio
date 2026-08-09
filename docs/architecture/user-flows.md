@@ -15,5 +15,11 @@ Graphify uses this to create `PARTICIPATES_IN` and `FLOWS_TO` relationships.
 ## Flow: Navigation Path
 **Description**: How users move between content sections using the UI.
 - **Entry**: `Header` (Navigation Links)
-- **Target**: `Hero` -> `Services` -> `Process` -> `Projects` -> `Contact`
-- **Loop**: `Footer` -> `Header` (Return to top)
+- **Target**: `Hero` -> `Services` -> `Process` $\rightarrow$ `Projects` $\rightarrow$ `Contact`
+- **Loop**: `Footer` $\rightarrow$ `Header` (Return to top)
+
+## Flow: Failure Recovery (404/Missing)
+**Description**: How the system handles invalid requests.
+- **Path A: Invalid Route** $\rightarrow$ `not-found.tsx` $\rightarrow$ `ErrorState (not-found)` $\rightarrow$ `Home`
+- **Path B: Invalid Project** $\rightarrow$ `projects/[slug]/page.tsx` $\rightarrow$ `ErrorState (not-found)` $\rightarrow$ `Projects Section`
+- **Path C: Runtime Crash** $\rightarrow$ `error.tsx` $\rightarrow$ `ErrorState (error)` $\rightarrow$ `Reset / Home`

@@ -21,10 +21,10 @@ export function CTA() {
             </div>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-              <button className="w-full sm:w-auto px-10 py-5 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20">
+              <button data-magnetic="Book" className="w-full sm:w-auto px-10 py-5 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20">
                 Book a Free Consultation
               </button>
-              <button className="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+              <button data-magnetic="View" className="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
                 View My Projects
               </button>
             </div>
