@@ -25,9 +25,9 @@ export function CTA() {
               <Link href="/contact" data-magnetic="Book" className="w-full sm:w-auto px-10 py-5 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20 text-center">
                 Book a Free Consultation
               </Link>
-              <button data-magnetic="View" className="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+              <a href="#projects" data-magnetic="View" className="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center">
                 View My Projects
-              </button>
+              </a>
             </div>
             
             <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 pt-8 border-t border-outline-variant/10 w-full max-w-2xl">

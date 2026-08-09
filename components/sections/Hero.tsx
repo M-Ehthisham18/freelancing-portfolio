@@ -37,9 +37,9 @@ export function Hero() {
               <Link href="/contact" data-magnetic="Book" className="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 text-center">
                 Book a Free Consultation
               </Link>
-              <button data-magnetic="View" className="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+              <a href="#projects" data-magnetic="View" className="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center">
                 View My Work
-              </button>
+              </a>
             </div>
             
             {/* Trust Row */}

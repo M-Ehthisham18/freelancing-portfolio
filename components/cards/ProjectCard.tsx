@@ -41,6 +41,9 @@ export function ProjectCard({ image, imageAlt, category, title, description, tag
             </span>
           ))}
         </div>
+        {/* "View Code" intentionally hidden for now — no repository URL configured.
+            Preserve the underlying capability by adding a `repoUrl` field to the
+            project data model and restoring a button here when available. */}
         <div className="flex gap-4">
           <Link
             href={`/projects/${slug}`}
@@ -48,9 +51,6 @@ export function ProjectCard({ image, imageAlt, category, title, description, tag
           >
             View Project
           </Link>
-          <button className="flex-1 px-4 py-2 bg-transparent border border-outline text-on-background rounded-lg font-medium text-label-sm font-label-sm hover:bg-surface-container-highest transition-all active:scale-95">
-            View Code
-          </button>
         </div>
       </div>
     </div>
