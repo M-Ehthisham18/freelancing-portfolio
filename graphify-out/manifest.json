@@ -4,7 +4,7 @@
     "hash": "dfa1f5f6a7037bf39dc510f30b180002"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\next-env.d.ts": {
-    "mtime": 1786273561.5126624,
+    "mtime": 1786287635.88867,
     "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\next.config.ts": {
@@ -31,6 +31,14 @@
     "mtime": 1785668915.267301,
     "hash": "8c1cdba5737865d428f41a4bd151a3c4"
   },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\api\\contact\\route.ts": {
+    "mtime": 1786287519.9666097,
+    "hash": "2e1bae2a9fc1563cd5bb389b3d127ef9"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\contact\\page.tsx": {
+    "mtime": 1786276335.6645074,
+    "hash": "0c1034129f698e011580702016cb5385"
+  },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\projects\\[slug]\\page.tsx": {
     "mtime": 1786273093.270961,
     "hash": "31568c1f6ce74c8fcf965b3838a581cc"
@@ -52,24 +60,28 @@
     "hash": "c9bbee822d719a6e23328015c3a383bc"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Header.tsx": {
-    "mtime": 1786273093.2866576,
-    "hash": "c7000033935a1b05c44f4f29115e4bc7"
+    "mtime": 1786276683.4304626,
+    "hash": "ffe60840298506a3f3b76cae9ba92d31"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Section.tsx": {
     "mtime": 1785497688.4842114,
     "hash": "1dd958b09155fabf410fb8aa4740456a"
   },
+  "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\ContactForm.tsx": {
+    "mtime": 1786275993.7203574,
+    "hash": "4e0f44a4ccc2552bb2e77e562b0d4e84"
+  },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\CTA.tsx": {
-    "mtime": 1786273443.5676587,
-    "hash": "adb0b07ebf94e56f4af5cdbf31e1e253"
+    "mtime": 1786276508.8502643,
+    "hash": "0ecb88314dc4c88be7e6317245304efd"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\FAQ.tsx": {
     "mtime": 1786273093.298141,
     "hash": "35e078022722df39f0d3405269a4d529"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Hero.tsx": {
-    "mtime": 1786273093.3056793,
-    "hash": "929677d71fd775b2a65a20fd8a9bfcfb"
+    "mtime": 1786276490.4992964,
+    "hash": "71e9a68558be0cbd6afa98b94b3b6bad"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Process.tsx": {
     "mtime": 1786273093.3109016,
@@ -80,8 +92,8 @@
     "hash": "2c7773d617b713206dce2e2cb4f7ae4d"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Services.tsx": {
-    "mtime": 1786273443.6137538,
-    "hash": "2824efa7afee7256959b85ca01baee7b"
+    "mtime": 1786276702.0262465,
+    "hash": "9a014488d6fbcfb817373ed2faa757de"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Technologies.tsx": {
     "mtime": 1786192512.7887435,
@@ -106,6 +118,10 @@
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\ui\\error-state.tsx": {
     "mtime": 1786273093.335215,
     "hash": "dda34c6054f1d0940ab2228c5d6c780a"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\lib\\email.ts": {
+    "mtime": 1786287504.6737106,
+    "hash": "f24936db5b50084ca4ffdd176fc01bd4"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\lib\\utils.ts": {
     "mtime": 1785497542.2261772,
