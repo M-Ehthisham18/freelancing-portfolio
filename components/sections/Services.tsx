@@ -53,7 +53,7 @@ export function Services() {
         {/* Subtle CTA */}
         <div className="flex justify-center">
           <button data-magnetic="Discuss" className="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
-            Let's Discuss Your Project
+            Let&apos;s Discuss Your Project
           </button>
         </div>
       </Container>

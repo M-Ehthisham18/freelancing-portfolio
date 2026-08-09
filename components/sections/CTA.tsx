@@ -13,7 +13,7 @@ export function CTA() {
           <div className="max-w-3xl mx-auto text-center flex flex-col items-center gap-8 md:gap-12">
             <div className="flex flex-col gap-6">
               <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background leading-tight">
-                Let's Build Something Great Together
+                Let&apos;s Build Something Great Together
               </h2>
               <p className="text-body-lg font-body-lg text-on-surface-variant max-w-2xl">
                 Whether you need a business website, a custom application, or AI features, the first step is a conversation about your unique goals. I provide professional engineering and design focused on your long-term success.
