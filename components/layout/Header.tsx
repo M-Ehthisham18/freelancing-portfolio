@@ -2,11 +2,11 @@ import Link from "next/link";
 import Image from "next/image";
 
 const navigationItems = [
-  { label: "About", href: "#why-work-with-me" },
-  { label: "Services", href: "#services" },
-  { label: "Process", href: "#process" },
-  { label: "Projects", href: "#projects" },
-  { label: "Contact", href: "#contact" },
+  { label: "About", href: "/#why-work-with-me" },
+  { label: "Services", href: "/#services" },
+  { label: "Process", href: "/#process" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function Header() {
@@ -42,9 +42,9 @@ export function Header() {
 
         {/* Action Area */}
         <div className="flex items-center gap-stack-md">
-          <button data-magnetic="Book" className="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150">
+          <Link href="/contact" data-magnetic="Book" className="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150 items-center">
             Book a Free Consultation
-          </button>
+          </Link>
           
           {/* Mobile Menu Toggle */}
           <button className="md:hidden p-2 text-on-background" aria-label="Toggle Menu">
