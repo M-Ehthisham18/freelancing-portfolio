@@ -79,18 +79,36 @@ function validateEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
+// Mirrors the server-side length limits in app/api/contact/route.ts
+const MAX_LENGTHS: Record<string, number> = {
+  name: 100,
+  email: 254,
+  company: 150,
+  projectType: 100,
+  projectDescription: 5000,
+  projectStatus: 100,
+  budget: 100,
+  timeline: 100,
+  preferredDate: 20,
+  preferredTime: 20,
+  additionalInfo: 5000,
+};
+
 function validate(data: FormData): FormErrors {
   const errors: FormErrors = {};
   if (!data.name.trim()) errors.name = 'Full name is required.';
   else if (data.name.trim().length < 2) errors.name = 'Name must be at least 2 characters.';
+  else if (data.name.trim().length > MAX_LENGTHS.name) errors.name = `Name must be ${MAX_LENGTHS.name} characters or fewer.`;
 
   if (!data.email.trim()) errors.email = 'Email is required.';
   else if (!validateEmail(data.email.trim())) errors.email = 'Please enter a valid email address.';
+  else if (data.email.trim().length > MAX_LENGTHS.email) errors.email = `Email must be ${MAX_LENGTHS.email} characters or fewer.`;
 
   if (!data.projectType) errors.projectType = 'Please select a project type.';
 
   if (!data.projectDescription.trim()) errors.projectDescription = 'Project description is required.';
   else if (data.projectDescription.trim().length < 20) errors.projectDescription = 'Please provide at least 20 characters describing your project.';
+  else if (data.projectDescription.trim().length > MAX_LENGTHS.projectDescription) errors.projectDescription = `Project description must be ${MAX_LENGTHS.projectDescription} characters or fewer.`;
 
   return errors;
 }
