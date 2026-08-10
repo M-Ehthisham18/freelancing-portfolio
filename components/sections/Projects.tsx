@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 import { ProjectCard } from '../cards/ProjectCard';
@@ -29,16 +28,13 @@ export function Projects() {
               description={project.description}
               tags={project.tags}
               slug={project.slug}
+              liveUrl={project.liveUrl}
             />
           ))}
         </div>
 
-        {/* Section End CTA */}
-        <div className="mt-16 text-center">
-          <button data-magnetic="View All" className="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
-            View All Projects
-          </button>
-        </div>
+        {/* Section End CTA — "View All Projects" intentionally hidden for now.
+            Re-enable by restoring a Link/button here when a /projects index page exists. */}
       </Container>
     </Section>
   );

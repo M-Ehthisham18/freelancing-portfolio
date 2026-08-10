@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import { Container } from '../layout/Container';
 
@@ -33,12 +34,12 @@ export function Hero() {
             
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-4 mt-stack-md w-full sm:w-auto">
-              <button data-magnetic="Book" className="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95">
+              <Link href="/contact" data-magnetic="Book" className="flex-1 sm:flex-none px-8 py-4 bg-primary text-on-primary rounded-lg font-medium text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 text-center">
                 Book a Free Consultation
-              </button>
-              <button data-magnetic="View" className="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+              </Link>
+              <a href="#projects" data-magnetic="View" className="flex-1 sm:flex-none px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center">
                 View My Work
-              </button>
+              </a>
             </div>
             
             {/* Trust Row */}

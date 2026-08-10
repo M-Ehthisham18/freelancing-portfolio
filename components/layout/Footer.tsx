@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-surface-container-lowest border-t border-outline-variant/10 pt-16 pb-8">
       <div className="max-w-container-max mx-auto px-gutter">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
           {/* Column 1: Brand */}
           <div className="flex flex-col gap-6">
             <div className="flex items-center gap-2">
@@ -29,13 +29,13 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <h4 className="text-body-md font-bold text-on-surface">Navigation</h4>
             <nav className="flex flex-col gap-3">
-              <Link href="#services" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <Link href="/#services" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 Services
               </Link>
-              <Link href="#projects" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <Link href="/#projects" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 Projects
               </Link>
-              <Link href="#process" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <Link href="/#process" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 Process
               </Link>
             </nav>
@@ -48,23 +48,43 @@ export function Footer() {
               <a href="mailto:hello@studiodev.com" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 hello@studiodev.com
               </a>
-              <Link href="#contact" data-magnetic="Call" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <a
+                href="https://github.com/M-Ehthisham18"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-magnetic="Github"
+                className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ehthisham-ul-haq-538abb295/"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-magnetic="LinkedIn"
+                className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
+              >
+                LinkedIn
+              </a>
+              <a
+                href="https://docs.google.com/document/d/1Br2P4Y2ZrELKhrk-h1JcRS81OFtUlEtaICNzID60AjI/edit?tab=t.0#heading=h.ulwemhl4otur"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-magnetic="Resume"
+                className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
+              >
+                Resume
+              </a>
+              <a
+                href="https://calendly.com/ehthishamulhaq073/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-magnetic="Call"
+                className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
+              >
                 Schedule a Call
-              </Link>
+              </a>
             </nav>
-          </div>
-
-          {/* Column 4: Socials */}
-          <div className="flex flex-col gap-4">
-            <h4 className="text-body-md font-bold text-on-surface">Connect</h4>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high transition-all" aria-label="Website">
-                <span className="material-symbols-outlined text-[20px]">language</span>
-              </a>
-              <a href="#" className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high transition-all" aria-label="Share">
-                <span className="material-symbols-outlined text-[20px]">share</span>
-              </a>
-            </div>
           </div>
         </div>
 
@@ -72,14 +92,6 @@ export function Footer() {
           <p className="text-label-sm text-on-surface-variant opacity-60">
             © {new Date().getFullYear()} StudioDev. All rights reserved.
           </p>
-          <div className="flex gap-6">
-            <Link href="#" className="text-label-sm text-on-surface-variant opacity-60 hover:opacity-100 transition-opacity">
-              Privacy Policy
-            </Link>
-            <Link href="#" className="text-label-sm text-on-surface-variant opacity-60 hover:opacity-100 transition-opacity">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

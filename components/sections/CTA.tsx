@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 
@@ -13,7 +14,7 @@ export function CTA() {
           <div className="max-w-3xl mx-auto text-center flex flex-col items-center gap-8 md:gap-12">
             <div className="flex flex-col gap-6">
               <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background leading-tight">
-                Let's Build Something Great Together
+                Let&apos;s Build Something Great Together
               </h2>
               <p className="text-body-lg font-body-lg text-on-surface-variant max-w-2xl">
                 Whether you need a business website, a custom application, or AI features, the first step is a conversation about your unique goals. I provide professional engineering and design focused on your long-term success.
@@ -21,12 +22,12 @@ export function CTA() {
             </div>
             
             <div className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
-              <button data-magnetic="Book" className="w-full sm:w-auto px-10 py-5 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20">
+              <Link href="/contact" data-magnetic="Book" className="w-full sm:w-auto px-10 py-5 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 shadow-lg shadow-primary/20 text-center">
                 Book a Free Consultation
-              </button>
-              <button data-magnetic="View" className="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95">
+              </Link>
+              <a href="#projects" data-magnetic="View" className="w-full sm:w-auto px-10 py-5 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center">
                 View My Projects
-              </button>
+              </a>
             </div>
             
             <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 pt-8 border-t border-outline-variant/10 w-full max-w-2xl">
