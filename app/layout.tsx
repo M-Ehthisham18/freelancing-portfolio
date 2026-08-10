@@ -35,14 +35,20 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: defaultTitle,
     description: siteConfig.description,
-    // images: no dedicated social-preview asset exists yet — add one and
-    // reference it here (e.g. /images/og-image.png) when available.
+    images: [
+      {
+        url: "/images/og.png",
+        width: 1200,
+        height: 630,
+        alt: `${siteConfig.name} — ${siteConfig.tagline}`,
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: defaultTitle,
     description: siteConfig.description,
-    // images: none until a social-preview asset is added.
+    images: ["/images/og.png"],
   },
   robots: {
     index: true,
