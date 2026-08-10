@@ -28,6 +28,7 @@ export function Projects() {
               description={project.description}
               tags={project.tags}
               slug={project.slug}
+              liveUrl={project.liveUrl}
             />
           ))}
         </div>

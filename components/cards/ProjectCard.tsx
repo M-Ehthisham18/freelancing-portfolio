@@ -9,9 +9,10 @@ interface ProjectCardProps {
   description: string;
   tags: string[];
   slug: string;
+  liveUrl?: string;
 }
 
-export function ProjectCard({ image, imageAlt, category, title, description, tags, slug }: ProjectCardProps) {
+export function ProjectCard({ image, imageAlt, category, title, description, tags, slug, liveUrl }: ProjectCardProps) {
   return (
     <div data-cursor-card className="group flex flex-col bg-surface-container-low rounded-xl border border-outline-variant/10 overflow-hidden hover-lift hover:bg-surface-container transition-all duration-300">
       <div className="relative aspect-video overflow-hidden border-b border-outline-variant/10">
@@ -45,12 +46,23 @@ export function ProjectCard({ image, imageAlt, category, title, description, tag
             Preserve the underlying capability by adding a `repoUrl` field to the
             project data model and restoring a button here when available. */}
         <div className="flex gap-4">
-          <Link
-            href={`/projects/${slug}`}
-            className="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95 text-center"
-          >
-            View Project
-          </Link>
+          {liveUrl ? (
+            <a
+              href={liveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95 text-center"
+            >
+              View Project
+            </a>
+          ) : (
+            <Link
+              href={`/projects/${slug}`}
+              className="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95 text-center"
+            >
+              View Project
+            </Link>
+          )}
         </div>
       </div>
     </div>

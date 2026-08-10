@@ -6,6 +6,10 @@ export interface Project {
   description: string;
   tags: string[];
   slug: string;
+  // Optional live deployment URL. When present, ProjectCard routes
+  // "View Project" to this URL in a new tab; when absent, behavior
+  // remains the internal /projects/[slug] route.
+  liveUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -35,5 +39,18 @@ export const projects: Project[] = [
     title: 'AI Productivity Assistant',
     description: 'An intelligent web application designed to help automate repetitive tasks using AI-powered features.',
     tags: ['Next.js', 'OpenAI', 'Node.js'],
+  },
+  {
+    slug: 'chit-chat',
+    // NOTE: No Chit-Chat-specific image asset exists yet in public/images/projects/.
+    // Reusing the Business Dashboard image as a generic placeholder until a real
+    // Chit-Chat screenshot is provided. See final report "Out-of-Scope Findings".
+    image: '/images/projects/business-dashboard.jpg',
+    imageAlt: 'Chit-Chat Real-Time Chat Application',
+    category: 'Real-Time Web Application',
+    title: 'Chit-Chat',
+    description: 'A full-stack real-time chat application with authenticated sessions and persistent messaging.',
+    tags: ['Node.js', 'Express', 'Socket.IO'],
+    liveUrl: 'https://chit-chat-a-fullstack-chat-app-2.onrender.com/login',
   },
 ];
