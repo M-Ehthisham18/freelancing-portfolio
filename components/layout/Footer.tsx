@@ -48,9 +48,15 @@ export function Footer() {
               <a href="mailto:hello@studiodev.com" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 hello@studiodev.com
               </a>
-              <Link href="/contact" data-magnetic="Call" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
+              <a
+                href="https://calendly.com/ehthishamulhaq073/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-magnetic="Call"
+                className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
+              >
                 Schedule a Call
-              </Link>
+              </a>
             </nav>
           </div>
         </div>
