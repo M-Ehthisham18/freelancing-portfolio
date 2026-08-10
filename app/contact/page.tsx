@@ -6,8 +6,17 @@ import { ContactForm } from '@/components/sections/ContactForm';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Contact | StudioDev — Start Your Project',
+  title: 'Contact — Start Your Project',
   description: 'Get in touch with StudioDev to discuss your web development project. Free initial consultation for new clients.',
+  alternates: {
+    canonical: '/contact',
+  },
+  openGraph: {
+    title: 'Contact — Start Your Project',
+    description: 'Get in touch with StudioDev to discuss your web development project. Free initial consultation for new clients.',
+    url: '/contact',
+    type: 'website',
+  },
 };
 
 export default function ContactPage() {
