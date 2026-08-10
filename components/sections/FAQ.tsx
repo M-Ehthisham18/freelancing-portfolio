@@ -64,18 +64,25 @@ export function FAQ() {
         >
           {faqs.map((faq, index) => {
             const isExpanded = expandedIndex === index;
+            const answerId = `faq-answer-${index}`;
 
             return (
               <div
                 key={index}
-                className="p-6 rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer"
+                className="rounded-lg border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all"
                 onMouseEnter={() => handleMouseEnter(index)}
-                onClick={() => handleClick(index)}
               >
                 <div className="flex flex-col gap-4">
-                  <div className="flex items-center justify-between gap-4">
+                  <button
+                    type="button"
+                    className="flex items-center justify-between gap-4 w-full p-6 text-left cursor-pointer"
+                    aria-expanded={isExpanded}
+                    aria-controls={answerId}
+                    onClick={() => handleClick(index)}
+                  >
                     <h3 className="text-body-md font-bold text-on-surface">{faq.question}</h3>
                     <span
+                      aria-hidden="true"
                       className="material-symbols-outlined text-primary/60 transition-transform duration-300"
                       style={{
                         transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
@@ -83,15 +90,16 @@ export function FAQ() {
                     >
                       expand_more
                     </span>
-                  </div>
+                  </button>
                   <div
-                    className="overflow-hidden transition-all duration-300 ease-in-out"
+                    id={answerId}
+                    className="overflow-hidden transition-all duration-300 ease-in-out px-6"
                     style={{
                       maxHeight: isExpanded ? '200px' : '0px',
                       opacity: isExpanded ? 1 : 0,
                     }}
                   >
-                    <p className="text-label-sm text-on-surface-variant">{faq.answer}</p>
+                    <p className="text-label-sm text-on-surface-variant pb-6">{faq.answer}</p>
                   </div>
                 </div>
               </div>
