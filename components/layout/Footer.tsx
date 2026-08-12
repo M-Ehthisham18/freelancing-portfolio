@@ -92,12 +92,18 @@ export function Footer() {
           <p className="text-label-sm text-on-surface-variant opacity-60">
             © {new Date().getFullYear()} StudioDev. All rights reserved.
           </p>
-          <nav aria-label="Legal">
+          <nav aria-label="Legal" className="flex items-center gap-4">
             <Link
               href="/privacy"
               className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
             >
               Privacy Policy
+            </Link>
+            <Link
+              href="/terms"
+              className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
+            >
+              Terms of Use
             </Link>
           </nav>
         </div>
