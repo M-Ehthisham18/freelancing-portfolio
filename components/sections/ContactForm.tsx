@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 type SubmissionState = 'idle' | 'loading' | 'success' | 'error';
 
@@ -416,6 +417,17 @@ export function ContactForm() {
           {serverMessage}
         </div>
       )}
+
+      {/* Privacy disclosure */}
+      <p className="text-[12px] leading-relaxed text-on-surface-variant/60">
+        By submitting this form, the information you provide will be used to
+        respond to your inquiry and is processed through an email delivery
+        provider. See the{' '}
+        <Link href="/privacy" className="text-primary hover:underline">
+          Privacy Policy
+        </Link>{' '}
+        for details. Submitting an inquiry does not create a client relationship.
+      </p>
 
       {/* Submit */}
       <button
