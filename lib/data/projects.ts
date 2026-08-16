@@ -6,22 +6,15 @@ export interface Project {
   description: string;
   tags: string[];
   slug: string;
-  // Optional live deployment URL. When present, ProjectCard routes
-  // "View Project" to this URL in a new tab; when absent, behavior
-  // remains the internal /projects/[slug] route.
+  // Optional live deployment URL. When present, ProjectCard shows a
+  // "View Live Project" link that opens this URL in a new tab.
   liveUrl?: string;
+  // Optional source-code repository URL. When present, ProjectCard shows
+  // a "View Code" link that opens this URL in a new tab.
+  repoUrl?: string;
 }
 
 export const projects: Project[] = [
-  {
-    slug: 'movie-ticket-booking',
-    image: '/images/projects/movie-ticket-booking.jpg',
-    imageAlt: 'Movie Ticket Booking Platform',
-    category: 'Full-Stack Web Application',
-    title: 'Movie Ticket Booking Platform',
-    description: 'A modern movie ticket booking platform designed to help users browse movies and select seats through an intuitive experience.',
-    tags: ['Next.js', 'Node.js', 'MongoDB'],
-  },
   {
     slug: 'business-dashboard',
     image: '/images/projects/business-dashboard.jpg',

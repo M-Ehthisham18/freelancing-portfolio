@@ -29,6 +29,7 @@ export function Projects() {
               tags={project.tags}
               slug={project.slug}
               liveUrl={project.liveUrl}
+              repoUrl={project.repoUrl}
             />
           ))}
         </div>
