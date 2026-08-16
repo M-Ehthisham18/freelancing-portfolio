@@ -4,7 +4,7 @@
     "hash": "dfa1f5f6a7037bf39dc510f30b180002"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\next-env.d.ts": {
-    "mtime": 1786287635.88867,
+    "mtime": 1786520439.6958249,
     "hash": "2a74d3909800ca5467fa83b0ab4a4890"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\next.config.ts": {
@@ -20,32 +20,48 @@
     "hash": "cd38039da703a1a6d4e187ffda334180"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\layout.tsx": {
-    "mtime": 1786273093.260941,
-    "hash": "473007134e3d2d4161608e15353592bc"
+    "mtime": 1786386972.2346995,
+    "hash": "fe810fc8da29f25a15cf00ba706c1361"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\not-found.tsx": {
     "mtime": 1786273093.260941,
     "hash": "16b85beb78f16194179b94fbd8a5b96b"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\robots.ts": {
+    "mtime": 1786375064.7488394,
+    "hash": "f8d8fc16487f3ff0bbce4999a57a09af"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\sitemap.ts": {
+    "mtime": 1786516446.1945937,
+    "hash": "7ff3952c782b1cf782159cdaf6ae76a3"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\(marketing)\\page.tsx": {
     "mtime": 1785668915.267301,
     "hash": "8c1cdba5737865d428f41a4bd151a3c4"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\api\\contact\\route.ts": {
-    "mtime": 1786287519.9666097,
-    "hash": "2e1bae2a9fc1563cd5bb389b3d127ef9"
+    "mtime": 1786366115.6013103,
+    "hash": "8ab5cc5550e1a98878c6261717970421"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\contact\\page.tsx": {
-    "mtime": 1786276335.6645074,
-    "hash": "0c1034129f698e011580702016cb5385"
+    "mtime": 1786375320.6403012,
+    "hash": "4727e27578f879b8e42431a9da36a9b7"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\privacy\\page.tsx": {
+    "mtime": 1786511095.741863,
+    "hash": "3be0dc9ef208592257ad3243d84353b3"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\app\\projects\\[slug]\\page.tsx": {
     "mtime": 1786273093.270961,
     "hash": "31568c1f6ce74c8fcf965b3838a581cc"
   },
+  "D:\\sham\\Projects\\freelancing-portfolio\\app\\terms\\page.tsx": {
+    "mtime": 1786516421.0360882,
+    "hash": "03003d55cad0b080b763accddce16bf4"
+  },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\cards\\ProjectCard.tsx": {
-    "mtime": 1786273093.2810519,
-    "hash": "fc44dc95e27dbb5fc57e54f881c16def"
+    "mtime": 1786520375.3212223,
+    "hash": "59611e737f2982d5c021442adad9f903"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\cards\\ServiceCard.tsx": {
     "mtime": 1786273093.2810519,
@@ -56,43 +72,43 @@
     "hash": "a71e1539e6987b369a7ff7c55ff66335"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Footer.tsx": {
-    "mtime": 1786273093.2866576,
-    "hash": "c9bbee822d719a6e23328015c3a383bc"
+    "mtime": 1786516501.9387064,
+    "hash": "a1ad0c9ba0997076623785183fb6bfae"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Header.tsx": {
-    "mtime": 1786276683.4304626,
-    "hash": "ffe60840298506a3f3b76cae9ba92d31"
+    "mtime": 1786366115.6326294,
+    "hash": "e8c9ae98441672faee21199618c33295"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\layout\\Section.tsx": {
     "mtime": 1785497688.4842114,
     "hash": "1dd958b09155fabf410fb8aa4740456a"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\ContactForm.tsx": {
-    "mtime": 1786275993.7203574,
-    "hash": "4e0f44a4ccc2552bb2e77e562b0d4e84"
+    "mtime": 1786511347.1148353,
+    "hash": "f900b5dc857fc89b8a7dc7bc707af766"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\CTA.tsx": {
-    "mtime": 1786276508.8502643,
-    "hash": "0ecb88314dc4c88be7e6317245304efd"
+    "mtime": 1786366115.648297,
+    "hash": "b6aadc84511e1fbeec2a2399419b1f90"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\FAQ.tsx": {
-    "mtime": 1786273093.298141,
-    "hash": "35e078022722df39f0d3405269a4d529"
+    "mtime": 1786366115.666839,
+    "hash": "ccef9863a8db9e17ae644aa8fa7acc8d"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Hero.tsx": {
-    "mtime": 1786276490.4992964,
-    "hash": "71e9a68558be0cbd6afa98b94b3b6bad"
+    "mtime": 1786366115.6772301,
+    "hash": "77bc561c85634f7af36b8392a8c96a37"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Process.tsx": {
     "mtime": 1786273093.3109016,
     "hash": "807bd0f9e56c18427c05cfd4feb3fd35"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Projects.tsx": {
-    "mtime": 1786273093.3149335,
-    "hash": "2c7773d617b713206dce2e2cb4f7ae4d"
+    "mtime": 1786520355.9357917,
+    "hash": "e3432dcbe5cc08ccfc0a4edc0950f311"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Services.tsx": {
-    "mtime": 1786276702.0262465,
+    "mtime": 1786366115.6879885,
     "hash": "9a014488d6fbcfb817373ed2faa757de"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\components\\sections\\Technologies.tsx": {
@@ -120,16 +136,20 @@
     "hash": "dda34c6054f1d0940ab2228c5d6c780a"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\lib\\email.ts": {
-    "mtime": 1786287504.6737106,
-    "hash": "f24936db5b50084ca4ffdd176fc01bd4"
+    "mtime": 1786366116.0188224,
+    "hash": "f5e911aacf1bd59d0823c6eb89654451"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\lib\\site.ts": {
+    "mtime": 1786374786.5389147,
+    "hash": "46d18cb3971123d6ac4581e2ee3ce5a3"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\lib\\utils.ts": {
     "mtime": 1785497542.2261772,
     "hash": "5a6fd53fdcf2be529e9cc0b718fde352"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\lib\\data\\projects.ts": {
-    "mtime": 1786273093.4886086,
-    "hash": "5da5fded0c3d448c2cdd0b6b845bc06a"
+    "mtime": 1786902604.6162055,
+    "hash": "d6685a270f8af08145844d4ca41b56db"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\AGENTS.md": {
     "mtime": 1785496807.1548655,
@@ -160,7 +180,7 @@
     "hash": "66b7d2f52e1725da845e67cbf82b801d"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\docs\\architecture\\features.md": {
-    "mtime": 1786273093.3477178,
+    "mtime": 1786901923.7525933,
     "hash": "4d9f9feac03c9cc6a6e695fd27a7b774"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\docs\\architecture\\project-overview.md": {
@@ -186,6 +206,10 @@
   "D:\\sham\\Projects\\freelancing-portfolio\\stitch_premium_freelance_portfolio_design\\studiodev_refined_portfolio_process_flow\\code.html": {
     "mtime": 1785496238.9028816,
     "hash": "11a1c3079d39ecee2d989119d5fe59f3"
+  },
+  "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\og.png": {
+    "mtime": 1786386972.239877,
+    "hash": "143ef9e185b138453f74a197867583cc"
   },
   "D:\\sham\\Projects\\freelancing-portfolio\\public\\images\\hero\\dashboard-mockup.jpg": {
     "mtime": 1785668915.275375,

@@ -1,16 +1,16 @@
-# Graph Report - freelancing-portfolio  (2026-08-09)
+# Graph Report - freelancing-portfolio  (2026-08-16)
 
 ## Corpus Check
-- 45 files · ~144,296 words
+- 50 files · ~159,079 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 200 nodes · 269 edges · 22 communities (18 shown, 4 thin omitted)
+- 219 nodes · 310 edges · 22 communities (18 shown, 4 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `2c35316f`
+- Built from commit: `68896f05`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -37,34 +37,34 @@
 - [[_COMMUNITY_Community 19|Community 19]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `Container()` - 14 edges
-2. `Section()` - 13 edges
+1. `Container()` - 16 edges
+2. `Section()` - 15 edges
 3. `cn()` - 9 edges
 4. `Section Components` - 8 edges
-5. `Feature Map` - 7 edges
-6. `ErrorState()` - 6 edges
-7. `POST()` - 5 edges
-8. `Graphify Workflow Integration Guide` - 5 edges
-9. `Component Registry` - 5 edges
-10. `Layout Components` - 5 edges
+5. `absoluteUrl()` - 7 edges
+6. `Feature Map` - 7 edges
+7. `POST()` - 6 edges
+8. `ErrorState()` - 6 edges
+9. `Footer()` - 5 edges
+10. `Header()` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
+- `RootLayout()` --calls--> `absoluteUrl()`  [EXTRACTED]
+  app/layout.tsx → lib/site.ts
+- `robots()` --calls--> `absoluteUrl()`  [EXTRACTED]
+  app/robots.ts → lib/site.ts
+- `sitemap()` --calls--> `absoluteUrl()`  [EXTRACTED]
+  app/sitemap.ts → lib/site.ts
 - `Container()` --calls--> `cn()`  [EXTRACTED]
   components/layout/Container.tsx → lib/utils.ts
 - `Section()` --calls--> `cn()`  [EXTRACTED]
   components/layout/Section.tsx → lib/utils.ts
-- `POST()` --calls--> `sendInquiryEmail()`  [EXTRACTED]
-  app/api/contact/route.ts → lib/email.ts
-- `Button()` --calls--> `cn()`  [EXTRACTED]
-  components/ui/button.tsx → lib/utils.ts
-- `ErrorState()` --calls--> `cn()`  [EXTRACTED]
-  components/ui/error-state.tsx → lib/utils.ts
 
 ## Communities (22 total, 4 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.12
-Nodes (18): ServiceCard(), ServiceCardProps, metadata, Container(), Footer(), Header(), navigationItems, Section() (+10 more)
+Nodes (19): ProjectCard(), ProjectCardProps, ServiceCard(), ServiceCardProps, Project, projects, Container(), Section() (+11 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.09
@@ -75,36 +75,36 @@ Cohesion: 0.1
 Nodes (19): 1. Installation & Integration, 2. Updating & Regenerating the Graph, 3. Querying the Graph, 4. Troubleshooting, code:bash (python -m pip install graphifyy), code:bash (python -m graphify antigravity install), code:bash (python -m graphify update .), code:bash (python -m graphify update . --force) (+11 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.24
-Nodes (11): DATA_DIR, DATA_FILE, Inquiry, POST(), readInquiries(), validateEmail(), writeInquiries(), buildInquiryEmailBody() (+3 more)
+Cohesion: 0.18
+Nodes (7): metadata, Footer(), Header(), navigationItems, metadata, ContactForm(), metadata
 
 ### Community 4 - "Community 4"
+Cohesion: 0.21
+Nodes (9): geistSans, jetbrainsMono, metadata, RootLayout(), robots(), sitemap(), absoluteUrl(), siteConfig (+1 more)
+
+### Community 5 - "Community 5"
+Cohesion: 0.21
+Nodes (13): DATA_DIR, DATA_FILE, Inquiry, MAX_LENGTHS, POST(), readInquiries(), toTrimmedString(), validateEmail() (+5 more)
+
+### Community 6 - "Community 6"
 Cohesion: 0.15
 Nodes (12): 1. Brand Identity & Visual Language, 2. Web Portfolio (Desktop), 3. Featured Project Visuals, 4. Device Presentation, AI Productivity Assistant, Business Management Dashboard, Core Logo, Design System: Executive Minimalist (+4 more)
 
-### Community 5 - "Community 5"
-Cohesion: 0.29
-Nodes (7): cn(), Button(), buttonVariants, ComingSoonProps, ErrorState(), ErrorStateProps, ErrorStateType
-
-### Community 6 - "Community 6"
-Cohesion: 0.2
-Nodes (10): BUDGET_RANGES, FormData, FormErrors, INITIAL_FORM, PROJECT_STATUSES, PROJECT_TYPES, SubmissionState, TIMELINE_OPTIONS (+2 more)
-
 ### Community 7 - "Community 7"
-Cohesion: 0.27
-Nodes (5): ProjectCard(), ProjectCardProps, Project, projects, Projects()
+Cohesion: 0.18
+Nodes (11): BUDGET_RANGES, FormData, FormErrors, INITIAL_FORM, MAX_LENGTHS, PROJECT_STATUSES, PROJECT_TYPES, SubmissionState (+3 more)
 
 ### Community 8 - "Community 8"
-Cohesion: 0.25
-Nodes (7): Feature: Core Infrastructure, Feature: Lead Generation, Feature Map, Feature: Portfolio Showcase, Feature: Resilience & Error Handling, Feature: Service Catalog, Feature: Trust & Authority
+Cohesion: 0.29
+Nodes (6): cn(), Button(), buttonVariants, ComingSoonProps, ErrorStateProps, ErrorStateType
 
 ### Community 9 - "Community 9"
 Cohesion: 0.25
-Nodes (7): Brand & Style, Colors, Components, Elevation & Depth, Layout & Spacing, Shapes, Typography
+Nodes (7): Feature: Core Infrastructure, Feature: Lead Generation, Feature Map, Feature: Portfolio Showcase, Feature: Resilience & Error Handling, Feature: Service Catalog, Feature: Trust & Authority
 
 ### Community 10 - "Community 10"
-Cohesion: 0.33
-Nodes (4): geistSans, jetbrainsMono, metadata, CustomCursor()
+Cohesion: 0.25
+Nodes (7): Brand & Style, Colors, Components, Elevation & Depth, Layout & Spacing, Shapes, Typography
 
 ### Community 11 - "Community 11"
 Cohesion: 0.29
@@ -127,21 +127,21 @@ Cohesion: 0.4
 Nodes (4): Flow: Failure Recovery (404/Missing), Flow: Lead Conversion Journey, Flow: Navigation Path, User Flows
 
 ## Knowledge Gaps
-- **91 isolated node(s):** `eslintConfig`, `nextConfig`, `config`, `geistSans`, `jetbrainsMono` (+86 more)
+- **95 isolated node(s):** `eslintConfig`, `nextConfig`, `config`, `geistSans`, `jetbrainsMono` (+90 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Container()` connect `Community 0` to `Community 5`, `Community 7`?**
+- **Why does `Container()` connect `Community 0` to `Community 8`, `Community 3`?**
+  _High betweenness centrality (0.018) - this node is a cross-community bridge._
+- **Why does `Section()` connect `Community 0` to `Community 8`, `Community 3`?**
   _High betweenness centrality (0.016) - this node is a cross-community bridge._
-- **Why does `Section()` connect `Community 0` to `Community 5`, `Community 7`?**
-  _High betweenness centrality (0.014) - this node is a cross-community bridge._
-- **Why does `cn()` connect `Community 5` to `Community 0`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 8` to `Community 0`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
 - **What connects `eslintConfig`, `nextConfig`, `config` to the rest of the system?**
-  _91 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _95 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
   _Cohesion score 0.12 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
