@@ -67,15 +67,6 @@ export function Footer() {
                 LinkedIn
               </a>
               <a
-                href="https://docs.google.com/document/d/1Br2P4Y2ZrELKhrk-h1JcRS81OFtUlEtaICNzID60AjI/edit?tab=t.0#heading=h.ulwemhl4otur"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-magnetic="Resume"
-                className="text-label-sm text-on-surface-variant hover:text-primary transition-colors"
-              >
-                Resume
-              </a>
-              <a
                 href="https://calendly.com/ehthishamulhaq073/30min"
                 target="_blank"
                 rel="noopener noreferrer"
