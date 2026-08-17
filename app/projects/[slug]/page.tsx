@@ -11,7 +11,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
   if (!project) {
     return (
-      <Section className="flex items-center justify-center min-h-[calc(100vh-200px)]">
+      <Section className="py-24">
         <Container>
           <ErrorState
             type="not-found"
@@ -28,7 +28,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   }
 
   return (
-    <Section className="flex items-center justify-center min-h-[calc(100vh-200px)]">
+    <Section className="py-24">
       <Container>
         <div className="text-center">
           <h1 className="text-headline-lg font-bold text-on-background mb-4">{project.title}</h1>
