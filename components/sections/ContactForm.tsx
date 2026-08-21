@@ -195,7 +195,7 @@ export function ContactForm() {
     <form onSubmit={handleSubmit} noValidate className="flex flex-col gap-6">
       {/* === REQUIRED FIELDS === */}
       <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low">
-        <h3 className="text-body-md font-bold text-on-surface mb-6">Contact Information</h3>
+        <h2 className="text-body-md font-bold text-on-surface mb-6">Contact Information</h2>
 
         {/* Full Name */}
         <div className="mb-5">
@@ -235,13 +235,13 @@ export function ContactForm() {
             className="w-full px-4 py-3 rounded-lg bg-surface-container border border-outline-variant/20 text-on-surface text-body-md placeholder:text-on-surface-variant/50 focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
           />
           {errors.email && <p id="email-error" role="alert" className="mt-2 text-[13px] text-error">{errors.email}</p>}
-          <p className="mt-1 text-[12px] text-on-surface-variant/60">We will use this to follow up on your inquiry.</p>
+          <p className="mt-1 text-[13px] text-on-surface-variant/80">We will use this to follow up on your inquiry.</p>
         </div>
       </div>
 
       {/* === PROJECT DETAILS === */}
       <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low">
-        <h3 className="text-body-md font-bold text-on-surface mb-6">Project Details</h3>
+        <h2 className="text-body-md font-bold text-on-surface mb-6">Project Details</h2>
 
         {/* Project Type */}
         <div className="mb-5">
@@ -287,8 +287,8 @@ export function ContactForm() {
 
       {/* === OPTIONAL FIELDS === */}
       <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low">
-        <h3 className="text-body-md font-bold text-on-surface mb-2">Additional Information</h3>
-        <p className="text-label-sm text-on-surface-variant/60 mb-6">All fields below are optional.</p>
+        <h2 className="text-body-md font-bold text-on-surface mb-2">Additional Information</h2>
+        <p className="text-[13px] text-on-surface-variant/80 mb-6">All fields below are optional.</p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
           {/* Company */}
@@ -375,7 +375,7 @@ export function ContactForm() {
               onChange={handleChange}
               className="w-full px-4 py-3 rounded-lg bg-surface-container border border-outline-variant/20 text-on-surface text-body-md focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
             />
-            <p className="mt-1 text-[12px] text-on-surface-variant/60">This is a request — StudioDev will confirm availability.</p>
+            <p className="mt-1 text-[13px] text-on-surface-variant/80">This is a request — StudioDev will confirm availability.</p>
           </div>
 
           {/* Preferred Time */}
@@ -419,7 +419,7 @@ export function ContactForm() {
       )}
 
       {/* Privacy disclosure */}
-      <p className="text-[12px] leading-relaxed text-on-surface-variant/60">
+      <p className="text-[13px] leading-relaxed text-on-surface-variant/80">
         By submitting this form, the information you provide will be used to
         respond to your inquiry and is processed through an email delivery
         provider. See the{' '}

@@ -137,7 +137,7 @@ export default function PrivacyPage() {
                   it through the contact form at{' '}
                   <Link
                     href="/contact"
-                    className="text-primary hover:underline"
+                    className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
                     /contact
                   </Link>
@@ -437,7 +437,7 @@ export default function PrivacyPage() {
                   contact StudioDev by email:{' '}
                   <a
                     href="mailto:hello@studiodev.com"
-                    className="text-primary hover:underline"
+                    className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
                     hello@studiodev.com
                   </a>
@@ -461,7 +461,7 @@ export default function PrivacyPage() {
                   may contact StudioDev at{' '}
                   <a
                     href="mailto:hello@studiodev.com"
-                    className="text-primary hover:underline"
+                    className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
                     hello@studiodev.com
                   </a>

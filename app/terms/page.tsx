@@ -131,7 +131,7 @@ export default function TermsPage() {
                   These Terms govern website use only. The separate{' '}
                   <Link
                     href="/privacy"
-                    className="text-primary hover:underline"
+                    className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
                     Privacy Policy
                   </Link>{' '}
@@ -211,7 +211,7 @@ export default function TermsPage() {
                   accordance with the{' '}
                   <Link
                     href="/privacy"
-                    className="text-primary hover:underline"
+                    className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
                     Privacy Policy
                   </Link>
@@ -389,7 +389,7 @@ export default function TermsPage() {
                   StudioDev by email:{' '}
                   <a
                     href="mailto:hello@studiodev.com"
-                    className="text-primary hover:underline"
+                    className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
                     hello@studiodev.com
                   </a>

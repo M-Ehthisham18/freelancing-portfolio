@@ -11,32 +11,36 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
   if (!project) {
     return (
-      <Section className="py-24">
-        <Container>
-          <ErrorState
-            type="not-found"
-            title="Project Not Found"
-            description="We couldn't find the project you're looking for. It may have been moved or removed from our portfolio."
-            primaryAction={{
-              label: "Back to Projects",
-              href: "/",
-            }}
-          />
-        </Container>
-      </Section>
+      <main className="flex-1">
+        <Section className="py-24">
+          <Container>
+            <ErrorState
+              type="not-found"
+              title="Project Not Found"
+              description="We couldn't find the project you're looking for. It may have been moved or removed from our portfolio."
+              primaryAction={{
+                label: "Back to Projects",
+                href: "/",
+              }}
+            />
+          </Container>
+        </Section>
+      </main>
     );
   }
 
   return (
-    <Section className="py-24">
-      <Container>
-        <div className="text-center">
-          <h1 className="text-headline-lg font-bold text-on-background mb-4">{project.title}</h1>
-          <p className="text-body-lg text-on-surface-variant">
-            Project details for {project.title} will be implemented here.
-          </p>
-        </div>
-      </Container>
-    </Section>
+    <main className="flex-1">
+      <Section className="py-24">
+        <Container>
+          <div className="text-center">
+            <h1 className="text-headline-lg font-bold text-on-background mb-4">{project.title}</h1>
+            <p className="text-body-lg text-on-surface-variant">
+              Project details for {project.title} will be implemented here.
+            </p>
+          </div>
+        </Container>
+      </Section>
+    </main>
   );
 }

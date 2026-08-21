@@ -46,17 +46,17 @@ export function Hero() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 w-full pt-12 border-t border-outline-variant/10">
               <div className="flex flex-col gap-3">
                 <span className="material-symbols-outlined text-primary text-2xl">speed</span>
-                <h3 className="text-body-md font-bold text-on-surface">Performance Focused</h3>
+                <div className="text-body-md font-bold text-on-surface">Performance Focused</div>
                 <p className="text-label-sm text-on-surface-variant">Fast, responsive websites built for a smooth user experience.</p>
               </div>
               <div className="flex flex-col gap-3">
                 <span className="material-symbols-outlined text-primary text-2xl">devices</span>
-                <h3 className="text-body-md font-bold text-on-surface">Mobile-First Design</h3>
+                <div className="text-body-md font-bold text-on-surface">Mobile-First Design</div>
                 <p className="text-label-sm text-on-surface-variant">Designed to support a beautiful experience across all devices.</p>
               </div>
               <div className="flex flex-col gap-3">
                 <span className="material-symbols-outlined text-primary text-2xl">code</span>
-                <h3 className="text-body-md font-bold text-on-surface">Clean & Scalable Code</h3>
+                <div className="text-body-md font-bold text-on-surface">Clean & Scalable Code</div>
                 <p className="text-label-sm text-on-surface-variant">Built with maintainability and future growth in mind.</p>
               </div>
             </div>

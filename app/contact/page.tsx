@@ -53,9 +53,9 @@ export default function ContactPage() {
                 <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="material-symbols-outlined text-primary">mail</span>
-                    <h3 className="text-body-md font-bold text-on-surface">Email Us Directly</h3>
+                    <h2 className="text-body-md font-bold text-on-surface">Email Us Directly</h2>
                   </div>
-                  <a href="mailto:hello@studiodev.com" className="text-body-md text-primary hover:underline">
+                  <a href="mailto:hello@studiodev.com" className="text-body-md text-primary underline underline-offset-2 hover:underline-offset-4">
                     hello@studiodev.com
                   </a>
                 </div>
@@ -63,7 +63,7 @@ export default function ContactPage() {
                 <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="material-symbols-outlined text-primary">schedule</span>
-                    <h3 className="text-body-md font-bold text-on-surface">Consultation Process</h3>
+                    <h2 className="text-body-md font-bold text-on-surface">Consultation Process</h2>
                   </div>
                   <ol className="flex flex-col gap-3 text-label-sm text-on-surface-variant">
                     <li className="flex gap-3">
@@ -84,7 +84,7 @@ export default function ContactPage() {
                 <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low">
                   <div className="flex items-center gap-3 mb-4">
                     <span className="material-symbols-outlined text-primary">verified</span>
-                    <h3 className="text-body-md font-bold text-on-surface">No Obligation</h3>
+                    <h2 className="text-body-md font-bold text-on-surface">No Obligation</h2>
                   </div>
                   <p className="text-label-sm text-on-surface-variant">
                     The initial consultation is completely free. Discuss your goals, get expert advice, and decide if StudioDev is the right fit — no strings attached.

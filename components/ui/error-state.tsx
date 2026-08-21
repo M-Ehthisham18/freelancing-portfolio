@@ -33,26 +33,31 @@ export function ErrorState({
   className,
 }: ErrorStateProps) {
   // Map state types to specific icons and styles based on the Executive Minimalist design system
-  const stateConfigs: Record<ErrorStateType, { icon: React.ReactNode; variant: 'destructive' | 'outline' | 'default' }> = {
+  const stateConfigs: Record<ErrorStateType, { icon: React.ReactNode; variant: 'destructive' | 'outline' | 'default'; HeadingTag: 'h1' | 'h3' }> = {
     error: {
       icon: <span className="material-symbols-outlined text-primary text-4xl">error</span>,
       variant: 'destructive',
+      HeadingTag: 'h3',
     },
     'not-found': {
       icon: <span className="material-symbols-outlined text-primary text-4xl">search_off</span>,
       variant: 'outline',
+      HeadingTag: 'h1',
     },
     empty: {
       icon: <span className="material-symbols-outlined text-primary text-4xl">inventory_2</span>,
       variant: 'outline',
+      HeadingTag: 'h3',
     },
     'coming-soon': {
       icon: <span className="material-symbols-outlined text-primary text-4xl">rocket_launch</span>,
       variant: 'default',
+      HeadingTag: 'h3',
     },
   };
 
   const config = stateConfigs[type];
+  const HeadingTag = config.HeadingTag;
 
   return (
     <div className={cn(
@@ -65,9 +70,9 @@ export function ErrorState({
       </div>
 
       {/* Text Content */}
-      <h3 className="text-headline-md font-bold text-on-surface mb-3">
+      <HeadingTag className="text-headline-md font-bold text-on-surface mb-3">
         {title}
-      </h3>
+      </HeadingTag>
       <p className="text-body-md text-on-surface-variant max-w-md mx-auto mb-8">
         {description}
       </p>

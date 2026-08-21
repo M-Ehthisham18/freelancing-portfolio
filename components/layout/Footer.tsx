@@ -27,7 +27,7 @@ export function Footer() {
 
           {/* Column 2: Navigation */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-body-md font-bold text-on-surface">Navigation</h4>
+            <h2 className="text-body-md font-bold text-on-surface">Navigation</h2>
             <nav className="flex flex-col gap-3">
               <Link href="/#services" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 Services
@@ -43,7 +43,7 @@ export function Footer() {
 
           {/* Column 3: Contact */}
           <div className="flex flex-col gap-4">
-            <h4 className="text-body-md font-bold text-on-surface">Contact</h4>
+            <h2 className="text-body-md font-bold text-on-surface">Contact</h2>
             <nav className="flex flex-col gap-3">
               <a href="mailto:hello@studiodev.com" className="text-label-sm text-on-surface-variant hover:text-primary transition-colors">
                 hello@studiodev.com
