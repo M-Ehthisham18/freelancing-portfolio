@@ -12,10 +12,8 @@ interface ProjectCardProps {
   repoUrl?: string;
 }
 
-export function ProjectCard({ image, imageAlt, category, title, description, tags, liveUrl, repoUrl }: ProjectCardProps) {
-  const hasLiveUrl = Boolean(liveUrl);
+export function ProjectCard({ image, imageAlt, category, title, description, tags, repoUrl }: ProjectCardProps) {
   const hasRepoUrl = Boolean(repoUrl);
-  const hasActions = hasLiveUrl || hasRepoUrl;
 
   return (
     <div data-cursor-card className="group flex flex-col bg-surface-container-low rounded-xl border border-outline-variant/10 overflow-hidden hover-lift hover:bg-surface-container transition-all duration-300">
@@ -46,28 +44,16 @@ export function ProjectCard({ image, imageAlt, category, title, description, tag
             </span>
           ))}
         </div>
-        {hasActions && (
+        {hasRepoUrl && (
           <div className="flex gap-4">
-            {hasLiveUrl && (
-              <a
-                href={liveUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-4 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-90 transition-all active:scale-95 text-center"
-              >
-                View Live Project
-              </a>
-            )}
-            {hasRepoUrl && (
-              <a
-                href={repoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex-1 px-4 py-2 bg-transparent border border-outline text-on-background rounded-lg font-medium text-label-sm font-label-sm hover:bg-surface-container transition-all active:scale-95 text-center"
-              >
-                View Code
-              </a>
-            )}
+            <a
+              href={repoUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex-1 px-4 py-2 bg-transparent border border-outline text-on-background rounded-lg font-medium text-label-sm font-label-sm hover:bg-surface-container transition-all active:scale-95 text-center"
+            >
+              View Code
+            </a>
           </div>
         )}
       </div>
