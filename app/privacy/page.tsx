@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { ShieldCheck } from 'lucide-react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Section } from '@/components/layout/Section';
@@ -73,9 +74,7 @@ export default function PrivacyPage() {
           <Container>
             <div className="max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full border border-outline-variant/20 mb-8">
-                <span className="material-symbols-outlined text-primary text-sm">
-                  privacy_tip
-                </span>
+                <ShieldCheck className="h-4 w-4 text-primary" aria-hidden="true" />
                 <span className="text-label-sm font-label-sm text-primary tracking-widest uppercase">
                   Privacy
                 </span>
@@ -261,18 +260,17 @@ export default function PrivacyPage() {
                 id="icons-and-fonts"
               >
                 <p>
-                  To display icons throughout the website, the browser loads the{' '}
+                  To display icons throughout the website, the website uses{' '}
                   <span className="text-on-surface font-medium">
-                    Material Symbols
-                  </span>{' '}
-                  icon stylesheet from{' '}
+                    Lucide React
+                  </span>
+                  , an open-source icon library. Lucide icons are{' '}
                   <span className="text-on-surface font-medium">
-                    fonts.googleapis.com
+                    bundled with the website&apos;s JavaScript
                   </span>{' '}
-                  at runtime. When your browser makes this request, Google may
-                  receive request metadata such as your IP address and
-                  user-agent string. StudioDev does not control how Google
-                  processes that data.
+                  and rendered as inline SVG. No third-party icon service is
+                  contacted, and no separate icon font or stylesheet is loaded
+                  at runtime.
                 </p>
                 <p>
                   The Geist and JetBrains Mono text fonts used by the website are

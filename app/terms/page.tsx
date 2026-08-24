@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { Gavel } from 'lucide-react';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Section } from '@/components/layout/Section';
@@ -73,9 +74,7 @@ export default function TermsPage() {
           <Container>
             <div className="max-w-3xl mx-auto">
               <div className="inline-flex items-center gap-2 px-3 py-1 bg-surface-container rounded-full border border-outline-variant/20 mb-8">
-                <span className="material-symbols-outlined text-primary text-sm">
-                  gavel
-                </span>
+                <Gavel className="h-4 w-4 text-primary" aria-hidden="true" />
                 <span className="text-label-sm font-label-sm text-primary tracking-widest uppercase">
                   Legal
                 </span>

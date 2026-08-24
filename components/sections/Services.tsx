@@ -1,27 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
+import { Globe, Layout, Sparkles, Wand2 } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 import { ServiceCard } from '../cards/ServiceCard';
 
 const services = [
   {
-    icon: 'language',
+    icon: Globe,
     title: 'Business Website Development',
     description: 'Create professional, responsive websites designed to support conversion and help establish a professional presence.',
   },
   {
-    icon: 'apps',
+    icon: Layout,
     title: 'Custom Web Applications',
     description: 'Develop tailored web applications designed to support your business workflows and help improve efficiency.',
   },
   {
-    icon: 'smart_toy',
+    icon: Sparkles,
     title: 'AI-Powered Features & Automation',
     description: 'Integrate AI-powered capabilities designed to support intelligent assistants and workflow automation.',
   },
   {
-    icon: 'auto_fix_high',
+    icon: Wand2,
     title: 'Website Modernization & Performance',
     description: 'Improve existing websites with a focus on speed, accessibility, responsive design, and SEO.',
   },

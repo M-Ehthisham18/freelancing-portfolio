@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { BadgeCheck, MessageSquare, CircleCheckBig } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 
@@ -32,15 +33,15 @@ export function CTA() {
             
             <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 pt-8 border-t border-outline-variant/10 w-full max-w-2xl">
               <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-primary text-xl">verified</span>
+                <BadgeCheck className="h-5 w-5 text-primary" aria-hidden="true" />
                 <span className="text-label-sm font-medium text-on-surface-variant">Free Initial Consultation</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-primary text-xl">chat</span>
+                <MessageSquare className="h-5 w-5 text-primary" aria-hidden="true" />
                 <span className="text-label-sm font-medium text-on-surface-variant">Transparent Communication</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="material-symbols-outlined text-primary text-xl">task_alt</span>
+                <CircleCheckBig className="h-5 w-5 text-primary" aria-hidden="true" />
                 <span className="text-label-sm font-medium text-on-surface-variant">No Obligation Discussion</span>
               </div>
             </div>

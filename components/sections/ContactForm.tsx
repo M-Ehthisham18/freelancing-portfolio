@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import { CheckCircle } from 'lucide-react';
 
 type SubmissionState = 'idle' | 'loading' | 'success' | 'error';
 
@@ -177,7 +178,7 @@ export function ContactForm() {
     return (
       <div className="p-8 md:p-12 rounded-xl border border-outline-variant/10 bg-surface-container-low text-center">
         <div className="mb-6 p-4 rounded-full bg-primary/10 border border-primary/20 inline-flex">
-          <span className="material-symbols-outlined text-primary text-4xl">check_circle</span>
+          <CheckCircle className="h-10 w-10 text-primary" aria-hidden="true" />
         </div>
         <h3 className="text-headline-md font-bold text-on-surface mb-3">Inquiry Received</h3>
         <p className="text-body-md text-on-surface-variant max-w-md mx-auto mb-8">{serverMessage}</p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Gauge, Smartphone, Code, Bolt, Search, Blocks } from 'lucide-react';
 import { Container } from '../layout/Container';
 
 export function Hero() {
@@ -45,17 +46,17 @@ export function Hero() {
             {/* Trust Row */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 w-full pt-12 border-t border-outline-variant/10">
               <div className="flex flex-col gap-3">
-                <span className="material-symbols-outlined text-primary text-2xl">speed</span>
+                <Gauge className="h-7 w-7 text-primary" aria-hidden="true" />
                 <div className="text-body-md font-bold text-on-surface">Performance Focused</div>
                 <p className="text-label-sm text-on-surface-variant">Fast, responsive websites built for a smooth user experience.</p>
               </div>
               <div className="flex flex-col gap-3">
-                <span className="material-symbols-outlined text-primary text-2xl">devices</span>
+                <Smartphone className="h-7 w-7 text-primary" aria-hidden="true" />
                 <div className="text-body-md font-bold text-on-surface">Mobile-First Design</div>
                 <p className="text-label-sm text-on-surface-variant">Designed to support a beautiful experience across all devices.</p>
               </div>
               <div className="flex flex-col gap-3">
-                <span className="material-symbols-outlined text-primary text-2xl">code</span>
+                <Code className="h-7 w-7 text-primary" aria-hidden="true" />
                 <div className="text-body-md font-bold text-on-surface">Clean & Scalable Code</div>
                 <p className="text-label-sm text-on-surface-variant">Built with maintainability and future growth in mind.</p>
               </div>
@@ -85,28 +86,28 @@ export function Hero() {
             {/* Floating Cards */}
             <div className="absolute -top-6 right-0 md:-right-4 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style={{ animationDelay: '0s' }}>
               <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">smartphone</span>
+                <Smartphone className="h-5 w-5 text-primary" aria-hidden="true" />
               </div>
               <div><p className="text-label-sm font-bold text-on-surface">Mobile-First Development</p></div>
             </div>
             
             <div className="absolute top-1/2 -left-4 md:-left-12 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style={{ animationDelay: '1.5s' }}>
               <div className="w-10 h-10 rounded-full bg-tertiary/20 flex items-center justify-center">
-                <span className="material-symbols-outlined text-tertiary">bolt</span>
+                <Bolt className="h-5 w-5 text-tertiary" aria-hidden="true" />
               </div>
               <div><p className="text-label-sm font-bold text-on-surface">Performance Optimized</p></div>
             </div>
             
             <div className="absolute -bottom-8 right-12 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style={{ animationDelay: '0.8s' }}>
               <div className="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center">
-                <span className="material-symbols-outlined text-on-surface">search</span>
+                <Search className="h-5 w-5 text-on-surface" aria-hidden="true" />
               </div>
               <div><p className="text-label-sm font-bold text-on-surface">SEO Ready</p></div>
             </div>
             
             <div className="absolute bottom-1/2 -right-8 floating-animation glass-card p-4 rounded-xl flex items-center gap-3 shadow-lg z-20" style={{ animationDelay: '2s' }}>
               <div className="w-10 h-10 rounded-full bg-primary/5 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">architecture</span>
+                <Blocks className="h-5 w-5 text-primary" aria-hidden="true" />
               </div>
               <div><p className="text-label-sm font-bold text-on-surface">Clean Architecture</p></div>
             </div>

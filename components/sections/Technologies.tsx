@@ -1,4 +1,5 @@
 import React from 'react';
+import { Globe, Server, Database, Brain, Rocket } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 
@@ -18,7 +19,7 @@ export function Technologies() {
           {/* Frontend */}
           <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
             <div className="flex flex-col gap-4">
-              <span className="material-symbols-outlined text-primary">web</span>
+              <Globe className="h-7 w-7 text-primary" aria-hidden="true" />
               <h3 className="text-body-md font-bold text-on-surface">Frontend</h3>
               <p className="text-label-sm text-on-surface-variant">Next.js, React, TypeScript, Tailwind CSS</p>
             </div>
@@ -26,7 +27,7 @@ export function Technologies() {
           {/* Backend */}
           <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
             <div className="flex flex-col gap-4">
-              <span className="material-symbols-outlined text-primary">dns</span>
+              <Server className="h-7 w-7 text-primary" aria-hidden="true" />
               <h3 className="text-body-md font-bold text-on-surface">Backend</h3>
               <p className="text-label-sm text-on-surface-variant">Node.js, Express.js</p>
             </div>
@@ -34,7 +35,7 @@ export function Technologies() {
           {/* Database */}
           <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
             <div className="flex flex-col gap-4">
-              <span className="material-symbols-outlined text-primary">database</span>
+              <Database className="h-7 w-7 text-primary" aria-hidden="true" />
               <h3 className="text-body-md font-bold text-on-surface">Database</h3>
               <p className="text-label-sm text-on-surface-variant">MongoDB</p>
             </div>
@@ -42,7 +43,7 @@ export function Technologies() {
           {/* AI */}
           <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
             <div className="flex flex-col gap-4">
-              <span className="material-symbols-outlined text-primary">psychology</span>
+              <Brain className="h-7 w-7 text-primary" aria-hidden="true" />
               <h3 className="text-body-md font-bold text-on-surface">AI</h3>
               <p className="text-label-sm text-on-surface-variant">OpenAI, Google Gemini, Claude API</p>
             </div>
@@ -50,7 +51,7 @@ export function Technologies() {
           {/* Deployment */}
           <div className="p-6 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-colors">
             <div className="flex flex-col gap-4">
-              <span className="material-symbols-outlined text-primary">rocket_launch</span>
+              <Rocket className="h-7 w-7 text-primary" aria-hidden="true" />
               <h3 className="text-body-md font-bold text-on-surface">Deployment</h3>
               <p className="text-label-sm text-on-surface-variant">Vercel, Cloudflare, Git, GitHub</p>
             </div>

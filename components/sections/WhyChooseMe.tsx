@@ -1,4 +1,5 @@
 import React from 'react';
+import { Briefcase, MessagesSquare, Terminal, Smartphone, Rocket, UserCheck } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 
@@ -19,7 +20,7 @@ export function WhyChooseMe() {
           <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">work</span>
+                <Briefcase className="h-7 w-7 text-primary" aria-hidden="true" />
               </div>
               <h3 className="text-headline-md font-bold text-on-surface">Business-First Approach</h3>
               <p className="text-body-md text-on-surface-variant">Every project starts by focusing on your business goals before development begins.</p>
@@ -29,7 +30,7 @@ export function WhyChooseMe() {
           <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">forum</span>
+                <MessagesSquare className="h-7 w-7 text-primary" aria-hidden="true" />
               </div>
               <h3 className="text-headline-md font-bold text-on-surface">Clear Communication</h3>
               <p className="text-body-md text-on-surface-variant">Stay informed with regular updates, transparent discussions, and timely responses throughout the project.</p>
@@ -39,7 +40,7 @@ export function WhyChooseMe() {
           <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">terminal</span>
+                <Terminal className="h-7 w-7 text-primary" aria-hidden="true" />
               </div>
               <h3 className="text-headline-md font-bold text-on-surface">Modern Development</h3>
               <p className="text-body-md text-on-surface-variant">Build with reliable technologies and industry best practices for long-term performance and scalability.</p>
@@ -49,7 +50,7 @@ export function WhyChooseMe() {
           <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">devices</span>
+                <Smartphone className="h-7 w-7 text-primary" aria-hidden="true" />
               </div>
               <h3 className="text-headline-md font-bold text-on-surface">Responsive by Default</h3>
               <p className="text-body-md text-on-surface-variant">Focus on delivering seamless experiences across desktop, tablet, and mobile devices.</p>
@@ -59,7 +60,7 @@ export function WhyChooseMe() {
           <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">rocket_launch</span>
+                <Rocket className="h-7 w-7 text-primary" aria-hidden="true" />
               </div>
               <h3 className="text-headline-md font-bold text-on-surface">Performance & SEO</h3>
               <p className="text-body-md text-on-surface-variant">Optimize every website for speed, accessibility, and search engine visibility.</p>
@@ -69,7 +70,7 @@ export function WhyChooseMe() {
           <div data-cursor-card className="p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift">
             <div className="flex flex-col gap-6">
               <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-primary">verified_user</span>
+                <UserCheck className="h-7 w-7 text-primary" aria-hidden="true" />
               </div>
               <h3 className="text-headline-md font-bold text-on-surface">Long-Term Support</h3>
               <p className="text-body-md text-on-surface-variant">Receive post-launch assistance and guidance focused on your growth as your business grows.</p>

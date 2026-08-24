@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { AlertOctagon, SearchX, Package, Rocket } from 'lucide-react';
 import { Button } from './button';
 import { cn } from '@/lib/utils';
 
@@ -35,22 +36,22 @@ export function ErrorState({
   // Map state types to specific icons and styles based on the Executive Minimalist design system
   const stateConfigs: Record<ErrorStateType, { icon: React.ReactNode; variant: 'destructive' | 'outline' | 'default'; HeadingTag: 'h1' | 'h3' }> = {
     error: {
-      icon: <span className="material-symbols-outlined text-primary text-4xl">error</span>,
+      icon: <AlertOctagon className="h-10 w-10 text-primary" aria-hidden="true" />,
       variant: 'destructive',
       HeadingTag: 'h3',
     },
     'not-found': {
-      icon: <span className="material-symbols-outlined text-primary text-4xl">search_off</span>,
+      icon: <SearchX className="h-10 w-10 text-primary" aria-hidden="true" />,
       variant: 'outline',
       HeadingTag: 'h1',
     },
     empty: {
-      icon: <span className="material-symbols-outlined text-primary text-4xl">inventory_2</span>,
+      icon: <Package className="h-10 w-10 text-primary" aria-hidden="true" />,
       variant: 'outline',
       HeadingTag: 'h3',
     },
     'coming-soon': {
-      icon: <span className="material-symbols-outlined text-primary text-4xl">rocket_launch</span>,
+      icon: <Rocket className="h-10 w-10 text-primary" aria-hidden="true" />,
       variant: 'default',
       HeadingTag: 'h3',
     },

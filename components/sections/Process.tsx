@@ -1,4 +1,5 @@
 import React from 'react';
+import { MessageSquare, Map, SquareTerminal, BadgeCheck } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 
@@ -25,7 +26,7 @@ export function Process() {
                 <h3 className="text-headline-md font-bold text-on-surface mb-1">Discover</h3>
                 <p className="text-body-md text-on-surface-variant max-w-2xl">We start with a deep dive into your business goals, target audience, and technical requirements through a free consultation.</p>
               </div>
-              <span className="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">chat</span>
+              <MessageSquare className="h-6 w-6 text-primary/40 group-hover:text-primary transition-colors hidden md:block" aria-hidden="true" />
             </div>
           </div>
           
@@ -37,7 +38,7 @@ export function Process() {
                 <h3 className="text-headline-md font-bold text-on-surface mb-1">Plan</h3>
                 <p className="text-body-md text-on-surface-variant max-w-2xl">I create a detailed roadmap, defining priorities and the technical architecture needed to scale your vision.</p>
               </div>
-              <span className="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">map</span>
+              <Map className="h-6 w-6 text-primary/40 group-hover:text-primary transition-colors hidden md:block" aria-hidden="true" />
             </div>
           </div>
           
@@ -49,7 +50,7 @@ export function Process() {
                 <h3 className="text-headline-md font-bold text-on-surface mb-1">Build</h3>
                 <p className="text-body-md text-on-surface-variant max-w-2xl">Iterative development with regular updates. I handle the design, engineering, and testing focused on a successful launch.</p>
               </div>
-              <span className="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">terminal</span>
+              <SquareTerminal className="h-6 w-6 text-primary/40 group-hover:text-primary transition-colors hidden md:block" aria-hidden="true" />
             </div>
           </div>
           
@@ -61,7 +62,7 @@ export function Process() {
                 <h3 className="text-headline-md font-bold text-on-surface mb-1">Launch & Support</h3>
                 <p className="text-body-md text-on-surface-variant max-w-2xl">Seamless deployment followed by ongoing maintenance and optimization focused on your site performing at its peak.</p>
               </div>
-              <span className="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors hidden md:block">verified</span>
+              <BadgeCheck className="h-6 w-6 text-primary/40 group-hover:text-primary transition-colors hidden md:block" aria-hidden="true" />
             </div>
           </div>
         </div>

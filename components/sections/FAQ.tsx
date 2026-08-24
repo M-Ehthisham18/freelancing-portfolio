@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { ChevronDown } from 'lucide-react';
 import { Section } from '../layout/Section';
 import { Container } from '../layout/Container';
 
@@ -81,15 +82,13 @@ export function FAQ() {
                     onClick={() => handleClick(index)}
                   >
                     <h3 className="text-body-md font-bold text-on-surface">{faq.question}</h3>
-                    <span
+                    <ChevronDown
                       aria-hidden="true"
-                      className="material-symbols-outlined text-primary/60 transition-transform duration-300"
+                      className="h-5 w-5 text-primary/60 transition-transform duration-300"
                       style={{
                         transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
                       }}
-                    >
-                      expand_more
-                    </span>
+                    />
                   </button>
                   <div
                     id={answerId}

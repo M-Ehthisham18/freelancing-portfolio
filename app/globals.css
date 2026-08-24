@@ -233,10 +233,6 @@
   }
 }
 
-.material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-}
-
 /* Glassmorphism Effect */
 .glass-card {
     background: rgba(30, 41, 59, 0.4);
