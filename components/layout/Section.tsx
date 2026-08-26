@@ -9,9 +9,13 @@ interface SectionProps extends React.HTMLAttributes<HTMLElement> {
 
 export function Section({ id, className, children, ...props }: SectionProps) {
   return (
-    <section 
-      id={id} 
-      className={cn("py-section-gap relative overflow-hidden", className)}
+    <section
+      id={id}
+      className={cn(
+        // Mobile-first: ~64px section gap (preserves 120px on larger screens via md+ override).
+        "py-16 sm:py-20 md:py-section-gap relative overflow-hidden",
+        className,
+      )}
       {...props}
     >
       {children}

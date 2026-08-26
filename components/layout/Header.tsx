@@ -10,6 +10,7 @@ const navigationItems = [
   { label: "Services", href: "/#services" },
   { label: "Process", href: "/#process" },
   { label: "Projects", href: "/#projects" },
+  { label: "FAQ", href: "/#faq" },
   { label: "Contact", href: "/contact" },
 ];
 
@@ -19,6 +20,7 @@ const MOBILE_BREAKPOINT = 768;
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
+  const navRef = useRef<HTMLDivElement>(null);
 
   // Close the menu when the layout crosses into the desktop breakpoint.
   useEffect(() => {
@@ -29,6 +31,17 @@ export function Header() {
     mq.addEventListener("change", handleChange);
     return () => mq.removeEventListener("change", handleChange);
   }, []);
+
+  // Lock body scroll while the mobile menu is open so the page beneath does
+  // not bleed through. Cleanup restores original body overflow.
+  useEffect(() => {
+    if (!isMenuOpen) return;
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.body.style.overflow = prev;
+    };
+  }, [isMenuOpen]);
 
   // Escape closes the menu and returns focus to the toggle.
   useEffect(() => {
@@ -49,9 +62,9 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-[10000] bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
-      <div className="max-w-container-max mx-auto px-gutter py-4 flex justify-between items-center h-16">
+      <div className="max-w-container-max mx-auto px-5 sm:px-gutter py-3 sm:py-4 flex justify-between items-center min-h-[60px] sm:min-h-[64px]">
         {/* Brand Identity */}
-        <div className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2" aria-label="StudioDev — home">
           <Image
             alt="StudioDev Logo"
             className="w-8 h-8 rounded-lg object-cover"
@@ -62,10 +75,10 @@ export function Header() {
           <span className="text-body-lg font-headline-lg font-bold text-on-background tracking-tight">
             StudioDev
           </span>
-        </div>
+        </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8" aria-label="Primary">
           {navigationItems.map((item) => (
             <Link
               key={item.label}
@@ -79,7 +92,11 @@ export function Header() {
 
         {/* Action Area */}
         <div className="flex items-center gap-stack-md">
-          <Link href="/contact" data-magnetic="Book" className="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150 items-center">
+          <Link
+            href="/contact"
+            data-magnetic="Book"
+            className="hidden lg:flex px-6 py-2 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity active:scale-95 duration-150 items-center"
+          >
             Book a Free Consultation
           </Link>
 
@@ -87,7 +104,7 @@ export function Header() {
           <button
             ref={toggleRef}
             type="button"
-            className="md:hidden p-2 text-on-background"
+            className="md:hidden p-2 text-on-background min-h-[44px] min-w-[44px] flex items-center justify-center"
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
             aria-expanded={isMenuOpen}
             aria-controls="mobile-navigation"
@@ -102,19 +119,20 @@ export function Header() {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation — full-height overlay panel, scrollable inside the panel. */}
       {isMenuOpen && (
         <div
           id="mobile-navigation"
-          className="md:hidden bg-background/95 backdrop-blur-md border-t border-outline-variant/10"
+          ref={navRef}
+          className="md:hidden fixed inset-x-0 top-[60px] sm:top-[64px] bottom-0 bg-background/95 backdrop-blur-md border-t border-outline-variant/10 overflow-y-auto"
         >
-          <nav className="max-w-container-max mx-auto px-gutter py-6 flex flex-col gap-1">
+          <nav aria-label="Mobile" className="max-w-container-max mx-auto px-5 py-6 flex flex-col gap-1">
             {navigationItems.map((item) => (
               <Link
                 key={item.label}
                 href={item.href}
                 onClick={closeMenu}
-                className="px-2 py-3 text-body-md text-on-surface-variant font-medium hover:text-primary transition-colors rounded-lg"
+                className="px-3 py-3.5 text-body-md text-on-surface-variant font-medium hover:text-primary transition-colors rounded-lg min-h-[48px] flex items-center"
               >
                 {item.label}
               </Link>
@@ -122,7 +140,7 @@ export function Header() {
             <Link
               href="/contact"
               onClick={closeMenu}
-              className="mt-4 px-6 py-3 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity text-center"
+              className="mt-4 px-6 py-3.5 bg-primary text-on-primary rounded-lg font-medium text-label-sm font-label-sm hover:opacity-80 transition-opacity text-center min-h-[48px] flex items-center justify-center"
             >
               Book a Free Consultation
             </Link>

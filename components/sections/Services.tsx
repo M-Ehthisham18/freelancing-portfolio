@@ -32,16 +32,16 @@ export function Services() {
   return (
     <Section id="services" className="bg-background border-t border-outline-variant/10">
       <Container>
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">
+        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+          <h2 className="text-[30px] leading-[1.2] sm:text-[34px] md:text-headline-lg font-headline-lg text-on-background mb-4 md:mb-6 tracking-tight">
             How I Can Support Your Business
           </h2>
-          <p className="text-body-lg font-body-lg text-on-surface-variant">
+          <p className="text-base sm:text-body-lg font-body-lg text-on-surface-variant">
             I build modern digital solutions designed to support credibility, improve operational efficiency, and aim to support sustainable business growth through expert engineering and design.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8 mb-10 md:mb-16">
           {services.map((service) => (
             <ServiceCard
               key={service.title}
@@ -54,7 +54,11 @@ export function Services() {
 
         {/* Subtle CTA */}
         <div className="flex justify-center">
-          <Link href="/contact" data-magnetic="Discuss" className="px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center inline-block">
+          <Link
+            href="/contact"
+            data-magnetic="Discuss"
+            className="w-full sm:w-auto px-8 py-4 bg-transparent border border-outline text-on-background rounded-lg font-medium text-body-md font-headline-md hover:bg-surface-container transition-all active:scale-95 text-center inline-block min-h-[48px] flex items-center justify-center"
+          >
             Let&apos;s Discuss Your Project
           </Link>
         </div>

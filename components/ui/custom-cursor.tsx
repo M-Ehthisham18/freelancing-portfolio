@@ -1,8 +1,27 @@
 'use client';
 
-import React, { useEffect, useRef, useCallback } from 'react';
+import React, { useEffect, useRef, useCallback, useState } from 'react';
 
 export function CustomCursor() {
+  // Skip the custom cursor entirely on touch / coarse-pointer devices — a fixed
+  // cursor circle has no meaning there and would otherwise waste CPU + paint.
+  const [isSupported, setIsSupported] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const mq = window.matchMedia('(hover: none), (pointer: coarse)');
+    const update = () => setIsSupported(!mq.matches);
+    update();
+    mq.addEventListener('change', update);
+    return () => mq.removeEventListener('change', update);
+  }, []);
+
+  if (!isSupported) return null;
+
+  return <CursorImpl />;
+}
+
+function CursorImpl() {
   const cursorCircleRef = useRef<HTMLDivElement>(null);
   const cursorLabelRef = useRef<HTMLDivElement>(null);
   const mousePos = useRef({ x: 0, y: 0 });

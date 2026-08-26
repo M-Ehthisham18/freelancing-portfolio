@@ -8,16 +8,16 @@ export function Projects() {
   return (
     <Section id="projects" className="bg-background border-t border-outline-variant/10">
       <Container>
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg text-on-background mb-6">
+        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+          <h2 className="text-[30px] leading-[1.2] sm:text-[34px] md:text-headline-lg font-headline-lg text-on-background mb-4 md:mb-6 tracking-tight">
             Featured Projects
           </h2>
-          <p className="text-body-lg font-body-lg text-on-surface-variant">
+          <p className="text-base sm:text-body-lg font-body-lg text-on-surface-variant">
             These projects demonstrate my focus on designing and developing modern, scalable web applications aimed at solving real business problems.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-8">
           {projects.map((project) => (
             <ProjectCard
               key={project.title}
