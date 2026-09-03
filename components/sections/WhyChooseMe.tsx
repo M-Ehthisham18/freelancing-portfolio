@@ -40,17 +40,17 @@ export function WhyChooseMe() {
   return (
     <Section id="why-work-with-me" className="bg-background border-t border-outline-variant/10">
       <Container>
-        <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
-          <h2 className="text-[30px] leading-[1.2] sm:text-[34px] md:text-headline-lg font-headline-lg text-on-background mb-4 md:mb-6 tracking-tight">
+        <div className="text-center max-w-3xl mx-auto mb-8 md:mb-16">
+          <h2 className="text-[26px] leading-[1.15] sm:text-[30px] md:text-headline-lg font-headline-lg text-on-background mb-3 md:mb-6 tracking-tight">
             Why Work With Me
           </h2>
-          <p className="text-base sm:text-body-lg font-body-lg text-on-surface-variant">
+          <p className="text-[15px] leading-[1.6] sm:text-body-lg font-body-lg text-on-surface-variant">
             Successful projects are built on clear communication, meticulous planning, and a focus on delivering real business value.
           </p>
         </div>
 
         {/* Mobile: editorial numbered list with hairline dividers; md+: 2-col card grid; lg+: 3-col. */}
-        <ol className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 lg:gap-8 mb-10 md:mb-16">
+        <ol className="md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 lg:gap-8 mb-8 md:mb-16">
           {reasons.map((reason, index) => {
             const Icon = reason.icon;
             const isLast = index === reasons.length - 1;
@@ -59,28 +59,28 @@ export function WhyChooseMe() {
                 key={reason.title}
                 data-cursor-card
                 className={[
-                  // Mobile list row: divider between rows (not before first, not after last).
-                  'flex items-start gap-4 py-5 sm:py-6 border-b border-outline-variant/10',
+                  // Mobile: compact editorial rows with dividers
+                  'flex items-start gap-4 py-4 sm:py-6 border-b border-outline-variant/10',
                   index === 0 ? 'md:border-b' : '',
                   isLast ? 'border-b-0' : '',
-                  // Desktop card: rounded panel, larger padding.
+                  // Desktop: card layout
                   'md:p-7 md:rounded-xl md:border md:border-outline-variant/10 md:bg-surface-container-low md:hover:bg-surface-container md:hover-lift md:flex-col md:items-start md:gap-5',
                 ].join(' ')}
               >
-                <div className="flex flex-col items-start gap-1 shrink-0 w-12 sm:w-14 md:w-auto">
-                  <span className="text-label-sm font-label-sm font-bold text-primary tracking-widest">
+                <div className="flex flex-col items-start gap-1 shrink-0 w-10 sm:w-14 md:w-auto">
+                  <span className="md:hidden text-[11px] font-label-sm font-bold text-primary/60 tracking-widest">
                     {String(index + 1).padStart(2, '0')}
                   </span>
                   <Icon
-                    className="h-6 w-6 sm:h-7 sm:w-7 text-primary"
+                    className="h-5 w-5 sm:h-7 sm:w-7 text-primary"
                     aria-hidden="true"
                   />
                 </div>
-                <div className="flex flex-col gap-1.5 sm:gap-2 flex-1 min-w-0">
-                  <h3 className="text-[16px] sm:text-body-md font-bold text-on-surface">
+                <div className="flex flex-col gap-1 sm:gap-2 flex-1 min-w-0">
+                  <h3 className="text-[15px] sm:text-body-md font-bold text-on-surface">
                     {reason.title}
                   </h3>
-                  <p className="text-[13px] sm:text-label-sm text-on-surface-variant leading-relaxed">
+                  <p className="text-[13px] leading-[1.5] sm:text-label-sm text-on-surface-variant">
                     {reason.description}
                   </p>
                 </div>
@@ -90,7 +90,7 @@ export function WhyChooseMe() {
         </ol>
 
         <div className="text-center max-w-2xl mx-auto">
-          <p className="text-base sm:text-body-lg font-medium text-on-surface-variant opacity-80">
+          <p className="text-[14px] sm:text-body-lg font-medium text-on-surface-variant opacity-80">
             My goal is to be a reliable long-term technology partner, aiming to support your digital presence as it evolves with your business.
           </p>
         </div>

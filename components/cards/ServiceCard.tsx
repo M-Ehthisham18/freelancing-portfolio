@@ -10,14 +10,26 @@ export function ServiceCard({ icon: Icon, title, description }: ServiceCardProps
   return (
     <div
       data-cursor-card
-      className="p-6 sm:p-7 md:p-8 rounded-xl border border-outline-variant/10 bg-surface-container-low hover:bg-surface-container transition-all hover-lift"
+      className="
+        flex flex-col gap-3
+        md:flex-col md:items-start md:gap-5 md:p-7 md:rounded-xl md:border md:border-outline-variant/10 md:bg-surface-container-low md:hover:bg-surface-container md:transition-all md:hover-lift
+      "
     >
-      <div className="flex flex-col gap-4 sm:gap-5 md:gap-6">
-        <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-lg bg-primary/10 flex items-center justify-center">
-          <Icon className="h-6 w-6 sm:h-7 sm:w-7 text-primary" aria-hidden="true" />
+      {/* Row 1: Icon + Heading */}
+      <div className="flex items-center gap-3">
+        <div className="w-9 h-9 md:w-10 md:h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+          <Icon className="h-5 w-5 md:h-6 md:w-6 text-primary" aria-hidden="true" />
         </div>
-        <h3 className="text-[20px] leading-[1.3] sm:text-[22px] md:text-headline-md font-bold text-on-surface">{title}</h3>
-        <p className="text-[15px] sm:text-body-md text-on-surface-variant leading-relaxed">{description}</p>
+        <h3 className="text-[15px] leading-[1.3] md:text-[22px] md:leading-[1.3] font-bold text-on-surface">
+          {title}
+        </h3>
+      </div>
+
+      {/* Row 2: Description - indented under icon+heading */}
+      <div className="pl-[calc(2.25rem+0.75rem)] md:pl-0">
+        <p className="text-[14px] leading-[1.55] md:text-body-md text-on-surface-variant">
+          {description}
+        </p>
       </div>
     </div>
   );

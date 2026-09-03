@@ -6,7 +6,7 @@ import { Container } from '../layout/Container';
 
 export function CTA() {
   return (
-    <Section id="contact" className="bg-background border-t border-outline-variant/10">
+    <Section id="contact" className="bg-background border-t border-outline-variant/10 overflow-hidden">
       <div className="absolute bottom-0 right-0 w-[320px] h-[320px] sm:w-[420px] sm:h-[420px] md:w-[500px] md:h-[500px] bg-primary/5 rounded-full blur-[80px] md:blur-[100px] -z-10 translate-x-1/4 translate-y-1/4 pointer-events-none"></div>
       <Container>
         <div className="relative glass-card bg-surface-container/30 border border-outline-variant/20 rounded-xl md:rounded-3xl p-6 sm:p-10 md:p-16 lg:p-24 overflow-hidden">
@@ -14,7 +14,7 @@ export function CTA() {
 
           <div className="max-w-3xl mx-auto text-center flex flex-col items-center gap-7 md:gap-12">
             <div className="flex flex-col gap-5 md:gap-6">
-              <h2 className="text-[30px] leading-[1.2] sm:text-[36px] md:text-headline-lg font-headline-lg text-on-background tracking-tight">
+              <h2 className="text-[28px] leading-[1.2] sm:text-[32px] md:text-headline-lg font-headline-lg text-on-background tracking-tight">
                 Let&apos;s Build Something Great Together
               </h2>
               <p className="text-base sm:text-body-lg font-body-lg text-on-surface-variant max-w-2xl">

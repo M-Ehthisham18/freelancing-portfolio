@@ -43,7 +43,7 @@ export function FAQ() {
     <Section id="faq" className="bg-surface-container-lowest border-t border-outline-variant/10">
       <Container>
         <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
-          <h2 className="text-[30px] leading-[1.2] sm:text-[34px] md:text-headline-lg font-headline-lg text-on-background mb-4 md:mb-6 tracking-tight">
+          <h2 className="text-[28px] leading-[1.2] sm:text-[30px] md:text-headline-lg font-headline-lg text-on-background mb-4 md:mb-6 tracking-tight">
             Frequently Asked Questions
           </h2>
           <p className="text-base sm:text-body-lg font-body-lg text-on-surface-variant">

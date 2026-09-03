@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-surface-container-lowest border-t border-outline-variant/10 pt-12 sm:pt-16 pb-8">
       <div className="max-w-container-max mx-auto px-5 sm:px-gutter">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-12 mb-10 md:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-12 mb-10 md:mb-16">
           {/* Column 1: Brand */}
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-2">

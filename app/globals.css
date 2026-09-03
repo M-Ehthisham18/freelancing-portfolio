@@ -250,12 +250,18 @@
 }
 
 .floating-animation {
-    animation: floating 4s ease-in-out infinite;
+    animation: floating 5s ease-in-out infinite;
 }
 
 @keyframes floating {
     0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
+    50% { transform: translateY(-4px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .floating-animation {
+        animation: none;
+    }
 }
 
 /* Magnetic element transition */
@@ -273,3 +279,113 @@
 [data-cursor-card]:hover {
     z-index: 9999;
 }
+
+/* ── Mobile Nav Entrance Keyframes — at root scope for Tailwind v4 compatibility ── */
+@keyframes navFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes navItemSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.mobile-nav-overlay {
+    animation: navFadeIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.mobile-nav-item {
+    opacity: 0;
+    animation: navItemSlideIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .mobile-nav-overlay,
+    .mobile-nav-item {
+        animation: none;
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@layer components {
+    /* ── Mobile UI Redesign Utilities ──────────────────────────── */
+
+    /* Horizontal scroll-snap rail for mobile project browsing */
+    .scroll-rail {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none; /* Firefox */
+        gap: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .scroll-rail::-webkit-scrollbar {
+        display: none;
+    }
+
+    .scroll-rail > * {
+        scroll-snap-align: start;
+        flex-shrink: 0;
+    }
+
+    /* Hero dashboard glow effect */
+    .hero-dashboard-glow {
+        position: relative;
+    }
+
+    .hero-dashboard-glow::before {
+        content: '';
+        position: absolute;
+        inset: -1px;
+        border-radius: inherit;
+        background: linear-gradient(135deg, rgba(192, 193, 255, 0.15), rgba(128, 131, 255, 0.08), transparent 60%);
+        z-index: -1;
+        pointer-events: none;
+    }
+
+    .hero-dashboard-glow::after {
+        content: '';
+        position: absolute;
+        inset: -20px;
+        border-radius: 24px;
+        background: radial-gradient(ellipse at center, rgba(128, 131, 255, 0.06) 0%, transparent 70%);
+        z-index: -2;
+        pointer-events: none;
+    }
+
+    /* Capability chip — refined premium glass surface */
+    .capability-chip {
+        background: rgba(17, 24, 42, 0.88);
+        backdrop-filter: blur(16px) saturate(1.4);
+        -webkit-backdrop-filter: blur(16px) saturate(1.4);
+        border: 1px solid rgba(192, 193, 255, 0.12);
+        box-shadow:
+            0 2px 8px rgba(0, 0, 0, 0.35),
+            0 0 0 0.5px rgba(255, 255, 255, 0.04) inset;
+        transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .capability-chip:hover {
+        border-color: rgba(192, 193, 255, 0.22);
+        box-shadow:
+            0 4px 12px rgba(0, 0, 0, 0.4),
+            0 0 0 0.5px rgba(255, 255, 255, 0.06) inset;
+    }
+}
