@@ -222,10 +222,9 @@ export default function PrivacyPage() {
                 id="storage"
               >
                 <p>
-                  Submitted inquiries are stored server-side in a structured JSON
-                  file (<code className="text-label-sm bg-surface-container px-1.5 py-0.5 rounded">data/inquiries/inquiries.json</code>)
-                  on the infrastructure that hosts this website. This file is not
-                  publicly accessible and is excluded from version control. Only
+                  Submitted inquiries are stored server-side in a managed cloud
+                  database (MongoDB Atlas). This data is not
+                  publicly accessible. Only
                   the website operator has access to this stored information.
                 </p>
               </PolicySection>
