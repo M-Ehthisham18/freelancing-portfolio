@@ -76,10 +76,10 @@ export function Footer() {
                 Schedule a Call
               </a>
               <a
-                href="mailto:hello@studiodev.com"
+                href="mailto:statusk249@gmail.com"
                 className="text-label-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 min-h-[36px] inline-flex items-center"
               >
-                hello@studiodev.com
+                statusk249@gmail.com
               </a>
             </nav>
           </div>

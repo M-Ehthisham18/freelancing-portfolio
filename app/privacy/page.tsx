@@ -143,7 +143,7 @@ export default function PrivacyPage() {
                   .
                 </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="p-4 rounded-lg bg-surface-container border border-outline-variant/10">
                     <h3 className="text-body-md font-bold text-on-surface mb-2">
                       Required fields
@@ -305,16 +305,6 @@ export default function PrivacyPage() {
                     <span className="text-on-surface font-medium">LinkedIn</span>{' '}
                     — profile
                   </li>
-                  <li>
-                    <span className="text-on-surface font-medium">
-                      Google Docs
-                    </span>{' '}
-                    — resume
-                  </li>
-                  <li>
-                    <span className="text-on-surface font-medium">Render</span>{' '}
-                    — hosted project demo
-                  </li>
                 </ul>
                 <p>
                   These are external links only. StudioDev does not embed
@@ -386,9 +376,8 @@ export default function PrivacyPage() {
               >
                 <p>
                   We take reasonable measures to protect the information you
-                  submit. Inquiry data is stored on the server rather than in
-                  the browser, submitted data is validated before being accepted,
-                  and the storage directory is excluded from version control. No
+                  submit. Inquiry data is stored on the server in a managed cloud database, submitted data is validated before being accepted,
+                  and the storage is excluded from version control. No
                   method of online transmission or electronic storage is
                   completely secure, and StudioDev cannot guarantee absolute
                   security of information.
@@ -433,10 +422,10 @@ export default function PrivacyPage() {
                   exercise a privacy right, or have a privacy concern, please
                   contact StudioDev by email:{' '}
                   <a
-                    href="mailto:hello@studiodev.com"
+                    href="mailto:statusk249@gmail.com"
                     className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
-                    hello@studiodev.com
+                    statusk249@gmail.com
                   </a>
                   .
                 </p>
@@ -457,10 +446,10 @@ export default function PrivacyPage() {
                   If you believe your privacy rights have not been respected, you
                   may contact StudioDev at{' '}
                   <a
-                    href="mailto:hello@studiodev.com"
+                    href="mailto:statusk249@gmail.com"
                     className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
-                    hello@studiodev.com
+                    statusk249@gmail.com
                   </a>
                   .
                 </p>

@@ -387,10 +387,10 @@ export default function TermsPage() {
                   If you have any questions about these Terms, please contact
                   StudioDev by email:{' '}
                   <a
-                    href="mailto:hello@studiodev.com"
+                    href="mailto:statusk249@gmail.com"
                     className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
-                    hello@studiodev.com
+                    statusk249@gmail.com
                   </a>
                   .
                 </p>
