@@ -147,7 +147,7 @@ export function ContactForm() {
       return;
     }
 
-    const token = (turnstileRef.current as any)?.getToken();
+    const token = turnstileRef.current?.getResponse();
     if (!siteKey) {
       setState('error');
       setServerMessage('The contact form is temporarily unavailable. Please try again later.');
@@ -451,6 +451,14 @@ export function ContactForm() {
       </p>
 
       {/* Submit */}
+      {siteKey && (
+        <div className="flex justify-center mb-2">
+          <Turnstile
+            ref={turnstileRef}
+            siteKey={siteKey}
+          />
+        </div>
+      )}
       <button
         type="submit"
         disabled={state === 'loading' || !siteKey}
