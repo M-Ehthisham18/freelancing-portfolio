@@ -368,12 +368,10 @@ export default function TermsPage() {
                 id="governing-law"
               >
                 <p>
-                  These Terms are intended to be governed by the laws of the
-                  jurisdiction in which the site operator is based.
+                  These Terms are governed by and construed in accordance with the laws of India.
                 </p>
-                <p className="text-on-surface font-medium">
-                  [Governing jurisdiction to be finalized by the site owner
-                  before publication.]
+                <p>
+                  Any disputes arising out of or in connection with these Terms shall be subject to the non-exclusive jurisdiction of the courts of India.
                 </p>
               </TermsSection>
 
@@ -387,10 +385,10 @@ export default function TermsPage() {
                   If you have any questions about these Terms, please contact
                   StudioDev by email:{' '}
                   <a
-                    href="mailto:hello@studiodev.com"
+                    href="mailto:statusk249@gmail.com"
                     className="text-primary underline underline-offset-2 hover:underline-offset-4"
                   >
-                    hello@studiodev.com
+                    statusk249@gmail.com
                   </a>
                   .
                 </p>

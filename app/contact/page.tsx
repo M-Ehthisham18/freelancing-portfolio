@@ -56,8 +56,8 @@ export default function ContactPage() {
                     <Mail className="h-7 w-7 text-primary" aria-hidden="true" />
                     <h2 className="text-body-md font-bold text-on-surface">Email Us Directly</h2>
                   </div>
-                  <a href="mailto:hello@studiodev.com" className="text-body-md text-primary underline underline-offset-2 hover:underline-offset-4">
-                    hello@studiodev.com
+                  <a href="mailto:statusk249@gmail.com" className="text-body-md text-primary underline underline-offset-2 hover:underline-offset-4">
+                    statusk249@gmail.com
                   </a>
                 </div>
 

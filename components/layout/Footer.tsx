@@ -21,7 +21,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-label-sm text-on-surface-variant max-w-xs leading-relaxed">
-              High-performance web solutions aimed at supporting business growth.
+              High-performance web solutions designed to support business growth.
             </p>
           </div>
 
@@ -76,10 +76,10 @@ export function Footer() {
                 Schedule a Call
               </a>
               <a
-                href="mailto:hello@studiodev.com"
+                href="mailto:statusk249@gmail.com"
                 className="text-label-sm text-on-surface-variant hover:text-primary transition-colors py-1.5 min-h-[36px] inline-flex items-center"
               >
-                hello@studiodev.com
+                statusk249@gmail.com
               </a>
             </nav>
           </div>

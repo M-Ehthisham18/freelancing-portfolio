@@ -18,7 +18,7 @@ export function CTA() {
                 Let&apos;s Build Something Great Together
               </h2>
               <p className="text-base sm:text-body-lg font-body-lg text-on-surface-variant max-w-2xl">
-                Whether you need a business website, a custom application, or AI features, the first step is a conversation about your unique goals. I provide professional engineering and design focused on your long-term success.
+                Whether you need a business website, a custom application, or AI features, the first step is a conversation about your unique goals. I provide professional engineering and design aimed at supporting your long-term success.
               </p>
             </div>
 

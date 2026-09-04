@@ -32,7 +32,7 @@ export function Hero() {
 
             {/* Subheadline — compact on mobile */}
             <p className="text-[15px] leading-[1.6] sm:text-body-lg font-body-lg text-on-surface-variant max-w-xl md:max-w-2xl lg:max-w-xl -mt-1 sm:mt-0">
-              I build modern web applications focused on helping businesses establish credibility and streamline operations. Professional, clear, and focused on delivering tangible business value through high-quality engineering and user-centric design.
+              I build modern web applications focused on helping businesses establish credibility and streamline operations. Professional, clear, and focused on delivering practical business value through high-quality engineering and user-centric design.
             </p>
 
             {/* CTAs — stacked vertically on mobile, side-by-side at sm+ */}
