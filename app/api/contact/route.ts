@@ -66,6 +66,46 @@ export async function POST(request: NextRequest) {
   }
   const payload = body as Record<string, unknown>;
 
+  // 1. Honeypot Check
+  if (toTrimmedString(payload.website_url)) {
+    return NextResponse.json({ error: 'Security verification failed.' }, { status: 400 });
+  }
+
+  // 2. Turnstile Verification
+  const turnstileToken = toTrimmedString(payload.turnstileToken);
+  if (!turnstileToken) {
+    return NextResponse.json({ error: 'Security verification is required.' }, { status: 400 });
+  }
+
+  try {
+    const secret = process.env.TURNSTILE_SECRET_KEY;
+    if (!secret) {
+      console.error('TURNSTILE_SECRET_KEY is not configured');
+      return NextResponse.json({ error: 'Service temporarily unavailable.' }, { status: 500 });
+    }
+
+    const verifyRes = await fetch('https://challenges.cloudflare.com/turnstile/v0/siteverify', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: new URLSearchParams({
+        secret,
+        response: turnstileToken,
+      }),
+    });
+
+    if (!verifyRes.ok) {
+      throw new Error(`Cloudflare Siteverify returned ${verifyRes.status}`);
+    }
+
+    const verifyData = await verifyRes.json();
+    if (!verifyData.success) {
+      return NextResponse.json({ error: 'Security verification failed. Please try again.' }, { status: 400 });
+    }
+  } catch (verifyError) {
+    console.error('Turnstile verification failed:', verifyError);
+    return NextResponse.json({ error: 'Service temporarily unavailable.' }, { status: 500 });
+  }
+
   const name = toTrimmedString(payload.name);
   const email = toTrimmedString(payload.email);
   const projectType = toTrimmedString(payload.projectType);
