@@ -21,7 +21,7 @@ export function Footer() {
               </span>
             </div>
             <p className="text-label-sm text-on-surface-variant max-w-xs leading-relaxed">
-              High-performance web solutions aimed at supporting business growth.
+              High-performance web solutions designed to support business growth.
             </p>
           </div>
 

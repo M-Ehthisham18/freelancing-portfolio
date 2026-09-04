@@ -45,7 +45,7 @@ export function Technologies() {
             Built with Modern Technologies
           </h2>
           <p className="text-[15px] leading-[1.6] sm:text-body-lg font-body-lg text-on-surface-variant">
-            We leverage a technology stack selected for high performance, modern security best practices, and scalability to support your business growth.
+            We leverage a technology stack selected for high performance, modern security best practices, and scalability, designed to support your business growth.
           </p>
         </div>
 

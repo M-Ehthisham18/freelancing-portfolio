@@ -32,7 +32,7 @@ const reasons = [
   {
     icon: UserCheck,
     title: 'Long-Term Support',
-    description: 'Receive post-launch assistance and guidance focused on your growth as your business grows.',
+    description: 'Receive post-launch assistance and guidance aimed at supporting your growth as your business grows.',
   },
 ];
 
@@ -45,7 +45,7 @@ export function WhyChooseMe() {
             Why Work With Me
           </h2>
           <p className="text-[15px] leading-[1.6] sm:text-body-lg font-body-lg text-on-surface-variant">
-            Successful projects are built on clear communication, meticulous planning, and a focus on delivering real business value.
+            Successful projects are built on clear communication, meticulous planning, and a focus on practical business value.
           </p>
         </div>
 
