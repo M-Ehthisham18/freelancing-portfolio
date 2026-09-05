@@ -266,6 +266,9 @@ export async function POST(request: NextRequest) {
     const db = client.db('studiodev');
     const collection = db.collection('inquiries');
 
+    // Ensure compound index exists for rate limiting (idempotent)
+    await collection.createIndex({ emailNormalized: 1, receivedAt: 1 });
+
     const emailNormalized = email.toLowerCase();
     const now = new Date();
     const startOfDay = new Date(now.setUTCHours(0, 0, 0, 0));
