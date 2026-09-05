@@ -11,14 +11,12 @@ To comply with data minimization principles and privacy commitments, StudioDev m
 Deletion of inquiry data is performed manually to ensure that records required for legitimate business, legal, or contractual reasons are preserved.
 
 ### Step 1: Identification
-Identify records that have reached the 24-month threshold. 
+Identify records that have reached the 24-month threshold.
 **Illustrative MongoDB Query (Read-Only):**
 ```javascript
-// Find inquiries older than 24 months
+// Find inquiries due for retention review
 db.inquiries.find({
-  receivedAt: { 
-    $lt: new Date(new Date().setFullYear(new Date().getFullYear() - 2)).toISOString() 
-  }
+  retentionReviewAt: { $lte: new Date().toISOString() }
 })
 ```
 

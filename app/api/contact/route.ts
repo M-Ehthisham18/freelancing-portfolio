@@ -40,6 +40,7 @@ interface Inquiry {
   additionalInfo: string;
   submittedAt: string;
   receivedAt: string;
+  retentionReviewAt?: string;
 }
 
 function validateEmail(email: string): boolean {
@@ -268,6 +269,7 @@ export async function POST(request: NextRequest) {
 
     // Ensure compound index exists for rate limiting (idempotent)
     await collection.createIndex({ emailNormalized: 1, receivedAt: 1 });
+    await collection.createIndex({ retentionReviewAt: 1 });
 
     const emailNormalized = email.toLowerCase();
     const now = new Date();
@@ -287,27 +289,32 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Service temporarily unavailable.' }, { status: 500 });
   }
 
-  const receivedAt = new Date().toISOString();
-  const submittedAtRaw = typeof payload.submittedAt === 'string' ? payload.submittedAt : '';
-  const submittedAt = Number.isNaN(Date.parse(submittedAtRaw)) ? receivedAt : submittedAtRaw;
+    const receivedAt = new Date().toISOString();
+    const submittedAtRaw = typeof payload.submittedAt === 'string' ? payload.submittedAt : '';
+    const submittedAt = Number.isNaN(Date.parse(submittedAtRaw)) ? receivedAt : submittedAtRaw;
 
-  const inquiry: Inquiry = {
-    id: `inq_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
-    name,
-    email,
-    emailNormalized: email.toLowerCase(),
-    company,
-    projectType,
-    projectDescription,
-    projectStatus,
-    budget,
-    timeline,
-    preferredDate,
-    preferredTime,
-    additionalInfo,
-    submittedAt,
-    receivedAt,
-  };
+    const retentionDate = new Date();
+    retentionDate.setFullYear(retentionDate.getFullYear() + 2);
+    const retentionReviewAt = retentionDate.toISOString();
+
+    const inquiry: Inquiry = {
+      id: `inq_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+      name,
+      email,
+      emailNormalized: email.toLowerCase(),
+      company,
+      projectType,
+      projectDescription,
+      projectStatus,
+      budget,
+      timeline,
+      preferredDate,
+      preferredTime,
+      additionalInfo,
+      submittedAt,
+      receivedAt,
+      retentionReviewAt,
+    };
 
   try {
     await sendInquiryEmail({
