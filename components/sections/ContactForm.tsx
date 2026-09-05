@@ -1,8 +1,9 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import { CheckCircle } from 'lucide-react';
+import { Turnstile, TurnstileInstance } from '@marsidev/react-turnstile';
 
 type SubmissionState = 'idle' | 'loading' | 'success' | 'error';
 
@@ -18,6 +19,7 @@ interface FormData {
   preferredDate: string;
   preferredTime: string;
   additionalInfo: string;
+  website_url: string; // Honeypot field
 }
 
 interface FormErrors {
@@ -27,41 +29,12 @@ interface FormErrors {
   projectDescription?: string;
 }
 
-const PROJECT_TYPES = [
-  'Website Development',
-  'Web Application',
-  'SaaS / MVP',
-  'UI/UX Implementation',
-  'Existing Website Improvement',
-  'Performance / Technical Improvement',
-  'Other',
-];
-
-const PROJECT_STATUSES = [
-  'Idea / Planning',
-  'Design Ready',
-  'Development Started',
-  'Existing Product',
-  'Redesign / Migration',
-];
-
-const BUDGET_RANGES = [
-  'Under $1,000',
-  '$1,000 – $3,000',
-  '$3,000 – $5,000',
-  '$5,000 – $10,000',
-  '$10,000 – $25,000',
-  '$25,000+',
-  'Prefer not to say',
-];
-
-const TIMELINE_OPTIONS = [
-  'ASAP',
-  'Within 2 weeks',
-  'Within 1 month',
-  '1–3 months',
-  'Flexible',
-];
+import {
+  PROJECT_TYPES,
+  PROJECT_STATUSES,
+  BUDGET_RANGES,
+  TIMELINE_OPTIONS
+} from '@/lib/contact-constants';
 
 const INITIAL_FORM: FormData = {
   name: '',
@@ -75,6 +48,7 @@ const INITIAL_FORM: FormData = {
   preferredDate: '',
   preferredTime: '',
   additionalInfo: '',
+  website_url: '',
 };
 
 function validateEmail(email: string): boolean {
@@ -120,6 +94,8 @@ export function ContactForm() {
   const [errors, setErrors] = useState<FormErrors>({});
   const [state, setState] = useState<SubmissionState>('idle');
   const [serverMessage, setServerMessage] = useState('');
+  const turnstileRef = useRef<TurnstileInstance>(null);
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -142,6 +118,18 @@ export function ContactForm() {
       return;
     }
 
+    const token = turnstileRef.current?.getResponse();
+    if (!siteKey) {
+      setState('error');
+      setServerMessage('The contact form is temporarily unavailable. Please try again later.');
+      return;
+    }
+    if (!token) {
+      setState('error');
+      setServerMessage('Security verification is required. Please complete the Turnstile widget.');
+      return;
+    }
+
     setState('loading');
     setServerMessage('');
 
@@ -157,6 +145,7 @@ export function ContactForm() {
           projectDescription: formData.projectDescription.trim(),
           additionalInfo: formData.additionalInfo.trim(),
           submittedAt: new Date().toISOString(),
+          turnstileToken: token,
         }),
       });
 
@@ -168,9 +157,11 @@ export function ContactForm() {
       setState('success');
       setServerMessage('Your inquiry has been received. StudioDev will review it and follow up by email.');
       setFormData(INITIAL_FORM);
+      turnstileRef.current?.reset();
     } catch (err) {
       setState('error');
       setServerMessage(err instanceof Error ? err.message : 'Something went wrong. Please try again.');
+      turnstileRef.current?.reset();
     }
   };
 
@@ -431,9 +422,17 @@ export function ContactForm() {
       </p>
 
       {/* Submit */}
+      {siteKey && (
+        <div className="flex justify-center mb-2">
+          <Turnstile
+            ref={turnstileRef}
+            siteKey={siteKey}
+          />
+        </div>
+      )}
       <button
         type="submit"
-        disabled={state === 'loading'}
+        disabled={state === 'loading' || !siteKey}
         className="w-full md:w-auto px-10 py-4 bg-primary text-on-primary rounded-lg font-bold text-body-md font-headline-md hover:opacity-90 transition-all active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed disabled:active:scale-100"
       >
         {state === 'loading' ? 'Submitting...' : 'Submit Inquiry'}
