@@ -1,6 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { sendInquiryEmail } from '@/lib/email';
 import clientPromise from '@/lib/mongodb';
+import {
+  PROJECT_TYPES,
+  PROJECT_STATUSES,
+  BUDGET_RANGES,
+  TIMELINE_OPTIONS,
+} from '@/lib/contact-constants';
 
 const MAX_BODY_SIZE = 64 * 1024; // 64 KB
 
@@ -45,6 +51,40 @@ function toTrimmedString(value: unknown): string {
 }
 
 export async function POST(request: NextRequest) {
+  // 0. Header & Origin Validation
+  const contentType = request.headers.get('content-type') || '';
+  if (!contentType.startsWith('application/json')) {
+    return NextResponse.json({ error: 'Invalid request format.' }, { status: 415 });
+  }
+
+  const origin = request.headers.get('origin');
+  const referer = request.headers.get('referer');
+
+  const isLocal = process.env.NODE_ENV === 'development';
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, '');
+  const vercelUrl = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : null;
+
+  const allowedOrigins = new Set<string>();
+  if (siteUrl) allowedOrigins.add(siteUrl);
+  if (vercelUrl) allowedOrigins.add(vercelUrl);
+  if (isLocal) allowedOrigins.add('http://localhost:3000');
+
+  const validateOrigin = (url: string | null) => {
+    if (!url) return false;
+    try {
+      const originUrl = new URL(url).origin;
+      return allowedOrigins.has(originUrl);
+    } catch {
+      return false;
+    }
+  };
+
+  const isTrusted = origin ? validateOrigin(origin) : (referer ? validateOrigin(referer) : false);
+
+  if (!isTrusted && !isLocal) {
+    return NextResponse.json({ error: 'Invalid request origin.' }, { status: 403 });
+  }
+
   const contentLength = Number(request.headers.get('content-length') || 0);
   if (contentLength > MAX_BODY_SIZE) {
     return NextResponse.json({ error: 'Request body too large.' }, { status: 413 });
@@ -111,6 +151,19 @@ export async function POST(request: NextRequest) {
   const projectType = toTrimmedString(payload.projectType);
   const projectDescription = toTrimmedString(payload.projectDescription);
 
+  // 3. Payload Schema Hardening - Unexpected Fields Check
+  const allowedFields = new Set([
+    'name', 'email', 'company', 'projectType', 'projectDescription',
+    'projectStatus', 'budget', 'timeline', 'preferredDate', 'preferredTime',
+    'additionalInfo', 'submittedAt', 'turnstileToken', 'website_url'
+  ]);
+
+  const actualFields = Object.keys(payload);
+  const unexpectedFields = actualFields.filter(field => !allowedFields.has(field));
+  if (unexpectedFields.length > 0) {
+    return NextResponse.json({ error: 'Invalid request payload.' }, { status: 400 });
+  }
+
   if (!name || name.length < 2) {
     return NextResponse.json({ error: 'Full name is required (minimum 2 characters).' }, { status: 400 });
   }
@@ -125,6 +178,9 @@ export async function POST(request: NextRequest) {
   }
   if (!projectType) {
     return NextResponse.json({ error: 'Project type is required.' }, { status: 400 });
+  }
+  if (!PROJECT_TYPES.includes(projectType as any)) {
+    return NextResponse.json({ error: 'Invalid project type selected.' }, { status: 400 });
   }
   if (projectType.length > MAX_LENGTHS.projectType) {
     return NextResponse.json({ error: 'Project type must be 100 characters or fewer.' }, { status: 400 });
@@ -143,6 +199,17 @@ export async function POST(request: NextRequest) {
   const preferredDate = toTrimmedString(payload.preferredDate);
   const preferredTime = toTrimmedString(payload.preferredTime);
   const additionalInfo = toTrimmedString(payload.additionalInfo);
+
+  // Enum validation for optional fields
+  if (projectStatus && !PROJECT_STATUSES.includes(projectStatus as any)) {
+    return NextResponse.json({ error: 'Invalid project status selected.' }, { status: 400 });
+  }
+  if (budget && !BUDGET_RANGES.includes(budget as any)) {
+    return NextResponse.json({ error: 'Invalid budget range selected.' }, { status: 400 });
+  }
+  if (timeline && !TIMELINE_OPTIONS.includes(timeline as any)) {
+    return NextResponse.json({ error: 'Invalid timeline selected.' }, { status: 400 });
+  }
 
   const optionalFields = {
     company,
