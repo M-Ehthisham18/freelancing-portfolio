@@ -85,6 +85,41 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: 'Invalid request origin.' }, { status: 403 });
   }
 
+  // 1. IP Rate Limit Check
+  try {
+    const client = await clientPromise();
+    const db = client.db('studiodev');
+    const ipRateLimitCol = db.collection('rate_limits_ip');
+
+    // Ensure TTL index exists (idempotent)
+    // Note: In a high-traffic production app, this would be handled via a migration script.
+    // For this implementation, we ensure it exists to guarantee cleanup.
+    await ipRateLimitCol.createIndex({ createdAt: 1 }, { expireAfterSeconds: 900 });
+
+    const forwarded = request.headers.get('x-forwarded-for');
+    const clientIp = forwarded ? forwarded.split(',')[0].trim() : 'unknown';
+
+    const now = new Date();
+    const windowStart = new Date(now.getTime() - 15 * 60 * 1000);
+
+    const ipCount = await ipRateLimitCol.countDocuments({
+      ip: clientIp,
+      createdAt: { $gte: windowStart },
+    });
+
+    if (ipCount >= 5) {
+      return NextResponse.json({ error: 'Too many requests. Please try again later.' }, { status: 429 });
+    }
+
+    await ipRateLimitCol.insertOne({
+      ip: clientIp,
+      createdAt: now,
+    });
+  } catch (ipLimitError) {
+    console.error('IP rate limit check failed:', ipLimitError);
+    return NextResponse.json({ error: 'Service temporarily unavailable.' }, { status: 500 });
+  }
+
   const contentLength = Number(request.headers.get('content-length') || 0);
   if (contentLength > MAX_BODY_SIZE) {
     return NextResponse.json({ error: 'Request body too large.' }, { status: 413 });
@@ -179,7 +214,7 @@ export async function POST(request: NextRequest) {
   if (!projectType) {
     return NextResponse.json({ error: 'Project type is required.' }, { status: 400 });
   }
-  if (!PROJECT_TYPES.includes(projectType as any)) {
+  if (!PROJECT_TYPES.includes(projectType as typeof PROJECT_TYPES[number])) {
     return NextResponse.json({ error: 'Invalid project type selected.' }, { status: 400 });
   }
   if (projectType.length > MAX_LENGTHS.projectType) {
@@ -201,13 +236,13 @@ export async function POST(request: NextRequest) {
   const additionalInfo = toTrimmedString(payload.additionalInfo);
 
   // Enum validation for optional fields
-  if (projectStatus && !PROJECT_STATUSES.includes(projectStatus as any)) {
+  if (projectStatus && !PROJECT_STATUSES.includes(projectStatus as typeof PROJECT_STATUSES[number])) {
     return NextResponse.json({ error: 'Invalid project status selected.' }, { status: 400 });
   }
-  if (budget && !BUDGET_RANGES.includes(budget as any)) {
+  if (budget && !BUDGET_RANGES.includes(budget as typeof BUDGET_RANGES[number])) {
     return NextResponse.json({ error: 'Invalid budget range selected.' }, { status: 400 });
   }
-  if (timeline && !TIMELINE_OPTIONS.includes(timeline as any)) {
+  if (timeline && !TIMELINE_OPTIONS.includes(timeline as typeof TIMELINE_OPTIONS[number])) {
     return NextResponse.json({ error: 'Invalid timeline selected.' }, { status: 400 });
   }
 
