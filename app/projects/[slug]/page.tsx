@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from 'next/navigation';
 import { projects } from '@/lib/data/projects';
-import { ErrorState } from '@/components/ui/error-state';
 import { Section } from '@/components/layout/Section';
 import { Container } from '@/components/layout/Container';
 import { absoluteUrl, siteConfig } from '@/lib/site';
@@ -44,23 +43,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   const project = projects.find((p) => p.slug === slug);
 
   if (!project) {
-    return (
-      <main className="flex-1">
-        <Section className="py-24">
-          <Container>
-            <ErrorState
-              type="not-found"
-              title="Project Not Found"
-              description="We couldn't find the project you're looking for. It may have been moved or removed from our portfolio."
-              primaryAction={{
-                label: "Back to Projects",
-                href: "/",
-              }}
-            />
-          </Container>
-        </Section>
-      </main>
-    );
+    notFound();
   }
 
   return (

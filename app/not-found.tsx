@@ -16,6 +16,10 @@ export default function NotFound() {
               label: "Return to Home",
               href: "/",
             }}
+            secondaryAction={{
+              label: "Contact Me",
+              href: "/contact",
+            }}
           />
         </Container>
       </Section>
